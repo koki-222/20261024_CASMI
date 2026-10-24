@@ -80,3 +80,11 @@ publisherはreview済みclean commitとpackageのGit blobを照合し、通常pu
 handoffはcommit固定の資料リンクとcoverageを含む`.local/competition/CHATGPT_PRO_PROMPT.md`を生成。全文をチャットで渡す。private repo接続や添付資料はユーザーが許可した範囲だけ。ChatGPT Proの選択・Issue登録済みを偽装しない。
 
 Issue整理後の合図は**PDCA開始**。それまでは`waiting_for_issues`で学習・LB提出を開始しない。
+
+## 今回の追加レビュー後の再公開
+
+ユーザーが明示した過去実験レビューの追補は、既存`waiting_for_issues`から次のコマンドで再レビューできる。旧publication receiptを保持して古いhandoffを無効化し、commit/pushの再検証後に新しいpromptを生成する。稼働中PDCAを再初期化する用途には使えない。
+
+```bash
+python3 -m tools.competition_automation bootstrap-ready research/bootstrap_package.json --root . --refresh
+```

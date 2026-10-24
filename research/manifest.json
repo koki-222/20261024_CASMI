@@ -119,9 +119,52 @@
           "observed_at": "2026-10-24T02:42:18.292298+00:00",
           "artifact_path": "research/discussion_index.json",
           "sha256": "2627bac074bf70f32df01c2be502bea85b65c842aaf5b1f3c8724242b9ef1c80"
+        },
+        {
+          "kind": "historical_saved_evidence_retrospective_not_live_score",
+          "uri": "repo://research/LEGACY_REVIEW.md",
+          "observed_at": "2026-10-24T02:59:44.936010+00:00",
+          "artifact_path": "research/LEGACY_REVIEW.md",
+          "sha256": "0ee64be98a5c9bc4873a1386127ddda425277fac52a806bda22640bc78c1109d"
+        },
+        {
+          "kind": "historical_saved_evidence_retrospective_not_live_score",
+          "uri": "repo://research/legacy/source_index.json",
+          "observed_at": "2026-10-24T02:59:44.936010+00:00",
+          "artifact_path": "research/legacy/source_index.json",
+          "sha256": "28133bf4d7fa9a475983fb8c3db9d56f4e03242f435493aba914868108340adb"
+        },
+        {
+          "kind": "historical_saved_evidence_retrospective_not_live_score",
+          "uri": "repo://research/legacy/comparison_evidence.json",
+          "observed_at": "2026-10-24T02:59:44.936010+00:00",
+          "artifact_path": "research/legacy/comparison_evidence.json",
+          "sha256": "5abde643c43b622181a7b388c679632e6f3355ee34c45b38764b4fc1d48a0002"
+        },
+        {
+          "kind": "historical_saved_evidence_retrospective_not_live_score",
+          "uri": "repo://research/legacy/official_observations.json",
+          "observed_at": "2026-10-24T02:59:44.936010+00:00",
+          "artifact_path": "research/legacy/official_observations.json",
+          "sha256": "87ff9948796e52fd3e96743339f1b46609c8942decfaec35da2ea8b1ad042949"
+        },
+        {
+          "kind": "historical_saved_evidence_retrospective_not_live_score",
+          "uri": "repo://research/legacy/exposure.json",
+          "observed_at": "2026-10-24T02:59:44.936010+00:00",
+          "artifact_path": "research/legacy/exposure.json",
+          "sha256": "728495b858de0671f02c70b152d5f5bc0595d4e8d9429aad8a89b55422bd4f51"
+        },
+        {
+          "kind": "historical_saved_evidence_retrospective_not_live_score",
+          "uri": "repo://research/legacy/reuse_policy.json",
+          "observed_at": "2026-10-24T02:59:44.936010+00:00",
+          "artifact_path": "research/legacy/reuse_policy.json",
+          "sha256": "9605e5ec320bccf8388456a0404749aff25f0cdeb9594811cf016a76bf0de7c7"
         }
       ]
     }
   },
-  "raw_archives": "Host-local restricted archive; no original competition data or third-party unlicensed raw bodies in Git."
+  "raw_archives": "Host-local restricted archive; no original competition data or third-party unlicensed raw bodies in Git.",
+  "history_review_updated_at": "2026-10-24T03:05:20.331179+00:00"
 }

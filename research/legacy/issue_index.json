@@ -1,0 +1,313 @@
+{
+  "items": [
+    {
+      "number": 1,
+      "title": "[P0][Research Epic] CASMI26 公開資料・外部研究に基づく改善仮説バックログ（2026-10-05）",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/1",
+      "sha256": "14afb18d9cf466b46e1796ec9d9dd5db47dc28b3eb6170090212c11940195a3e"
+    },
+    {
+      "number": 2,
+      "title": "[P0][H01] 実trainのschema・更新版・安定ID・peak品質を監査し、fold生成の前提を修正する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/2",
+      "sha256": "68cf6a16ff74e945e69954fdf82413ee59f7a3cbc7f2677d771bd1161d15f64c"
+    },
+    {
+      "number": 3,
+      "title": "[P0][H02] 公式tautomer keyと重複スペクトルの連結成分で全ライブラリ横断CVを固定する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/3",
+      "sha256": "423e37b8f206e0c342e30cb8f7e5d5a9c5fa9502d3ef755b9ee6d223c6bb6d74"
+    },
+    {
+      "number": 4,
+      "title": "[P0][H03] 公式metric境界テストと候補canonical重複排除を分離し、Top25の無駄をなくす",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/4",
+      "sha256": "cf49a1f3dc14a9c17667b4cfab709671c046ce9bbfda896d5122b91817c5eedf"
+    },
+    {
+      "number": 5,
+      "title": "[P0][H04] 外部data・weights・学習由来を個別監査するlicense gateを実装する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/5",
+      "sha256": "d3320271172f8e0fb36140e6a8ce5df28b2bb75212890c9992975024a5f17650"
+    },
+    {
+      "number": 6,
+      "title": "[P0][H05] ID置換・行順変更・分子単位再実行で公開Notebook由来のリークを検出する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/6",
+      "sha256": "31ee46d8819475b5b891ec6e57ce44b961ca0f5147ae78e2715340fa94cc3090"
+    },
+    {
+      "number": 7,
+      "title": "[P0][H06] Class-1/2・天然物・scaffold・sourceを分けたnested CVで改善を選ぶ",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/7",
+      "sha256": "91af66287655aff8e947945d7b2e28e97ff0e112949252f0313d417f24025c64"
+    },
+    {
+      "number": 8,
+      "title": "[P0][H07] 安全な4-channel baselineをmodule化し、固定OOF比較の出発点を作る",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/8",
+      "sha256": "48883ffa7bffcdb353a976a3f95b9986c35591b1a1c3975a1cce6da729ff0c41"
+    },
+    {
+      "number": 9,
+      "title": "[P0][H08] Internet無効・9時間制限・未知入力で完走する提出パッケージを検証する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/9",
+      "sha256": "cd9f0e168b7681a1c471b860e5ca26c59171620acc45ec28c0bfc76d9e1f8bb6"
+    },
+    {
+      "number": 10,
+      "title": "[P1][H09] 候補不足と順位誤りを分解し、改善余地の大きい失敗群へ実験を集中する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/10",
+      "sha256": "8bdadc83bb3eda3c69ad1624bcb50c3cca71caed17c6c47fed784287673a083f"
+    },
+    {
+      "number": 11,
+      "title": "[P1][H10] 同一分子式hard negativeと順位重み付き学習で異性体rerankerを強化する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/11",
+      "sha256": "107fe359584c08c844a5e8cd222f40d6aa572b125c45880ca059f1e34a162e7c"
+    },
+    {
+      "number": 12,
+      "title": "[P1][H11] 許可されたMassSpecGym版GLACIERの予測スペクトルを異性体rerankへ追加する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/12",
+      "sha256": "b55ed486ad220ad234a6231fb6bed5b22249daa2e359739b3c16c04d5e6ee64e"
+    },
+    {
+      "number": 13,
+      "title": "[P1][H12] Library一致の信頼度を校正し、弱い参照一致がClass-2候補を押し下げるのを防ぐ",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/13",
+      "sha256": "0004eb6c3b26cb39bd17f1bb5fc70b4508cf544ae3e7180f85367f9833c2b17c"
+    },
+    {
+      "number": 14,
+      "title": "[P1][H13] 同一分子の複数スペクトルを品質・CE・adduct別にlate fusionする",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/14",
+      "sha256": "7eb77cd476a15a23a5fb0fda957fc77cc8224af9d4d5b839cd913714ba6c5ed1"
+    },
+    {
+      "number": 15,
+      "title": "[P1][H14] Fingerprint logitsの校正・bit相関・候補集合依存を見直す",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/15",
+      "sha256": "4f236665320b63c96aa6a2afcf2b24e7094c468fe9fd57eb75a0f11ac10d87d1"
+    },
+    {
+      "number": 16,
+      "title": "[P1][H15] Mass-shifted analog propagationを分子重複・adduct・中性損失で改善する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/16",
+      "sha256": "c92885090841df417c5c508f5a434970b9f9d82d0296107a99635b0855f9510c"
+    },
+    {
+      "number": 17,
+      "title": "[P1][H16] COCONUT/PubChemLite候補拡張と異性体rankerを2×2実験で同時評価する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/17",
+      "sha256": "b0734296efcbae0b1b40551e0975a3da70b562fcdfc83b4f3b4497fc35a5a363"
+    },
+    {
+      "number": 18,
+      "title": "[P1][H17] MetFrag-liteの少数切断・強度・許容誤差を独立holdoutで再検証する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/18",
+      "sha256": "8cf096ef0d541385189c65f90a90ab3f6bb3c7f64023cb1927d3d152fdca7feb"
+    },
+    {
+      "number": 19,
+      "title": "[P1][H18] 学習libraryのadduct・precursor不整合をsource-awareに補正または低重み化する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/19",
+      "sha256": "f42f94abe0faf17b458472b9b7db061187d2897b13689c5c17796cf6ab9e1d32"
+    },
+    {
+      "number": 20,
+      "title": "[P1][H19] Adduct parser・電子質量・多価/多量体を整合させ、mass filterの取りこぼしを防ぐ",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/20",
+      "sha256": "7257f0ca366d9178a3b37d5d354e7f1d7fa0ac1b560d26fea00ab397619ad78e"
+    },
+    {
+      "number": 21,
+      "title": "[P1][H20] 分子・source・instrument・化学系列を均衡化したsamplingでdomain shiftを抑える",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/21",
+      "sha256": "9b0d48981056403504dc7e79d6b57336c38eedc15a0489c2c1098aec91aa945b"
+    },
+    {
+      "number": 22,
+      "title": "[P1][H21] 全channelの限界利益と相互作用をOOF ablationで測り、冗長な特徴を削る",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/22",
+      "sha256": "c6c32c0bc013ba31b59839c9acef73c882356b5ebfb4fe78a2a63f70b75b624e"
+    },
+    {
+      "number": 23,
+      "title": "[P1][H22] Flash entropy検索と候補事前計算で、精度を保って検証・推論を高速化する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/23",
+      "sha256": "53c1136479886a5270dc1508d135be2483cefd0cbc27b4cc5e3a4f9eac1a05f7"
+    },
+    {
+      "number": 24,
+      "title": "[P1][H23] Stage別OOF cacheと差分replayで実験を高速・再現可能にする",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/24",
+      "sha256": "eeccc2ae8e2d8146c2e9f11dd3cc4137fe7b6dcad8b0e300d217e6022f94bd76"
+    },
+    {
+      "number": 25,
+      "title": "[P1][H24] 分子単位のpaired評価・複数seed・停止基準でLBノイズへの過適合を防ぐ",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/25",
+      "sha256": "6823bb292cb078d8f5fe0dd7db28aa8df4c7067be1dcd1114b995ea59e0edfc4"
+    },
+    {
+      "number": 26,
+      "title": "[P2][H25] 同一スペクトル・異構造ラベルの競合を隔離し、学習ノイズを低減する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/26",
+      "sha256": "6d309d6301d73862a8bf6f08fd20e5f6180590010a2d00c31282daaa8e9bfd49"
+    },
+    {
+      "number": 27,
+      "title": "[P2][H26] Collision energyの単位と欠損を区別した条件付きscoreを検証する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/27",
+      "sha256": "09f556d85d2a9445732f026b9b310610d40b90d318679f7ecaeb146bc17d6cfb"
+    },
+    {
+      "number": 28,
+      "title": "[P2][H27] Peak cleaning・強度変換・precursor maskingをchannel別に最適化する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/28",
+      "sha256": "cff71d47ae6e7803a60730f65b31f3bafda4b2f842c713587174f2df43f36eea"
+    },
+    {
+      "number": 29,
+      "title": "[P2][H28] Spectra本数dropoutと一貫した再集約で少数測定への頑健性を高める",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/29",
+      "sha256": "8511bf8fb9a543de8c1cc2a32194034a62cd6b6e5b0a5fee0cdd901a2943072a"
+    },
+    {
+      "number": 30,
+      "title": "[P2][H29] Polarity・adduct専門家と共有モデルの校正融合を比較する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/30",
+      "sha256": "c853397493af3ce02a1192fd8d5e40a19171f2712c9ed06b83ea7e99bfe11aa0"
+    },
+    {
+      "number": 31,
+      "title": "[P2][H30] 分子式posteriorをsoft ranking特徴にし、hard filterの真値除外を減らす",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/31",
+      "sha256": "ad6ad1860385b5fd1df1ef96bb1b3338b51132606c1e1f30a8c7764f1aeccdfc"
+    },
+    {
+      "number": 32,
+      "title": "[P2][H31] Fragment–neutral-loss関係をgraph化し、単一peak一致を超える構造証拠を作る",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/32",
+      "sha256": "c98ca8145cf66c4533caeb4f0463ad2da582b591ddc6639d640bce4f7ab665dd"
+    },
+    {
+      "number": 33,
+      "title": "[P2][H32] 許可trainで構造→スペクトル予測器を再学習し、逆方向の整合scoreを作る",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/33",
+      "sha256": "4dc41693b337e836394e149dc40e82916d68e6f8d536815cd62fa08b573453ff"
+    },
+    {
+      "number": 34,
+      "title": "[P2][H33] MassSpecGym版ICEBERGとGLACIERの補完性を固定候補で比較する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/34",
+      "sha256": "771424cd3f09cf714a8c9ce2198cd77181094581f8dd28c42037b5b8d89c27cd"
+    },
+    {
+      "number": 35,
+      "title": "[P2][H34] MSAlign型の軽量なスペクトル–分子表現の整合学習を検証する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/35",
+      "sha256": "ccc2f9410af8f1f1474c8ca3d0aef5d2210d7e16f907841054cfb4b08d550446"
+    },
+    {
+      "number": 36,
+      "title": "[P2][H35] DreaMSのスペクトル間距離を異性体・analog検索向けに適応させる",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/36",
+      "sha256": "a868881ddb68220524c07edb05db4f02f0f680591a97ab40a21215a8c4649266"
+    },
+    {
+      "number": 37,
+      "title": "[P2][H36] MIST型subformula Transformerを許可trainから学習し、FP表現を補完する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/37",
+      "sha256": "6a09d7d0a23945277780a1b65806eb65e3f0da406b87d95929429826e0c1c40a"
+    },
+    {
+      "number": 38,
+      "title": "[P2][H37] 順序不変の学習型集合モデルで複数CE・adductの証拠を集約する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/38",
+      "sha256": "06bd1e0c413d05bc031d8b3581ef0921339b8b7eb83ca19a33bccf9ec94f0b16"
+    },
+    {
+      "number": 39,
+      "title": "[P2][H38] 許諾確認済みの公開スペクトルをsource単位で追加し、参照coverageを拡張する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/39",
+      "sha256": "e912b020a8b3c0083f730e51c25b261f4b4e4a713afaf50b39166f52f45f453f"
+    },
+    {
+      "number": 40,
+      "title": "[P2][H39] 異なる誤りを持つモデルだけをOOF順位・score融合へ採用する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/40",
+      "sha256": "a89d98c6f6064f526405a83ff5077550c70bdf8927766f03c5595693fe910cf8"
+    },
+    {
+      "number": 41,
+      "title": "[P2][H40] 空きslot補充と低信頼tail差替えを分離し、Top25候補追加の損益を測る",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/41",
+      "sha256": "11069f3ae8b50f1606d5ff4c8c20f8cdfdd811d04a75ca5ec1f8a3a6d3d9c6b8"
+    },
+    {
+      "number": 42,
+      "title": "[P2][H41] Query難度に応じて重いrerankの候補数を変え、9時間内の精度を最大化する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/42",
+      "sha256": "d98cfbcac6003e9c44d6cda4e9bc0c7e409aaa294e32e67805a3afa006ba860b"
+    },
+    {
+      "number": 43,
+      "title": "[P2][H42] 許可済み重モデルを小型rankerへ蒸留し、計算予算を候補coverageへ回す",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/43",
+      "sha256": "c8d5e969d7ac2fcd73a2e072a7ddb74eb4eda6835b60f7fa1a5d924198f9e2cd"
+    },
+    {
+      "number": 44,
+      "title": "[P3][H43] 実際のDB未収載分子でde novoの採算を測り、人工的な真値削除評価と区別する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/44",
+      "sha256": "4d146e5f32afb836a97a026aa4740057b0e1cf0d92fe507cf376944db3b06faf"
+    },
+    {
+      "number": 45,
+      "title": "[P3][H44] Analog構造からの制約付きgraph editで未収載候補を生成する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/45",
+      "sha256": "a1e9551e996262ed620abfb8f12ca676dff6cd88710e5e7b7b55a20c75c1de6e"
+    },
+    {
+      "number": 46,
+      "title": "[P3][H45] MARLIN型の分子式oracleなし生成を、測定質量と予測FPだけで評価する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/46",
+      "sha256": "8897dccf153385658d9c7c330fc426bacc30bee1f4df7a6f53e98f4098883628"
+    },
+    {
+      "number": 47,
+      "title": "[P3][H46] 低CEで残存するM+1ピークを弱い元素数priorとして条件付き利用する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/47",
+      "sha256": "cc58f1a2f185678fc14ec02fbbdb87d704b6e04c03b2bcd192af9670b99dba19"
+    },
+    {
+      "number": 48,
+      "title": "[P3][H47] 天然物らしさの弱い構造priorを検証し、DB所属による順位ショートカットを避ける",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/48",
+      "sha256": "cc330381f46ac30cd568b7b70a055b0bbacccb67c0b4a97cf9f057b54bdc0acf"
+    },
+    {
+      "number": 49,
+      "title": "[P3][H48] MARASON型graph matchingでanalog由来のfragment情報をforward予測へ移す",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/49",
+      "sha256": "f5d1766d5a8bae360794c9093b568804892d937a1535cd33321e517a7c8c1bc1"
+    },
+    {
+      "number": 50,
+      "title": "[P1][H49] 公開corpusの意味差分・fork系譜・訂正/撤回を追跡し、研究入力を更新する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/50",
+      "sha256": "f2ed2fad873f825f4dcacba8123b3c7ae6188af1d384332c0da2f7dd59c93c87"
+    },
+    {
+      "number": 51,
+      "title": "[P1][H50] Arrow batch境界を跨ぐ分子の集約上書きを防ぎ、chunk-size不変性を保証する",
+      "url": "https://github.com/koki-222/202610_CASMI/issues/51",
+      "sha256": "79e695a6c1ecdbdb619a055b55adfff37b85bfba6a26efeb93989dbab794ad3c"
+    }
+  ],
+  "historical_only": true,
+  "not_imported_as_approved_issues": true,
+  "observed_at": "2026-10-24T02:59:44.936010+00:00"
+}

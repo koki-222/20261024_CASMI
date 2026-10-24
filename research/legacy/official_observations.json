@@ -1,0 +1,890 @@
+{
+  "observed_at": "2026-10-24T02:59:44.936010+00:00",
+  "items": [
+    {
+      "source": "submit/v001_analog_calibration/OFFICIAL_RESULT_v001.json",
+      "source_sha256": "d48f900f8604e7076dbacc294fae8ae25a1d75e34aff5fb7e89a00c5e6ee2637",
+      "submission_id": "56844957",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.13,
+      "observed_at": "2026-10-05T10:40:03Z",
+      "decision": "Retain initial eligible baseline as observed incumbent; continue selected H11 and subsequent issue PDCA. No local/LB equivalence or hidden-class-mixture inference from this one score.",
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "research/snapshots/official_score_v001_20261005/submissions.csv",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v002_mass_only_calibration/OFFICIAL_RESULT_v001.json",
+      "source_sha256": "cc5aec6977e0fe0a0c68e79eb4f8d00bb635e9e9f5240e419d7173437cd00ae7",
+      "submission_id": "56855042",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.096,
+      "observed_at": "2026-10-05T18:55:13.401038+00:00",
+      "decision": "Do not replace eligible analog Public0.130 with mass-only Public0.096. Continue adopted H11 PDCA; no existing submitted ID needs more score polling.",
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "research/snapshots/official_score_v002_20261005T1855Z/submissions.txt",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v003_h12_confidence_t40/attempt002_after_verified_complete/OFFICIAL_RESULT_20261006T0310Z.json",
+      "source_sha256": "ac936219e608d8ac85d7182af93645c3553e48d97c4e65f7d4729277960bbe13",
+      "submission_id": "56863016",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.154,
+      "observed_at": "2026-10-06T03:11:28Z",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "research/snapshots/official_scores_20261006T0310Z/submissions.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "receipt",
+          "path": "submit/v003_h12_confidence_t40/attempt002_after_verified_complete/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v004_h12_confidence_t60/attempt002_after_verified_complete/OFFICIAL_RESULT_20261006T0310Z.json",
+      "source_sha256": "be74f04979d6368f9d4b03c9b9108890c3afc71e9f54d279dc7f10e7f855030e",
+      "submission_id": "56863285",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.164,
+      "observed_at": "2026-10-06T03:11:28Z",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "research/snapshots/official_scores_20261006T0310Z/submissions.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "receipt",
+          "path": "submit/v004_h12_confidence_t60/attempt002_after_verified_complete/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v005_h12_confidence_t80/OFFICIAL_RESULT_20261006T0310Z.json",
+      "source_sha256": "5e4f6bb5e8d94aa83a3c1dcd6c7dacba48d7a78dc415032c749c40e00ae5fa02",
+      "submission_id": "56863286",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.124,
+      "observed_at": "2026-10-06T03:11:28Z",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "research/snapshots/official_scores_20261006T0310Z/submissions.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "receipt",
+          "path": "submit/v005_h12_confidence_t80/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v006_own_fine_fp_raw/OFFICIAL_RESULT_20261006T0310Z.json",
+      "source_sha256": "2a35dfba86976cf34a577c5ddab972d0dbc668662f7759f0877bba0a67badee2",
+      "submission_id": "56864132",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.055,
+      "observed_at": "2026-10-06T03:11:28Z",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "research/snapshots/official_scores_20261006T0310Z/submissions.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "receipt",
+          "path": "submit/v006_own_fine_fp_raw/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v008_own_fp_prior/OFFICIAL_RESULT_20261006T0310Z.json",
+      "source_sha256": "ccbf1c597799a26f10356e1dada42c59397b40fa9d5bd8295cebab675d8b5762",
+      "submission_id": "56865308",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.116,
+      "observed_at": "2026-10-06T03:11:28Z",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "research/snapshots/official_scores_20261006T0310Z/submissions.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "receipt",
+          "path": "submit/v008_own_fp_prior/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v014_fine_confidence_t60/OFFICIAL_RESULT_20261008T2155Z_v001.json",
+      "source_sha256": "b2679f62c28ea6afc66498dfeb6e0770411c9732a895a92585e2c1fd31332b40",
+      "submission_id": "56925545",
+      "status": "SCORED_COMPLETE",
+      "public_score_observed": 0.157,
+      "observed_at": "2026-10-08T21:59:03.701469+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "receipt",
+          "path": "submit/v014_fine_confidence_t60/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v015_repaired_fragment025/OFFICIAL_RESULT_20261008T2155Z_v001.json",
+      "source_sha256": "98e2dbc83e0ee92d14e4b75444c3c5ffb72f72a2e9dbe076bc96f632a0ae1ad6",
+      "submission_id": "56925451",
+      "status": "SCORED_COMPLETE",
+      "public_score_observed": 0.208,
+      "observed_at": "2026-10-08T21:59:03.701469+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "receipt",
+          "path": "submit/v015_repaired_fragment025/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v016_fine_confidence_t40/OFFICIAL_RESULT_20261016T0305Z_v001.json",
+      "source_sha256": "cf9f6637d16271643a81645d7a2a59005c2e3d779410e95b4decb518911db33b",
+      "submission_id": "57246057",
+      "status": "COMPLETE_OFFICIAL_PUBLIC_SCORE",
+      "public_score_observed": 0.176,
+      "observed_at": "2026-10-16T03:05:31.082713+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "research/snapshots/three_fine_scores_20261016T0305Z_v001/OFFICIAL_LISTING_TARGETS_v001.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "original_receipt",
+          "path": "submit/v016_fine_confidence_t40/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v017_fine_confidence_t80/OFFICIAL_RESULT_20261016T0305Z_v001.json",
+      "source_sha256": "96f7426979ce9ee8db49d8174a6b46458b541520546455d2314639f9f45ce0e4",
+      "submission_id": "57246060",
+      "status": "COMPLETE_OFFICIAL_PUBLIC_SCORE",
+      "public_score_observed": 0.138,
+      "observed_at": "2026-10-16T03:05:31.082713+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "research/snapshots/three_fine_scores_20261016T0305Z_v001/OFFICIAL_LISTING_TARGETS_v001.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "original_receipt",
+          "path": "submit/v017_fine_confidence_t80/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v018_fine_library_only/OFFICIAL_RESULT_20261016T0305Z_v001.json",
+      "source_sha256": "c4cb10af31c8d79839f4eff6e1fd006b8fe00ca311a61f421e701a7dff5fde8b",
+      "submission_id": "57246063",
+      "status": "COMPLETE_OFFICIAL_PUBLIC_SCORE",
+      "public_score_observed": 0.139,
+      "observed_at": "2026-10-16T03:05:31.082713+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "research/snapshots/three_fine_scores_20261016T0305Z_v001/OFFICIAL_LISTING_TARGETS_v001.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "original_receipt",
+          "path": "submit/v018_fine_library_only/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v019_raw_entropy_library/OFFICIAL_RESULT_20261007T1533Z_v001.json",
+      "source_sha256": "b66df770ee64bb6c2854ff5709713e8d635b95933bf7b72aac6ae0aae463d7b9",
+      "submission_id": "56909192",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.177,
+      "observed_at": "2026-10-07T15:35:04.684890+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "research/snapshots/official_scores_20261007T1533Z/submissions.txt",
+          "sha256_matches": true
+        },
+        {
+          "kind": "receipt",
+          "path": "submit/v019_raw_entropy_library/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v021_precise_mass_analog/OFFICIAL_RESULT_20261007T1533Z_v001.json",
+      "source_sha256": "e18ec8b34d21a1d7ae2279ca6df154ce1ef3561abe1a228a6548d3d74d0d5759",
+      "submission_id": "56909062",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.257,
+      "observed_at": "2026-10-07T15:35:04.684890+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "research/snapshots/official_scores_20261007T1533Z/submissions.txt",
+          "sha256_matches": true
+        },
+        {
+          "kind": "receipt",
+          "path": "submit/v021_precise_mass_analog/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v022_expanded_raw_mass_analog/OFFICIAL_RESULT_20261007T1533Z_v001.json",
+      "source_sha256": "bc645fe8052beba3cb2516625ba0c60684c74a92d88890c8ac0fc2eecd9359ac",
+      "submission_id": "56909191",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.26,
+      "observed_at": "2026-10-07T15:35:04.684890+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "research/snapshots/official_scores_20261007T1533Z/submissions.txt",
+          "sha256_matches": true
+        },
+        {
+          "kind": "receipt",
+          "path": "submit/v022_expanded_raw_mass_analog/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v023_raw_library_analog_gate_t60/OFFICIAL_RESULT_20261008T2155Z_v001.json",
+      "source_sha256": "3a546a6161a48e659bfdd2ace80e180ece16edff2f55deff613c2eced47a0140",
+      "submission_id": "56925340",
+      "status": "SCORED_COMPLETE",
+      "public_score_observed": 0.263,
+      "observed_at": "2026-10-08T21:59:03.701469+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "receipt",
+          "path": "submit/v023_raw_library_analog_gate_t60/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v024_raw_quality_analog/OFFICIAL_RESULT_20261007T1533Z_v001.json",
+      "source_sha256": "b8540d46dd8876a9ef5efc284fa741023a15d4256542af294b40137d5b5ab1f7",
+      "submission_id": "56909190",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.235,
+      "observed_at": "2026-10-07T15:35:04.684890+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "research/snapshots/official_scores_20261007T1533Z/submissions.txt",
+          "sha256_matches": true
+        },
+        {
+          "kind": "receipt",
+          "path": "submit/v024_raw_quality_analog/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v025_raw_mass_analog_fragment025/OFFICIAL_RESULT_20261007T1533Z_v001.json",
+      "source_sha256": "16dd35b763978a53e0fd50e97c76ec53e8a35d93932060e626400b9aab689a27",
+      "submission_id": "56909188",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.289,
+      "observed_at": "2026-10-07T15:35:04.684890+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "research/snapshots/official_scores_20261007T1533Z/submissions.txt",
+          "sha256_matches": true
+        },
+        {
+          "kind": "receipt",
+          "path": "submit/v025_raw_mass_analog_fragment025/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v026_raw_top25_glacier/OFFICIAL_RESULT_20261008T2155Z_v001.json",
+      "source_sha256": "2f989c3b5851069de695211e7e89e3b22d4134dd5a331ca35ad8df5b169828e2",
+      "submission_id": "56924588",
+      "status": "SCORED_COMPLETE",
+      "public_score_observed": 0.281,
+      "observed_at": "2026-10-08T21:59:03.701469+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "receipt",
+          "path": "submit/v026_raw_top25_glacier/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v027_fragment_top25_glacier/OFFICIAL_RESULT_20261008T2155Z_v001.json",
+      "source_sha256": "c660291455bf8b69c4533fb9c37dface800479660f9b153904bd9ca11e87bf8c",
+      "submission_id": "56926597",
+      "status": "SCORED_COMPLETE",
+      "public_score_observed": 0.29,
+      "observed_at": "2026-10-08T21:59:03.701469+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "receipt",
+          "path": "submit/v027_fragment_top25_glacier/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v028_fragment_prefix50_glacier/OFFICIAL_RESULT_20261009T0520Z_v001.json",
+      "source_sha256": "7f23a14d8b759fc7c16dc0ecc12698eadd73d365bcb34dab50b879f5e8ffff78",
+      "submission_id": "56979353",
+      "status": "SCORED_COMPLETE",
+      "public_score_observed": 0.29,
+      "observed_at": "2026-10-09T05:20:41.066331+00:00",
+      "decision": "Top50 expansion hasno displayedPublicscore gain vsTop25; retainTop25 champion, avoidsame-family blindprefix growth",
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "receipt",
+          "path": "submit/v028_fragment_prefix50_glacier/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v029_confident_top1_guard/OFFICIAL_RESULT_20261009T1332Z_v001.json",
+      "source_sha256": "8d24650fde8fcb715f222dca7a755f5aafe3a4c291ac26c3aa930af6c62a2db3",
+      "submission_id": "57003727",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.303,
+      "observed_at": "2026-10-09T13:32:00Z",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": []
+    },
+    {
+      "source": "submit/v030_owned6930_rich_ranker_glacier/OFFICIAL_RESULT_20261012T0908Z_v001.json",
+      "source_sha256": "7cdd37016d08cc0a3fd834e199010e9c56ee3a2d249178b41e4ebc6f887b375d",
+      "submission_id": "57096323",
+      "status": "COMPLETE",
+      "public_score_observed": 0.314,
+      "observed_at": "2026-10-12T09:08:23.964876+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": []
+    },
+    {
+      "source": "submit/v031_public31_joint_glacier/OFFICIAL_RESULT_20261012T1813Z_v001.json",
+      "source_sha256": "147c702c17716095b7ceb274ba89a61607ddba170e130de62226c3d568794aa4",
+      "submission_id": "57109687",
+      "status": "COMPLETE",
+      "public_score_observed": 0.326,
+      "observed_at": "2026-10-12T18:13:22.606377+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": []
+    },
+    {
+      "source": "submit/v032_public_original31_51_glacier/OFFICIAL_RESULT_20261013T1620Z_v001.json",
+      "source_sha256": "6e2cf31f5e79234747b8c2a64829a30e66c60fde4d62b0829cee426a2c9b980e",
+      "submission_id": "57143367",
+      "status": "COMPLETE",
+      "public_score_observed": 0.337,
+      "observed_at": "2026-10-13T16:20:17.783132+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": []
+    },
+    {
+      "source": "submit/v042_h21_without_fp_gl_guard/OFFICIAL_RESULT_20261016T1547Z_v001.json",
+      "source_sha256": "c1a89c04a02e00c8c922f492d2d0b0046d802977b362f11f6d59babbb69f56de",
+      "submission_id": "57267534",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.22,
+      "observed_at": "2026-10-16T15:47:43.953769+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "research/snapshots/h21_guard_score_20261016T1547Z_v001/57267534_DETAIL.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "original_receipt",
+          "path": "submit/v042_h21_without_fp_gl_guard/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v045_h39_mixed32_rrf_raw/OFFICIAL_RESULT_20261016T1650Z_v001.json",
+      "source_sha256": "085e9c52909958d7162d662344b8e2abd1e03033cef356068d3b54ce2dadc878",
+      "submission_id": "57269565",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.203,
+      "observed_at": "2026-10-16T16:50:27.257767+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "research/snapshots/h39_mixed32_score_20261016T1650Z_v001/57269565_DETAIL.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "original_receipt",
+          "path": "submit/v045_h39_mixed32_rrf_raw/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v046_h21_raw_standard/OFFICIAL_RESULT_20261017T0901JST_v001.json",
+      "source_sha256": "03b26ef3a5bdca545d3518753db5627993b171688cf34aa8a9a27ccc5c65e788",
+      "submission_id": "57281782",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.208,
+      "observed_at": "2026-10-17T00:01:20.864970+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "research/snapshots/57281782_first_due_score_20261017_v001/57281782_DETAIL.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "original_receipt",
+          "path": "submit/v046_h21_raw_standard/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v047_h21_unguarded_standard/OFFICIAL_RESULT_20261017T0917JST_v001.json",
+      "source_sha256": "3fa6c9be4a43794815965a8b56d26f80bb4c84e808a3510897a39f12e51bc528",
+      "submission_id": "57281794",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.216,
+      "observed_at": "2026-10-17T00:17:29.710440+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "research/snapshots/57281794_first_due_score_20261017_v001/57281794_DETAIL.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "original_receipt",
+          "path": "submit/v047_h21_unguarded_standard/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v048_h39_hard64_standard/OFFICIAL_RESULT_20261017T0726JST_v001.json",
+      "source_sha256": "b446a47922f983076ecfd46ed0faba6bea794742ec37dfd0eb8f4535163aff91",
+      "submission_id": "57279252",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.2,
+      "observed_at": "2026-10-16T22:26:17.357511+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "research/snapshots/57279252_first_due_score_20261017_v001/57279252_DETAIL.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "original_receipt",
+          "path": "submit/v048_h39_hard64_standard/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v049_h11_current_h21_prefix50_gl_guard/OFFICIAL_RESULT_20261018T1317Z_v001.json",
+      "source_sha256": "3fb0d9a761b33bfaf466da1b749d7c5bb36ebe47abea74177a69c1d817d878b3",
+      "submission_id": "57346042",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.232,
+      "observed_at": "2026-10-18T13:17:18.650694+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "research/snapshots/submission_details_20261018T1317Z_h11_prefix50_v001/57346042_DETAIL.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "original_receipt",
+          "path": "submit/v049_h11_current_h21_prefix50_gl_guard/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v051_h11_prefix50_unguarded_root/OFFICIAL_RESULT_20261018T1757Z_v001.json",
+      "source_sha256": "b8d02dc5583c29b498eab1115c6fc4479a13da2ec54fed2998eb6972c2280761",
+      "submission_id": "57356714",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.228,
+      "observed_at": "2026-10-18T17:57:03.358479+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "research/snapshots/submission_details_20261018T1757Z_h11_unguarded_v001/57356714_DETAIL.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "original_receipt",
+          "path": "submit/v051_h11_prefix50_unguarded_root/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v052_h10_fixed_full_list_raw/OFFICIAL_RESULT_20261018T2143Z_v001.json",
+      "source_sha256": "037260ebe478a8680ed56df7f3c0f136d42b90a2b8ffb4cc02b8918954419649",
+      "submission_id": "57363660",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.222,
+      "observed_at": "2026-10-18T21:43:29.325296+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "submit/v052_h10_fixed_full_list_raw/score_capture_20261018T2142Z_v001/57363660_DETAIL.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "original_receipt",
+          "path": "submit/v052_h10_fixed_full_list_raw/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v053_h10_full_list_gl50_guard/OFFICIAL_RESULT_20261019T0053Z_v001.json",
+      "source_sha256": "17afbf2ec6faf9a3b95f8538e0a6a004130187827ea4d8dc8f7b1d0dc9138b38",
+      "submission_id": "57368091",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.24,
+      "observed_at": "2026-10-19T00:53:42.317871+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "submit/v053_h10_full_list_gl50_guard/score_capture_20261019T0053Z_v001/57368091_DETAIL.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "original_receipt",
+          "path": "submit/v053_h10_full_list_gl50_guard/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v054_h10_full_list_gl50_unguarded/OFFICIAL_RESULT_20261019T0900Z_v001.json",
+      "source_sha256": "3713ef40803f492ccff556b9c51601e0772b4c0ddac687e4efe61975ac5a6325",
+      "submission_id": "57382295",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.24,
+      "observed_at": "2026-10-19T09:00:40.204014Z",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "submit/score_capture_20261019T0900Z_v001/57382295_DETAIL.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "original_receipt",
+          "path": "submit/v054_h10_full_list_gl50_unguarded/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v055_restored_s2m1_equalmean_raw_fp/OFFICIAL_RESULT_20261019T0839Z_v001.json",
+      "source_sha256": "212a01c4a3fac7c2cbc28da986d985da8551e2724106224131acb963fbd90922",
+      "submission_id": "57382374",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.268,
+      "observed_at": "2026-10-19T08:39:29.010676Z",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "submit/v055_restored_s2m1_equalmean_raw_fp/score_capture_20261019T0839Z_v001/57382374_DETAIL.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "original_receipt",
+          "path": "submit/v055_restored_s2m1_equalmean_raw_fp/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v056_restored_fp_fixed_prior1_size/OFFICIAL_RESULT_20261019T0900Z_v001.json",
+      "source_sha256": "4534484b86ed9f841a9b912356439e01d28bad97c00177d5d8670b8969e90c84",
+      "submission_id": "57382993",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.293,
+      "observed_at": "2026-10-19T09:00:40.434189Z",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "submit/score_capture_20261019T0900Z_v001/57382993_DETAIL.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "original_receipt",
+          "path": "submit/v056_restored_fp_fixed_prior1_size/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v057_restored_fp_measurement_mass_union/OFFICIAL_RESULT_20261019T0953Z_v001.json",
+      "source_sha256": "fcbe553f1c150019482fbd7a5dd3399c9dc1d4ad0ad44b8f156553b3f3d68c98",
+      "submission_id": "57384663",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.268,
+      "observed_at": "2026-10-19T09:54:10.013921Z",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "submit/v057_restored_fp_measurement_mass_union/score_capture_20261019T0953Z_v001/57384663_DETAIL.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "original_receipt",
+          "path": "submit/v057_restored_fp_measurement_mass_union/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v058_restored_fp_predeclared_cosine/OFFICIAL_RESULT_20261019T1610Z_v001.json",
+      "source_sha256": "ef66f88b5deac2809dff12933948b5c38b90363ec474e7ea17221f212f55cd89",
+      "submission_id": "57395684",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.252,
+      "observed_at": "2026-10-19T16:10:32.603153+00:00",
+      "decision": "REJECT_COSINE_PRIVATE_CANDIDATE_NO_COEFFICIENT_RESCUE",
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "submit/v058_restored_fp_predeclared_cosine/score_capture_20261019T1610Z_v001/57395684_DETAIL.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "original_receipt",
+          "path": "submit/v058_restored_fp_predeclared_cosine/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v059_restored_fp_prior1_mass_union/OFFICIAL_RESULT_20261020T0754Z_v001.json",
+      "source_sha256": "b4ec56ab44ed946f59bba16ad8c0cc8e982fe99c820a78f4ae47183c5e344a62",
+      "submission_id": "57414161",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.293,
+      "observed_at": "2026-10-20T07:54:52.679884+00:00",
+      "decision": "DIAGNOSTIC_COMPLETE_NO_BEST_UPDATE_NO_REPACKAGE",
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "submit/v059_restored_fp_prior1_mass_union/score_capture_20261020T0754Z_v001/57414161_DETAIL.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "original_receipt",
+          "path": "submit/v059_restored_fp_prior1_mass_union/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v060_fullbank_fixed_mass_analog_control/OFFICIAL_RESULT_20261020T1718Z_v001.json",
+      "source_sha256": "ca41ed43b6598947facc304979805fb0a975c1697bdc6f361458ad1aaf75802e",
+      "submission_id": "57439429",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": 0.205,
+      "observed_at": "2026-10-20T17:18:20.533584+00:00",
+      "decision": "DIAGNOSTIC_COMPLETE_NO_BEST_UPDATE_NO_REPACKAGE_OR_COEFFICIENT_SEARCH",
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "submit/v060_fullbank_fixed_mass_analog_control/score_capture_20261020T1718Z_v001/57439429_DETAIL.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "original_receipt",
+          "path": "submit/v060_fullbank_fixed_mass_analog_control/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v061_fullbank_mass_analog_fixed_gl2/OFFICIAL_RESULT_20261021T1823Z_v001.json",
+      "source_sha256": "72abb9e37234935e38bbcece5731b6283ddf5f81055bda5a2852155084780723",
+      "submission_id": "57481876",
+      "status": "COMPLETE_OFFICIAL_PUBLIC_SCORE_NOT_GOAL",
+      "public_score_observed": 0.218,
+      "observed_at": "2026-10-21T18:23:25.043979+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "submit/v061_fullbank_mass_analog_fixed_gl2/score_capture_20261021T1823Z_v001/57481876_DETAIL.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "original_receipt",
+          "path": "submit/v061_fullbank_mass_analog_fixed_gl2/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v062_fixed_prior_cosine_gl/OFFICIAL_RESULT_20261022T0801Z_v001.json",
+      "source_sha256": "2cc38f5be7bd16dda4246312f3c47567c6713ba0197e2bd1ddcbf51bd7f25523",
+      "submission_id": "57502818",
+      "status": "COMPLETE_OFFICIAL_PUBLIC_SCORE_NOT_GOAL",
+      "public_score_observed": 0.26,
+      "observed_at": "2026-10-22T08:01:57.969999+00:00",
+      "decision": "REJECT_THIS_FIXED_COSINE_CANDIDATE_NO_COEFFICIENT_SEARCH_OR_REPACKAGE",
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "official_snapshot",
+          "path": "submit/v062_fixed_prior_cosine_gl/score_capture_20261022T0803Z_v001/57502818_DETAIL.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "original_receipt",
+          "path": "submit/v062_fixed_prior_cosine_gl/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    },
+    {
+      "source": "submit/v063_h13_quality_prior1_size/score_capture_20261024T0218Z_v001/57539823_DETAIL.json",
+      "source_sha256": "0c00fac3743c6e613b315b49af8a88b142a397a77254697c41b61ee95a9e369e",
+      "submission_id": "57539823",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score_observed": "0.290",
+      "observed_at": "2026-10-24T02:20:03.956597+00:00",
+      "decision": null,
+      "live_refreshed": false,
+      "links_verified": [
+        {
+          "kind": "receipt",
+          "path": "submit/v063_h13_quality_prior1_size/RECEIPT.json",
+          "sha256_matches": true
+        },
+        {
+          "kind": "original_receipt",
+          "path": "submit/v063_h13_quality_prior1_size/RECEIPT.json",
+          "sha256_matches": true
+        }
+      ]
+    }
+  ],
+  "scope": "Saved official captures only, no new provider calls. Historical scoring revisions/rescores and rounded values may differ; no automatic cross-revision best or CV-LB correlation."
+}

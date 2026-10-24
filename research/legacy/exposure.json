@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-24T03:03:18.018514+00:00",
+  "scope": "Historical observed panel roles and consumption only; no new split selected and no molecule identities published.",
+  "panels": [
+    {
+      "label": "restored_signals1024_train",
+      "queries": 512,
+      "protocol": "workspace/expA99_restored_fullbank_residual/signals1024_v001/panels.json",
+      "protocol_sha256": "9cb70780f07424ea3ab494ce469351641b866f51307211daade944eea3f46d10",
+      "original_role": "train",
+      "status": "TRAIN_OR_TUNE_PREVIOUSLY_EVALUATED",
+      "later_evidence": "H10_restored_residual/H13_selected_train_tune",
+      "strict_upstream_nonexposure_proven": false
+    },
+    {
+      "label": "restored_signals1024_tune",
+      "queries": 256,
+      "protocol": "workspace/expA99_restored_fullbank_residual/signals1024_v001/panels.json",
+      "protocol_sha256": "9cb70780f07424ea3ab494ce469351641b866f51307211daade944eea3f46d10",
+      "original_role": "tune",
+      "status": "TRAIN_OR_TUNE_PREVIOUSLY_EVALUATED",
+      "later_evidence": "H10_restored_residual/H13_selected_train_tune",
+      "strict_upstream_nonexposure_proven": false
+    },
+    {
+      "label": "restored_signals1024_confirm",
+      "queries": 256,
+      "protocol": "workspace/expA99_restored_fullbank_residual/signals1024_v001/panels.json",
+      "protocol_sha256": "9cb70780f07424ea3ab494ce469351641b866f51307211daade944eea3f46d10",
+      "original_role": "confirm",
+      "status": "EVALUATED_H13_CONFIRM_ALREADY_CONSUMED",
+      "later_evidence": "H13_confirm256",
+      "strict_upstream_nonexposure_proven": false
+    },
+    {
+      "label": "H12_future_confirmation256",
+      "queries": 256,
+      "components": 256,
+      "protocol": "workspace/expA105_prior_library_gate/utility_oof_v001/future_confirmation256.json",
+      "protocol_sha256": "58872b68b15a6faf89437a32c40a10d1037d7b7b828af9256993512a1034708a",
+      "status": "FROZEN_UNSCORED_IN_OBSERVED_RESULTS_NOT_AUTHORIZED_TO_RUN",
+      "listed_historical_protocol_count": 164,
+      "excluded_historical_components": 19639,
+      "freshness_scope": "Disjoint from the listed historical panel/protocol/split identities and transitive v14 aliases; not proof of no external NN pretraining exposure.",
+      "selection_uses_labels_scores_coverage_or_test": false,
+      "fixed_gate_result": "H12_utility_oof512: REJECT_FIXED_UTILITY_NO_COEFFICIENT_SEARCH"
+    }
+  ],
+  "required_before_new_selection": [
+    "Resolve actual canonical/duplicate component identities in original bound protocol; do not compare by row count or raw molecule IDs alone.",
+    "Separate evaluated queries, reference-exclusion universes, training exposures and candidate-bank membership.",
+    "A new checkout does not reset historical exposure, attempts or computation identities.",
+    "Unscored future confirmation is not a permission to evaluate a rejected recipe; upstream pretraining exposure remains unproven."
+  ]
+}

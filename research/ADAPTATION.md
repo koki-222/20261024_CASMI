@@ -45,3 +45,11 @@ Python3.12.11の独立`.venv`を作成した。共有したのは既存uv管理�
 再配布したupstream Markdownには元から末尾空白がある。原本SHAを維持するため整形せず、`.gitattributes`で`research/public/**`だけを空白検査対象外にした。新規code・要約・設定の空白検査と全stageのsecret検査は維持する。
 
 公開前にpathを明示してstageし、secret hookとdiff検査を行う。`bootstrap-ready`後に通常pushし、remote commit一致を確認してからのみhandoffする。結果はhost-local workflow stateが正本であり、この文書の予定をpublish成功の証拠にしない。
+
+## ユーザー追加依頼による過去実験レビュー
+
+初回引き渡し後、ユーザーが過去の失敗点を考慮した対応とプロンプト再提供を明示依頼した。旧作業をread-onlyで読み、187ファイルをhost-localへ固定し、ledger1,525行、旧Issue snapshot群、保存公式観測44件、重要比較・障害16論点を整理した。83aggregate投影と177件の分数・paired分母を`tools/validate_legacy_review.py`で原本照合した。結果は`LEGACY_REVIEW.md`、`legacy/comparison_evidence.json`、`legacy/reuse_policy.json`、`legacy/exposure.json`等へ反映した。raw原本、分子ID、正解、予測、学習済み係数はGitへ公開していない。
+
+旧current_stateの更新時刻より新しいH12utilityとH13score原本を優先し、「fresh確認集合不足」の古い阻害状態と、その後に固定gateが科学的条件で棄却された事実を分離した。H13のconfirm256消費済み、参照不在・source別の悪化、候補欠落、実装障害を評価設計とIssue起案要件へ反映した。新仮説・Issueの採択、学習、推論、公開Notebook実行、提出・新しい公式照会はしていない。
+
+既に公開済みのpackageを更新するため、移植先の`bootstrap-ready --refresh`だけを追加した。`waiting_for_issues`で明示flagを指定した場合のみ旧publication/package/handoff receiptを履歴へ保存し、古いhandoffを無効化して再公開待ちへ戻す。稼働PDCAのresetは拒否する。移植元templateは変更していない。この境界を2回帰testで確認し、workflowは計26件PASS。初回68件のうち変更対象workflow24件を26件として再検証したもので、科学実験の件数ではない。

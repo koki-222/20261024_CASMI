@@ -97,6 +97,7 @@ def _parser() -> argparse.ArgumentParser:
             command.add_argument("url")
         elif name == "bootstrap-ready":
             command.add_argument("package")
+            command.add_argument("--refresh", action="store_true", help="Review updated research before PDCA, preserving the prior publication receipt")
         elif name == "bootstrap-publish":
             command.add_argument("--remote", required=True)
             command.add_argument("--branch", required=True)
@@ -308,7 +309,7 @@ def main(argv: list[str] | None = None) -> int:
         elif args.command == "bootstrap-init":
             _dump(initialize(args.root, args.url))
         elif args.command == "bootstrap-ready":
-            _dump(mark_ready(args.root, args.package))
+            _dump(mark_ready(args.root, args.package, refresh=args.refresh))
         elif args.command == "bootstrap-publish":
             _dump(publish(args.root, args.remote, args.branch, args.authorize_push))
         elif args.command == "bootstrap-handoff":

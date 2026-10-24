@@ -22,6 +22,6 @@
 
 ## 旧作業の扱い
 
-ユーザー指定の参照チャットを`read_thread`で確認し、旧CASMI checkoutとSSD archiveを読み取った。旧repoのcurrent_state、採択仮説、goal、権限、timer、予測CSV、実験結果は移植していない。最新catalogにある783Notebookのうち保存原本を716件照合できた（有効本文715件、空container1件）。705件はcatalogのlastRunTimeと一致、11件は旧版。これは本文全体の意味を新たにレビューした件数ではなく、最新版や公式deployの保証でもない。
+ユーザー指定の参照チャットを`read_thread`で確認し、旧CASMI checkoutとSSD archiveを読み取った。初回bootstrapでは過去実験の体系的な照合をしていなかったが、2026-10-24のユーザー追加依頼で[LEGACY_REVIEW.md](LEGACY_REVIEW.md)と`legacy/`の証拠索引を追補した。旧repoの稼働状態、採択仮説、goal、権限、timer、モデル・予測CSVは移植していない。最新catalogにある783Notebookのうち保存原本を716件照合できた（有効本文715件、空container1件）。705件はcatalogのlastRunTimeと一致、11件は旧版。これは本文全体の意味を新たにレビューした件数ではなく、最新版や公式deployの保証でもない。
 
 既知の未解決点は、trainの元acquisitionまでのcrosswalk、source名をまたぐ転載、公開weightの元training recipe、構造DB外母集団の代表性、public反復選択の露出、実際のscorer deployment pinである。これらと公開手法の比較からIssueを整理する判断はPro・ユーザーへ引き渡す。

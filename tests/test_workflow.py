@@ -209,6 +209,31 @@ class WorkflowTests(unittest.TestCase):
         with self.assertRaises(w.WorkflowError):
             w.handoff(self.root)
 
+    def test_research_refresh_preserves_prior_receipt_and_requires_republication(self) -> None:
+        """Explicit refresh invalidates the old handoff while retaining its publication."""
+        self.waiting()
+        previous = w._state(self.root)
+        self.package["adaptation"] = self.write("research/ADAPTATION.md", "Reviewed historical failures and source-bound comparisons.")
+        self.write("research/bootstrap_package.json", self.package)
+        with self.assertRaises(w.WorkflowError):
+            w.mark_ready(self.root, "research/bootstrap_package.json")
+        state = w.mark_ready(self.root, "research/bootstrap_package.json", refresh=True)
+        self.assertEqual(state["phase"], "ready_to_publish")
+        self.assertEqual(state["previous_publications"][0]["publication"], previous["publication"])
+        self.assertEqual(state["previous_publications"][0]["package"], previous["package"])
+        self.assertNotIn("publication", state)
+        self.assertNotIn("handoff", state)
+        with self.assertRaises(w.WorkflowError):
+            w.handoff(self.root)
+
+    def test_research_refresh_cannot_reset_active_pdca(self) -> None:
+        """Updating bootstrap evidence must never clear an active experiment budget."""
+        self.start()
+        previous = w._state(self.root)
+        with self.assertRaises(w.WorkflowError):
+            w.mark_ready(self.root, "research/bootstrap_package.json", refresh=True)
+        self.assertEqual(w._state(self.root), previous)
+
     def test_package_detects_missing_category_and_changed_body(self) -> None:
         """Coverage names alone do not substitute for archived bodies."""
         self.package["coverage"].pop()

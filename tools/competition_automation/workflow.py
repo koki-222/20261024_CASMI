@@ -303,12 +303,21 @@ def validate_package(root: Path, package_path: str) -> dict[str, Any]:
 
 
 @_locked
-def mark_ready(root: Path, package_path: str) -> dict[str, Any]:
+def mark_ready(root: Path, package_path: str, refresh: bool = False) -> dict[str, Any]:
     """Advance directly from adaptation/research to the reviewed publishing gate."""
     state = _state(root)
-    if state["phase"] not in {"adapting", "researching", "ready_to_publish"}:
+    refreshing = state["phase"] == "waiting_for_issues" and refresh
+    if state["phase"] not in {"adapting", "researching", "ready_to_publish"} and not refreshing:
         raise WorkflowError("bootstrap is already handed off or PDCA has started")
     validate_package(root, package_path)
+    if refreshing:
+        if not state.get("publication"):
+            raise WorkflowError("refresh requires a verified prior publication")
+        state.setdefault("previous_publications", []).append(
+            {key: state[key] for key in ("publication", "package", "handoff") if key in state}
+        )
+        state.pop("publication", None)
+        state.pop("handoff", None)
     state.update(phase="ready_to_publish", package=snapshot(root, package_path))
     _write(_path(root, STATE), state)
     return state
@@ -418,7 +427,11 @@ def handoff(root: Path) -> dict[str, Any]:
                 *(
                     row["artifact"]["path"]
                     for row in package["publication"]
-                    if row["artifact"]["path"] == "research/SOURCE_MAP.md"
+                    if row["artifact"]["path"] in {
+                        "research/SOURCE_MAP.md", "research/LEGACY_REVIEW.md",
+                        "research/legacy/comparison_evidence.json", "research/legacy/reuse_policy.json",
+                        "research/legacy/exposure.json", "research/legacy/official_observations.json",
+                    }
                 ),
             ]
         )

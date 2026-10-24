@@ -1,0 +1,1522 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-24T02:59:44.936010+00:00",
+  "sources": [
+    {
+      "path": "automation/ledger.jsonl",
+      "sha256": "4927e3b75713b03cd1f660975048904583203e4f5b3811bf45f1fd6561ec4582",
+      "bytes": 2111999,
+      "snapshot_path": ".local/restricted/legacy_review/automation/ledger.jsonl",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792708265766029711
+    },
+    {
+      "path": "automation/current_state.json",
+      "sha256": "30abfe8bd973f0c4c370358ed9e17de803036543b3babc8b9745ae3dadeb2b5d",
+      "bytes": 120036,
+      "snapshot_path": ".local/restricted/legacy_review/automation/current_state.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792713494322545897
+    },
+    {
+      "path": "automation/issue_intake.json",
+      "sha256": "2317e93a07be3bfed6cd2aab0ccb19c50ddf674379b21a6515dd3a4fd99337ce",
+      "bytes": 19403,
+      "snapshot_path": ".local/restricted/legacy_review/automation/issue_intake.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792232800635490542
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/manifest.json",
+      "sha256": "613f8cdc3b58f9ca2255e96e757de28b5ec334e41dfece6d8616e989d8b98336",
+      "bytes": 31012,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/manifest.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169631048398508
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_001.json",
+      "sha256": "14afb18d9cf466b46e1796ec9d9dd5db47dc28b3eb6170090212c11940195a3e",
+      "bytes": 28731,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169612102449501
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_002.json",
+      "sha256": "68cf6a16ff74e945e69954fdf82413ee59f7a3cbc7f2677d771bd1161d15f64c",
+      "bytes": 10039,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_002.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169612414232080
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_003.json",
+      "sha256": "423e37b8f206e0c342e30cb8f7e5d5a9c5fa9502d3ef755b9ee6d223c6bb6d74",
+      "bytes": 9791,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_003.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169612752150188
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_004.json",
+      "sha256": "cf49a1f3dc14a9c17667b4cfab709671c046ce9bbfda896d5122b91817c5eedf",
+      "bytes": 9501,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_004.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169613127984580
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_005.json",
+      "sha256": "d3320271172f8e0fb36140e6a8ce5df28b2bb75212890c9992975024a5f17650",
+      "bytes": 9781,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_005.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169613538812565
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_006.json",
+      "sha256": "31ee46d8819475b5b891ec6e57ce44b961ca0f5147ae78e2715340fa94cc3090",
+      "bytes": 9674,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_006.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169613948456726
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_007.json",
+      "sha256": "91af66287655aff8e947945d7b2e28e97ff0e112949252f0313d417f24025c64",
+      "bytes": 9526,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_007.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169614360454578
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_008.json",
+      "sha256": "48883ffa7bffcdb353a976a3f95b9986c35591b1a1c3975a1cce6da729ff0c41",
+      "bytes": 9402,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_008.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169614696378742
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_009.json",
+      "sha256": "cd9f0e168b7681a1c471b860e5ca26c59171620acc45ec28c0bfc76d9e1f8bb6",
+      "bytes": 9300,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_009.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169615009709435
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_010.json",
+      "sha256": "8bdadc83bb3eda3c69ad1624bcb50c3cca71caed17c6c47fed784287673a083f",
+      "bytes": 9346,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_010.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169615359246381
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_011.json",
+      "sha256": "107fe359584c08c844a5e8cd222f40d6aa572b125c45880ca059f1e34a162e7c",
+      "bytes": 9118,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_011.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169615686502520
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_012.json",
+      "sha256": "b55ed486ad220ad234a6231fb6bed5b22249daa2e359739b3c16c04d5e6ee64e",
+      "bytes": 9309,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_012.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169616097450339
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_013.json",
+      "sha256": "0004eb6c3b26cb39bd17f1bb5fc70b4508cf544ae3e7180f85367f9833c2b17c",
+      "bytes": 9117,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_013.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169616517991549
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_014.json",
+      "sha256": "7eb77cd476a15a23a5fb0fda957fc77cc8224af9d4d5b839cd913714ba6c5ed1",
+      "bytes": 9020,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_014.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169616914533049
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_015.json",
+      "sha256": "4f236665320b63c96aa6a2afcf2b24e7094c468fe9fd57eb75a0f11ac10d87d1",
+      "bytes": 9068,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_015.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169617533309364
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_016.json",
+      "sha256": "c92885090841df417c5c508f5a434970b9f9d82d0296107a99635b0855f9510c",
+      "bytes": 8965,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_016.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169617942071405
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_017.json",
+      "sha256": "b0734296efcbae0b1b40551e0975a3da70b562fcdfc83b4f3b4497fc35a5a363",
+      "bytes": 9087,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_017.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169618350808697
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_018.json",
+      "sha256": "8cf096ef0d541385189c65f90a90ab3f6bb3c7f64023cb1927d3d152fdca7feb",
+      "bytes": 9210,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_018.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169618760728314
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_019.json",
+      "sha256": "f42f94abe0faf17b458472b9b7db061187d2897b13689c5c17796cf6ab9e1d32",
+      "bytes": 9078,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_019.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169619169865019
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_020.json",
+      "sha256": "7257f0ca366d9178a3b37d5d354e7f1d7fa0ac1b560d26fea00ab397619ad78e",
+      "bytes": 9226,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_020.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169619579829052
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_021.json",
+      "sha256": "9b0d48981056403504dc7e79d6b57336c38eedc15a0489c2c1098aec91aa945b",
+      "bytes": 8992,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_021.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169619992456650
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_022.json",
+      "sha256": "c6c32c0bc013ba31b59839c9acef73c882356b5ebfb4fe78a2a63f70b75b624e",
+      "bytes": 8965,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_022.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169620403827049
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_023.json",
+      "sha256": "53c1136479886a5270dc1508d135be2483cefd0cbc27b4cc5e3a4f9eac1a05f7",
+      "bytes": 8888,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_023.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169620808987156
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_024.json",
+      "sha256": "eeccc2ae8e2d8146c2e9f11dd3cc4137fe7b6dcad8b0e300d217e6022f94bd76",
+      "bytes": 8897,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_024.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169621141502218
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_025.json",
+      "sha256": "6823bb292cb078d8f5fe0dd7db28aa8df4c7067be1dcd1114b995ea59e0edfc4",
+      "bytes": 9121,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_025.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169621493066859
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_026.json",
+      "sha256": "6d309d6301d73862a8bf6f08fd20e5f6180590010a2d00c31282daaa8e9bfd49",
+      "bytes": 9067,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_026.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169621807212421
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_027.json",
+      "sha256": "09f556d85d2a9445732f026b9b310610d40b90d318679f7ecaeb146bc17d6cfb",
+      "bytes": 8649,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_027.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169622139630192
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_028.json",
+      "sha256": "cff71d47ae6e7803a60730f65b31f3bafda4b2f842c713587174f2df43f36eea",
+      "bytes": 8780,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_028.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169622478040548
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_029.json",
+      "sha256": "8511bf8fb9a543de8c1cc2a32194034a62cd6b6e5b0a5fee0cdd901a2943072a",
+      "bytes": 8854,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_029.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169622798681649
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_030.json",
+      "sha256": "c853397493af3ce02a1192fd8d5e40a19171f2712c9ed06b83ea7e99bfe11aa0",
+      "bytes": 8793,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_030.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169623138350037
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_031.json",
+      "sha256": "ad6ad1860385b5fd1df1ef96bb1b3338b51132606c1e1f30a8c7764f1aeccdfc",
+      "bytes": 8747,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_031.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169623463766398
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_032.json",
+      "sha256": "c98ca8145cf66c4533caeb4f0463ad2da582b591ddc6639d640bce4f7ab665dd",
+      "bytes": 8904,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_032.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169623825746884
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_033.json",
+      "sha256": "4dc41693b337e836394e149dc40e82916d68e6f8d536815cd62fa08b573453ff",
+      "bytes": 8826,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_033.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169624213314278
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_034.json",
+      "sha256": "771424cd3f09cf714a8c9ce2198cd77181094581f8dd28c42037b5b8d89c27cd",
+      "bytes": 9066,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_034.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169624540162337
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_035.json",
+      "sha256": "ccc2f9410af8f1f1474c8ca3d0aef5d2210d7e16f907841054cfb4b08d550446",
+      "bytes": 9576,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_035.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169624870160792
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_036.json",
+      "sha256": "a868881ddb68220524c07edb05db4f02f0f680591a97ab40a21215a8c4649266",
+      "bytes": 9676,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_036.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169625201334696
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_037.json",
+      "sha256": "6a09d7d0a23945277780a1b65806eb65e3f0da406b87d95929429826e0c1c40a",
+      "bytes": 9379,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_037.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169625529803578
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_038.json",
+      "sha256": "06bd1e0c413d05bc031d8b3581ef0921339b8b7eb83ca19a33bccf9ec94f0b16",
+      "bytes": 9149,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_038.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169625856304472
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_039.json",
+      "sha256": "e912b020a8b3c0083f730e51c25b261f4b4e4a713afaf50b39166f52f45f453f",
+      "bytes": 9605,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_039.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169626178269523
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_040.json",
+      "sha256": "a89d98c6f6064f526405a83ff5077550c70bdf8927766f03c5595693fe910cf8",
+      "bytes": 9031,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_040.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169626502930806
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_041.json",
+      "sha256": "11069f3ae8b50f1606d5ff4c8c20f8cdfdd811d04a75ca5ec1f8a3a6d3d9c6b8",
+      "bytes": 9262,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_041.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169626832424180
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_042.json",
+      "sha256": "d98cfbcac6003e9c44d6cda4e9bc0c7e409aaa294e32e67805a3afa006ba860b",
+      "bytes": 9044,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_042.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169627185343269
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_043.json",
+      "sha256": "c8d5e969d7ac2fcd73a2e072a7ddb74eb4eda6835b60f7fa1a5d924198f9e2cd",
+      "bytes": 9569,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_043.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169627501624359
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_044.json",
+      "sha256": "4d146e5f32afb836a97a026aa4740057b0e1cf0d92fe507cf376944db3b06faf",
+      "bytes": 9457,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_044.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169627874576186
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_045.json",
+      "sha256": "a1e9551e996262ed620abfb8f12ca676dff6cd88710e5e7b7b55a20c75c1de6e",
+      "bytes": 9316,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_045.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169628189400744
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_046.json",
+      "sha256": "8897dccf153385658d9c7c330fc426bacc30bee1f4df7a6f53e98f4098883628",
+      "bytes": 9666,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_046.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169628553122760
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_047.json",
+      "sha256": "cc58f1a2f185678fc14ec02fbbdb87d704b6e04c03b2bcd192af9670b99dba19",
+      "bytes": 9111,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_047.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169628872433746
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_048.json",
+      "sha256": "cc330381f46ac30cd568b7b70a055b0bbacccb67c0b4a97cf9f057b54bdc0acf",
+      "bytes": 9385,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_048.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169629195991077
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_049.json",
+      "sha256": "f5d1766d5a8bae360794c9093b568804892d937a1535cd33321e517a7c8c1bc1",
+      "bytes": 9500,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_049.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169629528404932
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_050.json",
+      "sha256": "f2ed2fad873f825f4dcacba8123b3c7ae6188af1d384332c0da2f7dd59c93c87",
+      "bytes": 9876,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_050.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169629914161422
+    },
+    {
+      "path": "research/issues/20261005_pdca_start/issue_051.json",
+      "sha256": "79e695a6c1ecdbdb619a055b55adfff37b85bfba6a26efeb93989dbab794ad3c",
+      "bytes": 9714,
+      "snapshot_path": ".local/restricted/legacy_review/research/issues/20261005_pdca_start/issue_051.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791169630269319538
+    },
+    {
+      "path": "submit/v001_analog_calibration/OFFICIAL_RESULT_v001.json",
+      "sha256": "d48f900f8604e7076dbacc294fae8ae25a1d75e34aff5fb7e89a00c5e6ee2637",
+      "bytes": 1687,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v001_analog_calibration/OFFICIAL_RESULT_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791196924236417192
+    },
+    {
+      "path": "research/snapshots/official_score_v001_20261005/submissions.csv",
+      "sha256": "647acca9e6b72ab5e39c39388d0965a5a9c20c6697d8a15506d07cd071819d91",
+      "bytes": 241,
+      "snapshot_path": ".local/restricted/legacy_review/research/snapshots/official_score_v001_20261005/submissions.csv",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791196833897069603
+    },
+    {
+      "path": "submit/v002_mass_only_calibration/OFFICIAL_RESULT_v001.json",
+      "sha256": "cc5aec6977e0fe0a0c68e79eb4f8d00bb635e9e9f5240e419d7173437cd00ae7",
+      "bytes": 1806,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v002_mass_only_calibration/OFFICIAL_RESULT_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791226729219610906
+    },
+    {
+      "path": "research/snapshots/official_score_v002_20261005T1855Z/submissions.txt",
+      "sha256": "b86bc5dc4a0cc7bd323cb379ce7fd829bf2afff7fd3fc86009a409331fbf19a6",
+      "bytes": 647,
+      "snapshot_path": ".local/restricted/legacy_review/research/snapshots/official_score_v002_20261005T1855Z/submissions.txt",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791226514515723704
+    },
+    {
+      "path": "submit/v003_h12_confidence_t40/attempt002_after_verified_complete/OFFICIAL_RESULT_20261006T0310Z.json",
+      "sha256": "ac936219e608d8ac85d7182af93645c3553e48d97c4e65f7d4729277960bbe13",
+      "bytes": 1195,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v003_h12_confidence_t40/attempt002_after_verified_complete/OFFICIAL_RESULT_20261006T0310Z.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791256734083558899
+    },
+    {
+      "path": "research/snapshots/official_scores_20261006T0310Z/submissions.json",
+      "sha256": "6c258f02222d2bc78f873943b1f12c0bc0e3b5cba3d88f7535f95e672db06954",
+      "bytes": 3103,
+      "snapshot_path": ".local/restricted/legacy_review/research/snapshots/official_scores_20261006T0310Z/submissions.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791256353449197662
+    },
+    {
+      "path": "submit/v003_h12_confidence_t40/attempt002_after_verified_complete/RECEIPT.json",
+      "sha256": "905e05d8a0eeb1f819ef2b6a4ec5cd9c5a6b4ddc2be15ddded5f08df4f2cba2c",
+      "bytes": 3505,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v003_h12_confidence_t40/attempt002_after_verified_complete/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791240544002271555
+    },
+    {
+      "path": "submit/v004_h12_confidence_t60/attempt002_after_verified_complete/OFFICIAL_RESULT_20261006T0310Z.json",
+      "sha256": "be74f04979d6368f9d4b03c9b9108890c3afc71e9f54d279dc7f10e7f855030e",
+      "bytes": 1195,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v004_h12_confidence_t60/attempt002_after_verified_complete/OFFICIAL_RESULT_20261006T0310Z.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791256734083395190
+    },
+    {
+      "path": "submit/v004_h12_confidence_t60/attempt002_after_verified_complete/RECEIPT.json",
+      "sha256": "4f193cfce2c9a703f1f3f01fd453294fc11716d7cd4adf9b304613ef6b45054f",
+      "bytes": 3570,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v004_h12_confidence_t60/attempt002_after_verified_complete/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791241643579084942
+    },
+    {
+      "path": "submit/v005_h12_confidence_t80/OFFICIAL_RESULT_20261006T0310Z.json",
+      "sha256": "5e4f6bb5e8d94aa83a3c1dcd6c7dacba48d7a78dc415032c749c40e00ae5fa02",
+      "bytes": 1160,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v005_h12_confidence_t80/OFFICIAL_RESULT_20261006T0310Z.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791256734083184939
+    },
+    {
+      "path": "submit/v005_h12_confidence_t80/RECEIPT.json",
+      "sha256": "4a0f1fdfe25f686749a3fe69a0f58b5599871fd5e94550384491e511407a03de",
+      "bytes": 3514,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v005_h12_confidence_t80/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791241644989125445
+    },
+    {
+      "path": "submit/v006_own_fine_fp_raw/OFFICIAL_RESULT_20261006T0310Z.json",
+      "sha256": "2a35dfba86976cf34a577c5ddab972d0dbc668662f7759f0877bba0a67badee2",
+      "bytes": 1161,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v006_own_fine_fp_raw/OFFICIAL_RESULT_20261006T0310Z.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791256734082913979
+    },
+    {
+      "path": "submit/v006_own_fine_fp_raw/RECEIPT.json",
+      "sha256": "492ef8fc6e205c2c17fc064299ab6e06f99d8da773bbef825289317f4f648551",
+      "bytes": 886,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v006_own_fine_fp_raw/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791244818970833387
+    },
+    {
+      "path": "submit/v008_own_fp_prior/OFFICIAL_RESULT_20261006T0310Z.json",
+      "sha256": "ccbf1c597799a26f10356e1dada42c59397b40fa9d5bd8295cebab675d8b5762",
+      "bytes": 1148,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v008_own_fp_prior/OFFICIAL_RESULT_20261006T0310Z.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791256734082532353
+    },
+    {
+      "path": "submit/v008_own_fp_prior/RECEIPT.json",
+      "sha256": "14231c317da8e674e760704eae47181d8bb53fd97122c2e7c8f8bd8140ffd393",
+      "bytes": 818,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v008_own_fp_prior/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791246078557183875
+    },
+    {
+      "path": "submit/v014_fine_confidence_t60/OFFICIAL_RESULT_20261008T2155Z_v001.json",
+      "sha256": "b2679f62c28ea6afc66498dfeb6e0770411c9732a895a92585e2c1fd31332b40",
+      "bytes": 984,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v014_fine_confidence_t60/OFFICIAL_RESULT_20261008T2155Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791496743755522082
+    },
+    {
+      "path": "submit/v014_fine_confidence_t60/RECEIPT.json",
+      "sha256": "4220c62e748b724ee3e3faabf2299a539e5b8e6bd6f07ddd81f5d7e656c2d93e",
+      "bytes": 981,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v014_fine_confidence_t60/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791418202072333480
+    },
+    {
+      "path": "submit/v015_repaired_fragment025/OFFICIAL_RESULT_20261008T2155Z_v001.json",
+      "sha256": "98e2dbc83e0ee92d14e4b75444c3c5ffb72f72a2e9dbe076bc96f632a0ae1ad6",
+      "bytes": 986,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v015_repaired_fragment025/OFFICIAL_RESULT_20261008T2155Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791496743755362871
+    },
+    {
+      "path": "submit/v015_repaired_fragment025/RECEIPT.json",
+      "sha256": "21fd08c8c0bb6a93bf2dba449b979cdff00a81c51c10f2760c7c7e2c9e5af501",
+      "bytes": 986,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v015_repaired_fragment025/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791418084037542111
+    },
+    {
+      "path": "submit/v016_fine_confidence_t40/OFFICIAL_RESULT_20261016T0305Z_v001.json",
+      "sha256": "cf9f6637d16271643a81645d7a2a59005c2e3d779410e95b4decb518911db33b",
+      "bytes": 1423,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v016_fine_confidence_t40/OFFICIAL_RESULT_20261016T0305Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792120046827673254
+    },
+    {
+      "path": "research/snapshots/three_fine_scores_20261016T0305Z_v001/OFFICIAL_LISTING_TARGETS_v001.json",
+      "sha256": "a0468b532e466aae93f18a141d501224964543c77b07fb0aa952e75a954ce4e6",
+      "bytes": 1759,
+      "snapshot_path": ".local/restricted/legacy_review/research/snapshots/three_fine_scores_20261016T0305Z_v001/OFFICIAL_LISTING_TARGETS_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792119976572431754
+    },
+    {
+      "path": "submit/v016_fine_confidence_t40/RECEIPT.json",
+      "sha256": "9221f451773b6b2d08b7bc319edec972d55ec6a3dfe1ad83b0bae589f16e4d9e",
+      "bytes": 1069,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v016_fine_confidence_t40/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792105309857215514
+    },
+    {
+      "path": "submit/v017_fine_confidence_t80/OFFICIAL_RESULT_20261016T0305Z_v001.json",
+      "sha256": "96f7426979ce9ee8db49d8174a6b46458b541520546455d2314639f9f45ce0e4",
+      "bytes": 1423,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v017_fine_confidence_t80/OFFICIAL_RESULT_20261016T0305Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792120046827803129
+    },
+    {
+      "path": "submit/v017_fine_confidence_t80/RECEIPT.json",
+      "sha256": "429a86cbb8310b333a859237b18b54eee436cad66680398f6d3385bb56272bf2",
+      "bytes": 1069,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v017_fine_confidence_t80/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792105324748684649
+    },
+    {
+      "path": "submit/v018_fine_library_only/OFFICIAL_RESULT_20261016T0305Z_v001.json",
+      "sha256": "c4cb10af31c8d79839f4eff6e1fd006b8fe00ca311a61f421e701a7dff5fde8b",
+      "bytes": 1419,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v018_fine_library_only/OFFICIAL_RESULT_20261016T0305Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792120046827905879
+    },
+    {
+      "path": "submit/v018_fine_library_only/RECEIPT.json",
+      "sha256": "51d1b6feb2e462f00c8b35e470d38b8b264fb38dc1dbaca3d619adadbfdd3242",
+      "bytes": 1071,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v018_fine_library_only/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792105332355653151
+    },
+    {
+      "path": "submit/v019_raw_entropy_library/OFFICIAL_RESULT_20261007T1533Z_v001.json",
+      "sha256": "b66df770ee64bb6c2854ff5709713e8d635b95933bf7b72aac6ae0aae463d7b9",
+      "bytes": 1213,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v019_raw_entropy_library/OFFICIAL_RESULT_20261007T1533Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791387807612352871
+    },
+    {
+      "path": "research/snapshots/official_scores_20261007T1533Z/submissions.txt",
+      "sha256": "fc89feb8364aae43f95f3b8a198536c9c10a5c30160a1b4d4cc5f81b7e2a0ec3",
+      "bytes": 4706,
+      "snapshot_path": ".local/restricted/legacy_review/research/snapshots/official_scores_20261007T1533Z/submissions.txt",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791387305522217576
+    },
+    {
+      "path": "submit/v019_raw_entropy_library/RECEIPT.json",
+      "sha256": "9fbbd0f703ed6857baf90d389af91b8de9a986558ed54c00d6a0911afae9ea13",
+      "bytes": 977,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v019_raw_entropy_library/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791371795570639599
+    },
+    {
+      "path": "submit/v021_precise_mass_analog/OFFICIAL_RESULT_20261007T1533Z_v001.json",
+      "sha256": "e18ec8b34d21a1d7ae2279ca6df154ce1ef3561abe1a228a6548d3d74d0d5759",
+      "bytes": 1213,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v021_precise_mass_analog/OFFICIAL_RESULT_20261007T1533Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791387807610813984
+    },
+    {
+      "path": "submit/v021_precise_mass_analog/RECEIPT.json",
+      "sha256": "e33a455d8d34ded6cd6da1dde6b3cdd14d870f0c9113d97b89136c027c46f07a",
+      "bytes": 977,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v021_precise_mass_analog/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791371393106089681
+    },
+    {
+      "path": "submit/v022_expanded_raw_mass_analog/OFFICIAL_RESULT_20261007T1533Z_v001.json",
+      "sha256": "bc645fe8052beba3cb2516625ba0c60684c74a92d88890c8ac0fc2eecd9359ac",
+      "bytes": 1222,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v022_expanded_raw_mass_analog/OFFICIAL_RESULT_20261007T1533Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791387807611837298
+    },
+    {
+      "path": "submit/v022_expanded_raw_mass_analog/RECEIPT.json",
+      "sha256": "fab829bef10aadb756cdc29b66f0141e9cec99f86fd13cf095586511c874199e",
+      "bytes": 987,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v022_expanded_raw_mass_analog/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791371793182036737
+    },
+    {
+      "path": "submit/v023_raw_library_analog_gate_t60/OFFICIAL_RESULT_20261008T2155Z_v001.json",
+      "sha256": "3a546a6161a48e659bfdd2ace80e180ece16edff2f55deff613c2eced47a0140",
+      "bytes": 1000,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v023_raw_library_analog_gate_t60/OFFICIAL_RESULT_20261008T2155Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791496743755178285
+    },
+    {
+      "path": "submit/v023_raw_library_analog_gate_t60/RECEIPT.json",
+      "sha256": "43928d86589f034e711597b4c33e9afd2d4625e85144208406ffef76398d02a2",
+      "bytes": 989,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v023_raw_library_analog_gate_t60/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791417973303115012
+    },
+    {
+      "path": "submit/v024_raw_quality_analog/OFFICIAL_RESULT_20261007T1533Z_v001.json",
+      "sha256": "b8540d46dd8876a9ef5efc284fa741023a15d4256542af294b40137d5b5ab1f7",
+      "bytes": 1217,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v024_raw_quality_analog/OFFICIAL_RESULT_20261007T1533Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791387807611532303
+    },
+    {
+      "path": "submit/v024_raw_quality_analog/RECEIPT.json",
+      "sha256": "67786ffb5a6eacec9240b3af645a26fc4a370c04d54ec77c731c43ceed0bc2d7",
+      "bytes": 982,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v024_raw_quality_analog/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791371790211836544
+    },
+    {
+      "path": "submit/v025_raw_mass_analog_fragment025/OFFICIAL_RESULT_20261007T1533Z_v001.json",
+      "sha256": "16dd35b763978a53e0fd50e97c76ec53e8a35d93932060e626400b9aab689a27",
+      "bytes": 1226,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v025_raw_mass_analog_fragment025/OFFICIAL_RESULT_20261007T1533Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791387807611117103
+    },
+    {
+      "path": "submit/v025_raw_mass_analog_fragment025/RECEIPT.json",
+      "sha256": "4020109d014147be5a0d49d2ff63d15e45afba80434648e9aa4d963db6d654b6",
+      "bytes": 990,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v025_raw_mass_analog_fragment025/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791371787240944646
+    },
+    {
+      "path": "submit/v026_raw_top25_glacier/OFFICIAL_RESULT_20261008T2155Z_v001.json",
+      "sha256": "2f989c3b5851069de695211e7e89e3b22d4134dd5a331ca35ad8df5b169828e2",
+      "bytes": 956,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v026_raw_top25_glacier/OFFICIAL_RESULT_20261008T2155Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791496743754966825
+    },
+    {
+      "path": "submit/v026_raw_top25_glacier/RECEIPT.json",
+      "sha256": "4c7624cdcddeb6343686d292f3aa4c5112f9e1f0cbf90855144e3bc9cf339691",
+      "bytes": 1150,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v026_raw_top25_glacier/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791417630233417733
+    },
+    {
+      "path": "submit/v027_fragment_top25_glacier/OFFICIAL_RESULT_20261008T2155Z_v001.json",
+      "sha256": "c660291455bf8b69c4533fb9c37dface800479660f9b153904bd9ca11e87bf8c",
+      "bytes": 962,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v027_fragment_top25_glacier/OFFICIAL_RESULT_20261008T2155Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791496743755639833
+    },
+    {
+      "path": "submit/v027_fragment_top25_glacier/RECEIPT.json",
+      "sha256": "a48f019cb5cb489e55b90017815efc7a2d3942d3a3c29bbe53db638e2a6cd601",
+      "bytes": 1157,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v027_fragment_top25_glacier/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791420286651115782
+    },
+    {
+      "path": "submit/v028_fragment_prefix50_glacier/OFFICIAL_RESULT_20261009T0520Z_v001.json",
+      "sha256": "7f23a14d8b759fc7c16dc0ecc12698eadd73d365bcb34dab50b879f5e8ffff78",
+      "bytes": 1483,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v028_fragment_prefix50_glacier/OFFICIAL_RESULT_20261009T0520Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791523241093716501
+    },
+    {
+      "path": "submit/v028_fragment_prefix50_glacier/RECEIPT.json",
+      "sha256": "c87ea2490ff8c6b9a3e7d96a1a1f919cbe3ba94da702ac186a73014d60f47dd4",
+      "bytes": 1157,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v028_fragment_prefix50_glacier/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791504114531304280
+    },
+    {
+      "path": "submit/v029_confident_top1_guard/OFFICIAL_RESULT_20261009T1332Z_v001.json",
+      "sha256": "8d24650fde8fcb715f222dca7a755f5aafe3a4c291ac26c3aa930af6c62a2db3",
+      "bytes": 747,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v029_confident_top1_guard/OFFICIAL_RESULT_20261009T1332Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791552803181130397
+    },
+    {
+      "path": "submit/v030_owned6930_rich_ranker_glacier/OFFICIAL_RESULT_20261012T0908Z_v001.json",
+      "sha256": "7cdd37016d08cc0a3fd834e199010e9c56ee3a2d249178b41e4ebc6f887b375d",
+      "bytes": 1930,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v030_owned6930_rich_ranker_glacier/OFFICIAL_RESULT_20261012T0908Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791796303540159238
+    },
+    {
+      "path": "submit/v031_public31_joint_glacier/OFFICIAL_RESULT_20261012T1813Z_v001.json",
+      "sha256": "147c702c17716095b7ceb274ba89a61607ddba170e130de62226c3d568794aa4",
+      "bytes": 2198,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v031_public31_joint_glacier/OFFICIAL_RESULT_20261012T1813Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791828906502651539
+    },
+    {
+      "path": "submit/v032_public_original31_51_glacier/OFFICIAL_RESULT_20261013T1620Z_v001.json",
+      "sha256": "6e2cf31f5e79234747b8c2a64829a30e66c60fde4d62b0829cee426a2c9b980e",
+      "bytes": 2103,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v032_public_original31_51_glacier/OFFICIAL_RESULT_20261013T1620Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791908560375358758
+    },
+    {
+      "path": "submit/v042_h21_without_fp_gl_guard/OFFICIAL_RESULT_20261016T1547Z_v001.json",
+      "sha256": "c1a89c04a02e00c8c922f492d2d0b0046d802977b362f11f6d59babbb69f56de",
+      "bytes": 1497,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v042_h21_without_fp_gl_guard/OFFICIAL_RESULT_20261016T1547Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792165710199650118
+    },
+    {
+      "path": "research/snapshots/h21_guard_score_20261016T1547Z_v001/57267534_DETAIL.json",
+      "sha256": "5fddd7c78fed3bfead26a99df857f717190226e91b4d44d45a8d3a8fec218cdf",
+      "bytes": 707,
+      "snapshot_path": ".local/restricted/legacy_review/research/snapshots/h21_guard_score_20261016T1547Z_v001/57267534_DETAIL.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792165663954013745
+    },
+    {
+      "path": "submit/v042_h21_without_fp_gl_guard/RECEIPT.json",
+      "sha256": "12b03203cf83ab07605bd8bfeef3ac67d6043305d60fcffec99cad2a408ef81a",
+      "bytes": 1112,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v042_h21_without_fp_gl_guard/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792150305410121558
+    },
+    {
+      "path": "submit/v045_h39_mixed32_rrf_raw/OFFICIAL_RESULT_20261016T1650Z_v001.json",
+      "sha256": "085e9c52909958d7162d662344b8e2abd1e03033cef356068d3b54ce2dadc878",
+      "bytes": 1641,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v045_h39_mixed32_rrf_raw/OFFICIAL_RESULT_20261016T1650Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792169473521878282
+    },
+    {
+      "path": "research/snapshots/h39_mixed32_score_20261016T1650Z_v001/57269565_DETAIL.json",
+      "sha256": "c14adc7665eab72f206f123a21e8adc86f68560e1389beff19270ec65c449e2d",
+      "bytes": 695,
+      "snapshot_path": ".local/restricted/legacy_review/research/snapshots/h39_mixed32_score_20261016T1650Z_v001/57269565_DETAIL.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792169427258037140
+    },
+    {
+      "path": "submit/v045_h39_mixed32_rrf_raw/RECEIPT.json",
+      "sha256": "3dae785a954c32d5032053508717e0ead692acade96b262cb8978e9a354c4384",
+      "bytes": 1103,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v045_h39_mixed32_rrf_raw/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792155015649505099
+    },
+    {
+      "path": "submit/v046_h21_raw_standard/OFFICIAL_RESULT_20261017T0901JST_v001.json",
+      "sha256": "03b26ef3a5bdca545d3518753db5627993b171688cf34aa8a9a27ccc5c65e788",
+      "bytes": 1722,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v046_h21_raw_standard/OFFICIAL_RESULT_20261017T0901JST_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792195487987942704
+    },
+    {
+      "path": "research/snapshots/57281782_first_due_score_20261017_v001/57281782_DETAIL.json",
+      "sha256": "fa767e2bb0ea8f7de0d06944b08460d009d7aab37680257a610d4bb0481c2e16",
+      "bytes": 684,
+      "snapshot_path": ".local/restricted/legacy_review/research/snapshots/57281782_first_due_score_20261017_v001/57281782_DETAIL.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792195280865411961
+    },
+    {
+      "path": "submit/v046_h21_raw_standard/RECEIPT.json",
+      "sha256": "1da8f244a973f302f08d132c739d6ca5dc40353fbe8dc5e47979abd83ed0ab22",
+      "bytes": 1089,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v046_h21_raw_standard/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792180842404269909
+    },
+    {
+      "path": "submit/v047_h21_unguarded_standard/OFFICIAL_RESULT_20261017T0917JST_v001.json",
+      "sha256": "3fa6c9be4a43794815965a8b56d26f80bb4c84e808a3510897a39f12e51bc528",
+      "bytes": 1667,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v047_h21_unguarded_standard/OFFICIAL_RESULT_20261017T0917JST_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792196291663489135
+    },
+    {
+      "path": "research/snapshots/57281794_first_due_score_20261017_v001/57281794_DETAIL.json",
+      "sha256": "94c32d0741b10b42d3f389f6d81b2be79f3b1af4f07c5aa055226cf1f1dcfbee",
+      "bytes": 699,
+      "snapshot_path": ".local/restricted/legacy_review/research/snapshots/57281794_first_due_score_20261017_v001/57281794_DETAIL.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792196249710689115
+    },
+    {
+      "path": "submit/v047_h21_unguarded_standard/RECEIPT.json",
+      "sha256": "a2fce9fd85aae585462d9e23958a06b2be01c362eda217dfbf68546a620d3565",
+      "bytes": 1104,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v047_h21_unguarded_standard/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792180854335080119
+    },
+    {
+      "path": "submit/v048_h39_hard64_standard/OFFICIAL_RESULT_20261017T0726JST_v001.json",
+      "sha256": "b446a47922f983076ecfd46ed0faba6bea794742ec37dfd0eb8f4535163aff91",
+      "bytes": 1591,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v048_h39_hard64_standard/OFFICIAL_RESULT_20261017T0726JST_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792189686805860044
+    },
+    {
+      "path": "research/snapshots/57279252_first_due_score_20261017_v001/57279252_DETAIL.json",
+      "sha256": "59dcea2a702690b69320ce43815d7bff5821a03a41f766938392312165e9e021",
+      "bytes": 686,
+      "snapshot_path": ".local/restricted/legacy_review/research/snapshots/57279252_first_due_score_20261017_v001/57279252_DETAIL.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792189577357750698
+    },
+    {
+      "path": "submit/v048_h39_hard64_standard/RECEIPT.json",
+      "sha256": "af3ecf0394c10c26830a8c2bf0835e4fe236cc55593f906f1a8ea340e735e7b4",
+      "bytes": 1094,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v048_h39_hard64_standard/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792175156929602327
+    },
+    {
+      "path": "submit/v049_h11_current_h21_prefix50_gl_guard/OFFICIAL_RESULT_20261018T1317Z_v001.json",
+      "sha256": "3fb0d9a761b33bfaf466da1b749d7c5bb36ebe47abea74177a69c1d817d878b3",
+      "bytes": 2838,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v049_h11_current_h21_prefix50_gl_guard/OFFICIAL_RESULT_20261018T1317Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792329613153652054
+    },
+    {
+      "path": "research/snapshots/submission_details_20261018T1317Z_h11_prefix50_v001/57346042_DETAIL.json",
+      "sha256": "2d94dee0039cac65f28aa0973254e1b01fff2035a06eea5ea7778e414fca6f24",
+      "bytes": 727,
+      "snapshot_path": ".local/restricted/legacy_review/research/snapshots/submission_details_20261018T1317Z_h11_prefix50_v001/57346042_DETAIL.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792329438651390732
+    },
+    {
+      "path": "submit/v049_h11_current_h21_prefix50_gl_guard/RECEIPT.json",
+      "sha256": "9727e7b7dde68ff68080c87fd9ca1dc33b4595cb9ab12b45d64f2e5a0c083ac8",
+      "bytes": 1122,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v049_h11_current_h21_prefix50_gl_guard/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792310845122121238
+    },
+    {
+      "path": "submit/v051_h11_prefix50_unguarded_root/OFFICIAL_RESULT_20261018T1757Z_v001.json",
+      "sha256": "b8d02dc5583c29b498eab1115c6fc4479a13da2ec54fed2998eb6972c2280761",
+      "bytes": 2502,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v051_h11_prefix50_unguarded_root/OFFICIAL_RESULT_20261018T1757Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792346270515450093
+    },
+    {
+      "path": "research/snapshots/submission_details_20261018T1757Z_h11_unguarded_v001/57356714_DETAIL.json",
+      "sha256": "1236652790dab09c02c497b7edd6430c098db849018f0dc94e786c527185a567",
+      "bytes": 725,
+      "snapshot_path": ".local/restricted/legacy_review/research/snapshots/submission_details_20261018T1757Z_h11_unguarded_v001/57356714_DETAIL.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792346223359313699
+    },
+    {
+      "path": "submit/v051_h11_prefix50_unguarded_root/RECEIPT.json",
+      "sha256": "0b377ff6ffecbb1777bf4921161d727440edfed8284c203e18fdc7c30e5c2a6d",
+      "bytes": 1123,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v051_h11_prefix50_unguarded_root/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792331803509033300
+    },
+    {
+      "path": "submit/v052_h10_fixed_full_list_raw/OFFICIAL_RESULT_20261018T2143Z_v001.json",
+      "sha256": "037260ebe478a8680ed56df7f3c0f136d42b90a2b8ffb4cc02b8918954419649",
+      "bytes": 2284,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v052_h10_fixed_full_list_raw/OFFICIAL_RESULT_20261018T2143Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792359890187639385
+    },
+    {
+      "path": "submit/v052_h10_fixed_full_list_raw/score_capture_20261018T2142Z_v001/57363660_DETAIL.json",
+      "sha256": "b05900cd10743405b9e0c9d759f5c842409bf9ad9075ff90e89817e8bc0a4c7c",
+      "bytes": 685,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v052_h10_fixed_full_list_raw/score_capture_20261018T2142Z_v001/57363660_DETAIL.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792359809326203970
+    },
+    {
+      "path": "submit/v052_h10_fixed_full_list_raw/RECEIPT.json",
+      "sha256": "c80c4e075a202ccf908d60d5b3a3dc8a1477e55c8a17d7d7a8435f25a54455ae",
+      "bytes": 918,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v052_h10_fixed_full_list_raw/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792345324571076534
+    },
+    {
+      "path": "submit/v053_h10_full_list_gl50_guard/OFFICIAL_RESULT_20261019T0053Z_v001.json",
+      "sha256": "17afbf2ec6faf9a3b95f8538e0a6a004130187827ea4d8dc8f7b1d0dc9138b38",
+      "bytes": 2664,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v053_h10_full_list_gl50_guard/OFFICIAL_RESULT_20261019T0053Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792371341666859375
+    },
+    {
+      "path": "submit/v053_h10_full_list_gl50_guard/score_capture_20261019T0053Z_v001/57368091_DETAIL.json",
+      "sha256": "03cd1e360fb185301b0127c37bf5ad218f82dedbfc07c1c17fb51eb8af946791",
+      "bytes": 697,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v053_h10_full_list_gl50_guard/score_capture_20261019T0053Z_v001/57368091_DETAIL.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792371222318631299
+    },
+    {
+      "path": "submit/v053_h10_full_list_gl50_guard/RECEIPT.json",
+      "sha256": "58df3c8302a172cf63a63e142306386df68375f70a5aebef09cd18606d8e4bf1",
+      "bytes": 933,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v053_h10_full_list_gl50_guard/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792355329785088597
+    },
+    {
+      "path": "submit/v054_h10_full_list_gl50_unguarded/OFFICIAL_RESULT_20261019T0900Z_v001.json",
+      "sha256": "3713ef40803f492ccff556b9c51601e0772b4c0ddac687e4efe61975ac5a6325",
+      "bytes": 1110,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v054_h10_full_list_gl50_unguarded/OFFICIAL_RESULT_20261019T0900Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792400502260949566
+    },
+    {
+      "path": "submit/score_capture_20261019T0900Z_v001/57382295_DETAIL.json",
+      "sha256": "d7b0393de10ef78f6d898be40478c6d9f0f8aee1ae46dabeb4cd61f919aac0d1",
+      "bytes": 705,
+      "snapshot_path": ".local/restricted/legacy_review/submit/score_capture_20261019T0900Z_v001/57382295_DETAIL.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792400440204896955
+    },
+    {
+      "path": "submit/v054_h10_full_list_gl50_unguarded/RECEIPT.json",
+      "sha256": "f04fe4f7ee568f72969a7a11e3a9d5a6590eb069031cc9914362e493c0293700",
+      "bytes": 929,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v054_h10_full_list_gl50_unguarded/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792384603762586401
+    },
+    {
+      "path": "submit/v055_restored_s2m1_equalmean_raw_fp/OFFICIAL_RESULT_20261019T0839Z_v001.json",
+      "sha256": "212a01c4a3fac7c2cbc28da986d985da8551e2724106224131acb963fbd90922",
+      "bytes": 1747,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v055_restored_s2m1_equalmean_raw_fp/OFFICIAL_RESULT_20261019T0839Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792399223500498846
+    },
+    {
+      "path": "submit/v055_restored_s2m1_equalmean_raw_fp/score_capture_20261019T0839Z_v001/57382374_DETAIL.json",
+      "sha256": "8ae99fb5896059ac17ee415487c4ed35d7d86480377ef6b213592075a6093bdb",
+      "bytes": 704,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v055_restored_s2m1_equalmean_raw_fp/score_capture_20261019T0839Z_v001/57382374_DETAIL.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792399169011708619
+    },
+    {
+      "path": "submit/v055_restored_s2m1_equalmean_raw_fp/RECEIPT.json",
+      "sha256": "210466ad07e3c8eedbcb066888ec2dcbe66c02880fe535f21f9e7f14ec54522a",
+      "bytes": 935,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v055_restored_s2m1_equalmean_raw_fp/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792384746440633049
+    },
+    {
+      "path": "submit/v056_restored_fp_fixed_prior1_size/OFFICIAL_RESULT_20261019T0900Z_v001.json",
+      "sha256": "4534484b86ed9f841a9b912356439e01d28bad97c00177d5d8670b8969e90c84",
+      "bytes": 1278,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v056_restored_fp_fixed_prior1_size/OFFICIAL_RESULT_20261019T0900Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792400502405260364
+    },
+    {
+      "path": "submit/score_capture_20261019T0900Z_v001/57382993_DETAIL.json",
+      "sha256": "c876f937c50fdfae60e371d9a2eac1ace5dce7c8f938c0ff3020c19f9ca46eb2",
+      "bytes": 703,
+      "snapshot_path": ".local/restricted/legacy_review/submit/score_capture_20261019T0900Z_v001/57382993_DETAIL.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792400440435307699
+    },
+    {
+      "path": "submit/v056_restored_fp_fixed_prior1_size/RECEIPT.json",
+      "sha256": "52c986fe25d413956fc08727a730ef058f27822319435e86f74d0b36bf4e6041",
+      "bytes": 935,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v056_restored_fp_fixed_prior1_size/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792386032555179768
+    },
+    {
+      "path": "submit/v057_restored_fp_measurement_mass_union/OFFICIAL_RESULT_20261019T0953Z_v001.json",
+      "sha256": "fcbe553f1c150019482fbd7a5dd3399c9dc1d4ad0ad44b8f156553b3f3d68c98",
+      "bytes": 1334,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v057_restored_fp_measurement_mass_union/OFFICIAL_RESULT_20261019T0953Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792403730544015984
+    },
+    {
+      "path": "submit/v057_restored_fp_measurement_mass_union/score_capture_20261019T0953Z_v001/57384663_DETAIL.json",
+      "sha256": "19dfce1351aff334872a5051e5c77554c96f806b801f143344d444e282536fb5",
+      "bytes": 708,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v057_restored_fp_measurement_mass_union/score_capture_20261019T0953Z_v001/57384663_DETAIL.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792403650014165896
+    },
+    {
+      "path": "submit/v057_restored_fp_measurement_mass_union/RECEIPT.json",
+      "sha256": "7de414c8cf2cab692f1f9694b3d21d05a9c67a1675faf9b701d269687bf70a92",
+      "bytes": 936,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v057_restored_fp_measurement_mass_union/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792389194317483338
+    },
+    {
+      "path": "submit/v058_restored_fp_predeclared_cosine/OFFICIAL_RESULT_20261019T1610Z_v001.json",
+      "sha256": "ef66f88b5deac2809dff12933948b5c38b90363ec474e7ea17221f212f55cd89",
+      "bytes": 1461,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v058_restored_fp_predeclared_cosine/OFFICIAL_RESULT_20261019T1610Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792426262006462577
+    },
+    {
+      "path": "submit/v058_restored_fp_predeclared_cosine/score_capture_20261019T1610Z_v001/57395684_DETAIL.json",
+      "sha256": "591a78ef8a8994ebbdff15fb13bd4c5ef64012c64970870a43304415d2243302",
+      "bytes": 713,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v058_restored_fp_predeclared_cosine/score_capture_20261019T1610Z_v001/57395684_DETAIL.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792426232603333033
+    },
+    {
+      "path": "submit/v058_restored_fp_predeclared_cosine/RECEIPT.json",
+      "sha256": "e69f0d2460aaa13c9debade0a86690ad576f6a9e1324cb6473f92db4d2c4a881",
+      "bytes": 938,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v058_restored_fp_predeclared_cosine/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792411752185474954
+    },
+    {
+      "path": "submit/v059_restored_fp_prior1_mass_union/OFFICIAL_RESULT_20261020T0754Z_v001.json",
+      "sha256": "b4ec56ab44ed946f59bba16ad8c0cc8e982fe99c820a78f4ae47183c5e344a62",
+      "bytes": 1445,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v059_restored_fp_prior1_mass_union/OFFICIAL_RESULT_20261020T0754Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792482957467089161
+    },
+    {
+      "path": "submit/v059_restored_fp_prior1_mass_union/score_capture_20261020T0754Z_v001/57414161_DETAIL.json",
+      "sha256": "25f717aa146da4223b52b79c15d4031664c8ec6c3a96ebf5ffff5fc74858946a",
+      "bytes": 712,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v059_restored_fp_prior1_mass_union/score_capture_20261020T0754Z_v001/57414161_DETAIL.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792482892680818561
+    },
+    {
+      "path": "submit/v059_restored_fp_prior1_mass_union/RECEIPT.json",
+      "sha256": "e89d43acc9fd00d992afd9f7795c39032b331a6b13bcfa3b3dd12b608b5ea621",
+      "bytes": 945,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v059_restored_fp_prior1_mass_union/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792454906279218525
+    },
+    {
+      "path": "submit/v060_fullbank_fixed_mass_analog_control/OFFICIAL_RESULT_20261020T1718Z_v001.json",
+      "sha256": "ca41ed43b6598947facc304979805fb0a975c1697bdc6f361458ad1aaf75802e",
+      "bytes": 1397,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v060_fullbank_fixed_mass_analog_control/OFFICIAL_RESULT_20261020T1718Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792516730787713296
+    },
+    {
+      "path": "submit/v060_fullbank_fixed_mass_analog_control/score_capture_20261020T1718Z_v001/57439429_DETAIL.json",
+      "sha256": "107d2a425eae44996f57f048ac8b0c8d75f1eb6fdaec1751b78e8c9970a3056c",
+      "bytes": 708,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v060_fullbank_fixed_mass_analog_control/score_capture_20261020T1718Z_v001/57439429_DETAIL.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792516700534351028
+    },
+    {
+      "path": "submit/v060_fullbank_fixed_mass_analog_control/RECEIPT.json",
+      "sha256": "8a9df9ad7c0bebc64949d2500b29f405d116bbc11a6ed336894991475d70b01f",
+      "bytes": 935,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v060_fullbank_fixed_mass_analog_control/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792502253081752583
+    },
+    {
+      "path": "submit/v061_fullbank_mass_analog_fixed_gl2/OFFICIAL_RESULT_20261021T1823Z_v001.json",
+      "sha256": "72abb9e37234935e38bbcece5731b6283ddf5f81055bda5a2852155084780723",
+      "bytes": 1030,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v061_fullbank_mass_analog_fixed_gl2/OFFICIAL_RESULT_20261021T1823Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792607091274941220
+    },
+    {
+      "path": "submit/v061_fullbank_mass_analog_fixed_gl2/score_capture_20261021T1823Z_v001/57481876_DETAIL.json",
+      "sha256": "779e5cdb8807edc0f647400b4ae0b26c147aa010edbadd9e2a5871f517dca3a8",
+      "bytes": 704,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v061_fullbank_mass_analog_fixed_gl2/score_capture_20261021T1823Z_v001/57481876_DETAIL.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792607005044846512
+    },
+    {
+      "path": "submit/v061_fullbank_mass_analog_fixed_gl2/RECEIPT.json",
+      "sha256": "4ba4150bdad3288798ede0505fad2b02af22b44555d5c5900fe7225db49e8071",
+      "bytes": 947,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v061_fullbank_mass_analog_fixed_gl2/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792586092148726406
+    },
+    {
+      "path": "submit/v062_fixed_prior_cosine_gl/OFFICIAL_RESULT_20261022T0801Z_v001.json",
+      "sha256": "2cc38f5be7bd16dda4246312f3c47567c6713ba0197e2bd1ddcbf51bd7f25523",
+      "bytes": 1112,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v062_fixed_prior_cosine_gl/OFFICIAL_RESULT_20261022T0801Z_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792656169460034282
+    },
+    {
+      "path": "submit/v062_fixed_prior_cosine_gl/score_capture_20261022T0803Z_v001/57502818_DETAIL.json",
+      "sha256": "b7547e4a8adda90e712999aab844ea162e378e635f88eeda761412489bdc4c65",
+      "bytes": 706,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v062_fixed_prior_cosine_gl/score_capture_20261022T0803Z_v001/57502818_DETAIL.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792656117970794998
+    },
+    {
+      "path": "submit/v062_fixed_prior_cosine_gl/RECEIPT.json",
+      "sha256": "324e67e8fee8cf08b990f6d2e4e33b6bed004b014d701787076bd62450ad7b75",
+      "bytes": 949,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v062_fixed_prior_cosine_gl/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792628810188208542
+    },
+    {
+      "path": "submit/v063_h13_quality_prior1_size/score_capture_20261024T0218Z_v001/57539823_DETAIL.json",
+      "sha256": "0c00fac3743c6e613b315b49af8a88b142a397a77254697c41b61ee95a9e369e",
+      "bytes": 699,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v063_h13_quality_prior1_size/score_capture_20261024T0218Z_v001/57539823_DETAIL.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792808403957434087
+    },
+    {
+      "path": "submit/v063_h13_quality_prior1_size/RECEIPT.json",
+      "sha256": "af648f01b99a05de03eea476d0dcb9bc3241bc5a22556e5fa4dd43ea1d46eb41",
+      "bytes": 926,
+      "snapshot_path": ".local/restricted/legacy_review/submit/v063_h13_quality_prior1_size/RECEIPT.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792708265443292274
+    },
+    {
+      "path": "workspace/expA09_hard_negative/DECISION_v001.json",
+      "sha256": "e6df4f0288a4abe15a97541892d889354f2e5607893c69c501aea3c1c58f16af",
+      "bytes": 2702,
+      "snapshot_path": ".local/restricted/legacy_review/workspace/expA09_hard_negative/DECISION_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791189405957090168
+    },
+    {
+      "path": "workspace/expA63_owned_public_fp_prior/DECISION_v001.json",
+      "sha256": "4f179efd62548cf7a04a684388984058c34889968b163814afb53f1f7f33665a",
+      "bytes": 739,
+      "snapshot_path": ".local/restricted/legacy_review/workspace/expA63_owned_public_fp_prior/DECISION_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791764509972047613
+    },
+    {
+      "path": "workspace/expA65_public_pool_owned_fp_diagnostic/REACHABILITY_GATE_DECISION_v001.json",
+      "sha256": "0bec97e257a9ba0e02512ed69d20a04886936c9c5c2fc758f05d4c7b03344489",
+      "bytes": 1115,
+      "snapshot_path": ".local/restricted/legacy_review/workspace/expA65_public_pool_owned_fp_diagnostic/REACHABILITY_GATE_DECISION_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791842797738613590
+    },
+    {
+      "path": "workspace/expA62_fixed_channel_fusion/FULLUNION_FIXED6_DECISION_v001.json",
+      "sha256": "dc8addca1a764e8c332d73e244d37c6d22adb9b67b05d0d6c9467396d4183600",
+      "bytes": 1614,
+      "snapshot_path": ".local/restricted/legacy_review/workspace/expA62_fixed_channel_fusion/FULLUNION_FIXED6_DECISION_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791867221156858660
+    },
+    {
+      "path": "workspace/expA99_restored_fullbank_residual/fixed_fit_v001/independent_audit_v001.json",
+      "sha256": "986f4befc70bb9dd4ac82c0ccb66e4873a50c1ada6a8794ecff66beba0b95e79",
+      "bytes": 3762,
+      "snapshot_path": ".local/restricted/legacy_review/workspace/expA99_restored_fullbank_residual/fixed_fit_v001/independent_audit_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792455374851457060
+    },
+    {
+      "path": "workspace/expA104_prior_branch_ablation/fixed64_v001/independent_audit_v001.json",
+      "sha256": "d3da566ed210438930fe2a9629b011750a9b4a97ab2edee21b7f57ae73938d48",
+      "bytes": 2849,
+      "snapshot_path": ".local/restricted/legacy_review/workspace/expA104_prior_branch_ablation/fixed64_v001/independent_audit_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792676926749680198
+    },
+    {
+      "path": "workspace/expA105_prior_library_gate/fixed64_v001/independent_audit_v001.json",
+      "sha256": "6e3dc29d518bd25076dcd151d26a06da079472da12d19c2c8a04943311a5298f",
+      "bytes": 1371,
+      "snapshot_path": ".local/restricted/legacy_review/workspace/expA105_prior_library_gate/fixed64_v001/independent_audit_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792677612984131600
+    },
+    {
+      "path": "workspace/expA105_prior_library_gate/independent512_v002/independent_audit_v001.json",
+      "sha256": "25753ba77a9cf29c1bf655c1829620f8cb4264b8a88f96d7b4ae715a1cbd6d6a",
+      "bytes": 8951,
+      "snapshot_path": ".local/restricted/legacy_review/workspace/expA105_prior_library_gate/independent512_v002/independent_audit_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792713228446488534
+    },
+    {
+      "path": "results/h12_fixed_utility_oof_v001/attempt-001/stages/metrics.json",
+      "sha256": "daa48f97813537abaa72332e9f870922a54baffc13fee5b3b0ea14bbbdb66bb5",
+      "bytes": 254519,
+      "snapshot_path": ".local/restricted/legacy_review/results/h12_fixed_utility_oof_v001/attempt-001/stages/metrics.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792808536598645135
+    },
+    {
+      "path": "workspace/expA106_iceberg_msg/SAME64_SCIENTIFIC_DECISION_v001.json",
+      "sha256": "feafd46b4f0ecc0a100460f47adb68c51875c02cc5cfd48e0f74de291a40fb38",
+      "bytes": 4008,
+      "snapshot_path": ".local/restricted/legacy_review/workspace/expA106_iceberg_msg/SAME64_SCIENTIFIC_DECISION_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792702984816312004
+    },
+    {
+      "path": "workspace/expA107_restored_h13/confirmation256_v001/independent_audit_v001.json",
+      "sha256": "32c8a0d1daedda9335fe57b9426b3c76a559e4af3c80a2d1dfcef93bd23cf375",
+      "bytes": 4314,
+      "snapshot_path": ".local/restricted/legacy_review/workspace/expA107_restored_h13/confirmation256_v001/independent_audit_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792707086210119213
+    },
+    {
+      "path": "workspace/expA107_restored_h13/fixed768_v003/independent_audit_v001.json",
+      "sha256": "7adc6477f6ba840c9a72a964d523b27ea962c5d25bcc8a6552da8cacdf25e4b1",
+      "bytes": 16851,
+      "snapshot_path": ".local/restricted/legacy_review/workspace/expA107_restored_h13/fixed768_v003/independent_audit_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792704871887430450
+    },
+    {
+      "path": "workspace/expA107_restored_h13/fixed768_v002/FAILURE_OBSERVATION_v001.json",
+      "sha256": "c48482098b9dc3b5367a12250e33c9b6ab0339b45b7fb4350f095b9b5af49846",
+      "bytes": 1230,
+      "snapshot_path": ".local/restricted/legacy_review/workspace/expA107_restored_h13/fixed768_v002/FAILURE_OBSERVATION_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792703617883878356
+    },
+    {
+      "path": "workspace/expA60_owned_public_fp_ranker/QUANTIZATION_REPAIR_RESULT_v001.json",
+      "sha256": "7e18f21667f124dd979dcc3e76eb1212df93ca2b0eec009e6548288dc292d04c",
+      "bytes": 676,
+      "snapshot_path": ".local/restricted/legacy_review/workspace/expA60_owned_public_fp_ranker/QUANTIZATION_REPAIR_RESULT_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1791747668079127981
+    },
+    {
+      "path": "workspace/expA107_restored_h13/fixed768_v003/plan.json",
+      "sha256": "ca3f6211437f3335d57831f2db5b548c81865b1683d6d2e8f9901c83de73328c",
+      "bytes": 220039,
+      "snapshot_path": ".local/restricted/legacy_review/workspace/expA107_restored_h13/fixed768_v003/plan.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792703623055623242
+    },
+    {
+      "path": "workspace/expA107_restored_h13/fixed768_v003/SELECTION_SEAL_v001.json",
+      "sha256": "38d67a652ffd3e1da2e537f2be53114a6cb984b11aa0ab04720954683339da90",
+      "bytes": 5350,
+      "snapshot_path": ".local/restricted/legacy_review/workspace/expA107_restored_h13/fixed768_v003/SELECTION_SEAL_v001.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792705101410077348
+    },
+    {
+      "path": "workspace/expA107_restored_h13/confirmation256_v001/plan.json",
+      "sha256": "1d4d138c87aed479d896bb2f6c7efafa972275ab6365693d957597fba4ec5c95",
+      "bytes": 74317,
+      "snapshot_path": ".local/restricted/legacy_review/workspace/expA107_restored_h13/confirmation256_v001/plan.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792705843401562902
+    },
+    {
+      "path": "workspace/expA105_prior_library_gate/utility_oof_v001/plan.json",
+      "sha256": "04cefdbccb300f9e636b9a2d847b67ae58829d8221a4a298c4c3a1252fc55143",
+      "bytes": 24588,
+      "snapshot_path": ".local/restricted/legacy_review/workspace/expA105_prior_library_gate/utility_oof_v001/plan.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792808464649899255
+    },
+    {
+      "path": "workspace/expA105_prior_library_gate/utility_oof_v001/future_confirmation256.json",
+      "sha256": "58872b68b15a6faf89437a32c40a10d1037d7b7b828af9256993512a1034708a",
+      "bytes": 43396,
+      "snapshot_path": ".local/restricted/legacy_review/workspace/expA105_prior_library_gate/utility_oof_v001/future_confirmation256.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792808464552087162
+    },
+    {
+      "path": "workspace/expA99_restored_fullbank_residual/signals1024_v001/panels.json",
+      "sha256": "9cb70780f07424ea3ab494ce469351641b866f51307211daade944eea3f46d10",
+      "bytes": 282549,
+      "snapshot_path": ".local/restricted/legacy_review/workspace/expA99_restored_fullbank_residual/signals1024_v001/panels.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792398596622040445
+    },
+    {
+      "path": "workspace/expA105_prior_library_gate/prepare_utility_oof_v001.py",
+      "sha256": "9643e11370542c45cc92ec67d16dfc7890d09c1daaa5b5503133e9afd06a77d4",
+      "bytes": 13290,
+      "snapshot_path": ".local/restricted/legacy_review/workspace/expA105_prior_library_gate/prepare_utility_oof_v001.py",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792808460144995284
+    },
+    {
+      "path": "workspace/expA105_prior_library_gate/prepare_utility_oof_v001.failed_history_scope.py",
+      "sha256": "cf698c9055201f5e021e2dd8a0abca4211be171d30389d99fde6b9f5af298e9f",
+      "bytes": 13165,
+      "snapshot_path": ".local/restricted/legacy_review/workspace/expA105_prior_library_gate/prepare_utility_oof_v001.failed_history_scope.py",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792808460000783755
+    },
+    {
+      "path": "tests/test_h12_historical_query_scope_v001.py",
+      "sha256": "6c91a070e60603b384a89a75182c067c628cab666a6450d14b392dd8949443a8",
+      "bytes": 1119,
+      "snapshot_path": ".local/restricted/legacy_review/tests/test_h12_historical_query_scope_v001.py",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792808460144338288
+    },
+    {
+      "path": "results/h13_restored_fixed_aggregation768_v003/attempt-001/stages/metrics.json",
+      "sha256": "fb63cc9bf16d0ee33936c0a4f7f9299cd955df07183c06ae407139a3fa359946",
+      "bytes": 250154,
+      "snapshot_path": ".local/restricted/legacy_review/results/h13_restored_fixed_aggregation768_v003/attempt-001/stages/metrics.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792704584932401080
+    },
+    {
+      "path": "results/h13_restored_quality_confirmation256_v001/attempt-001/stages/metrics.json",
+      "sha256": "a94fa7c1163045f2699ce0f921ab9ffea506d602bc99ee38fa133e5886ef65c7",
+      "bytes": 65521,
+      "snapshot_path": ".local/restricted/legacy_review/results/h13_restored_quality_confirmation256_v001/attempt-001/stages/metrics.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792707005639061950
+    },
+    {
+      "path": "results/h12_independent_reference512_v002/attempt-001/stages/metrics.json",
+      "sha256": "2594e26fa85a8a5dfcfc45e7fb7f2385e58ab61124246c1b3758423271d06082",
+      "bytes": 102357,
+      "snapshot_path": ".local/restricted/legacy_review/results/h12_independent_reference512_v002/attempt-001/stages/metrics.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792711425857286293
+    },
+    {
+      "path": "results/h12_fixed_utility_oof_v001/attempt-001/stages/terminal.json",
+      "sha256": "5a0881f4be2a4b6f03aed077b398662f39c957423eb2bc0c2e49af81de019b2d",
+      "bytes": 257,
+      "snapshot_path": ".local/restricted/legacy_review/results/h12_fixed_utility_oof_v001/attempt-001/stages/terminal.json",
+      "observed_at": "2026-10-24T02:59:44.936010+00:00",
+      "legacy_mtime_ns": 1792808536598976800
+    }
+  ],
+  "ledger": {
+    "rows": 1525,
+    "distinct_record_ids": 1525,
+    "status_counts": {
+      "succeeded": 546,
+      "running": 31,
+      "failed": 6,
+      "planned": 28,
+      "absent": 914
+    },
+    "note": "Ledger rows include administrative/audit/submission events and repeated records; never count rows as independent experiments."
+  },
+  "official_records": 44,
+  "deep_comparison_cases": 16,
+  "limitations": [
+    "Not a complete semantic review of every legacy experiment.",
+    "Snapshots of current_state/ledger are historical views; later result files supersede stale summaries.",
+    "No old experiment, submitted payload, timer, or controller was run/modified.",
+    "Raw snapshots are local-only; only derived aggregates are published."
+  ]
+}

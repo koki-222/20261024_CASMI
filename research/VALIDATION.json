@@ -54,5 +54,32 @@
   "notes": [
     "Generic fixture paths adapted; original missing-support failures repaired, no tests removed.",
     "Public scorer metadata does not establish deployed version."
-  ]
+  ],
+  "legacy_review_refresh": {
+    "observed_at": "2026-10-24T03:05:20.330368+00:00",
+    "saved_evidence": {
+      "status": "PASS_SAVED_SOURCES_AND_AGGREGATES_ONLY",
+      "sources": 187,
+      "cases": 16,
+      "projections": 83,
+      "arithmetic_checks": 177,
+      "official_observations": 44,
+      "new_inference_or_training": false,
+      "live_official_refresh": false
+    },
+    "workflow_tests": {
+      "count": 26,
+      "status": "PASS",
+      "output_sha256": "269f06096afa43dacfb2393ad4102703469735629dadb32b5929a49c8a764310"
+    },
+    "ruff_changed_python": "PASS",
+    "compile_changed_python": "PASS",
+    "new_experiments_or_submissions": false,
+    "original_bootstrap_checks_retained": true,
+    "core_tests": {
+      "status": "PASS",
+      "count": 41,
+      "output_sha256": "3a02ab6a2fa27948c064f7d850089ddbfcba34756c4c0405f820d334865460b8"
+    }
+  }
 }

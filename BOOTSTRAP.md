@@ -8,6 +8,7 @@
 4. [移植・依存・検証](research/ADAPTATION.md)
 5. [固定package](research/bootstrap_package.json)
 6. [収集範囲](research/COVERAGE.md)
+7. [過去実験の失敗・限界と再利用条件](research/LEGACY_REVIEW.md) — Issue整理前に読む。
 
 read-onlyな形式確認は次のコマンドで行う。sampleを予測精度の証拠にしない。
 

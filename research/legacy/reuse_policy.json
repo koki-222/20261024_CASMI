@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "scope": "Advisory evidence constraints for Issue design, not adopted new Issues, execution authority, or an automatic mechanism blacklist.",
+  "global_rules": [
+    "Consult comparison_evidence and original source bindings before proposing a duplicate experiment.",
+    "Classify outcomes as scientific rejection, infrastructure failure, source/contract mismatch, local evidence, official observation, or unresolved.",
+    "Retain denominators including empty/unsupported pools; report candidate coverage, paired rescues/losses, source/reference strata and upstream exposure.",
+    "Record why a materially changed comparison is new; reuse completed outputs and preserve historical attempts rather than reset counters.",
+    "Previous official observations remain historical and possibly revision-dependent; no live leaderboard refresh was made.",
+    "Legacy Issue numbers are historical references only; new user-reviewed Issues and bounds must be created/confirmed for this repo."
+  ],
+  "configurations": [
+    {
+      "id": "H10_fixed_residual",
+      "evidence_case": "H10_restored_residual",
+      "configuration_scope": "fixed fullpool analog residual and offsets on sourceOOF315/tune256",
+      "observed_decision": "REJECTED_FIXED_CONFIGURATION",
+      "reopen_requirement": "New evidence must address the changed mechanism or target/feature contract; do not rescue with coefficients/offsets on seen panels."
+    },
+    {
+      "id": "H21_single_or_merged_branch",
+      "evidence_case": "H21_fixed_branch_ablation",
+      "configuration_scope": "fixed prior1-size bank, single/merged branch removal, same64",
+      "observed_decision": "REJECTED_BOTH_FIXED_BRANCHES",
+      "reopen_requirement": "Do not rerun or tune weights on same64; broader branch architectures remain untested."
+    },
+    {
+      "id": "H12_direct_threshold06",
+      "evidence_case": "H12_fixed06",
+      "configuration_scope": "direct library promotion with threshold0.6, component-excluded64",
+      "observed_decision": "REJECTED_FIXED_CONFIGURATION",
+      "reopen_requirement": "This evaluates false-positive damage; independent Class1-benefit evidence is distinct. No threshold sweep on same64."
+    },
+    {
+      "id": "H12_unconditional_library_promotion",
+      "evidence_case": "H12_unconditional512",
+      "configuration_scope": "unconditional library top candidate promotion on train512",
+      "observed_decision": "UNSAFE_AS_UNCONDITIONAL_RULE",
+      "reopen_requirement": "Retain absent-reference cases and all paired damage; any new calibrated mechanism requires its own issue, fixed recipe, source-transfer evidence and exposure accounting."
+    },
+    {
+      "id": "H12_fixed_utility_ridge10_oof5",
+      "evidence_case": "H12_utility_oof512",
+      "configuration_scope": "eight fixed measured features, ridgealpha10, componentOOF5, train512",
+      "observed_decision": "REJECTED_PREDECLARED_GUARDRAILS",
+      "reopen_requirement": "Do not cite0.616233 alone or consume confirmation to rescue failed guardrails; feature/threshold/weight changes on seen outcomes are new adaptive experiments."
+    },
+    {
+      "id": "H33_ICE_cosine_single_replacement",
+      "evidence_case": "H33_ICE_single_cosine",
+      "configuration_scope": "fixed candidate prefix and single cosine replacement on same64",
+      "observed_decision": "REJECTED_FIXED_CONFIGURATION",
+      "reopen_requirement": "No400run or same64 blend-weight search on this result. Other ICE contexts are not disproved and are not authorized."
+    },
+    {
+      "id": "weak_fixed_rank_fusion",
+      "evidence_case": "fixed_rank_fusion_losses",
+      "configuration_scope": "legacy frozen linear plus weak ownedFP using fixed RRF",
+      "observed_decision": "REJECTED_ALTERNATIVES_IN_THIS_POOL",
+      "reopen_requirement": "Same coverage rules out relative coverage as the sole explanation. Different scorer/teacher requires explicit comparison; no blanket ban on fusion."
+    },
+    {
+      "id": "H13_selected_quality_candidate",
+      "evidence_case": "H13_confirm256",
+      "configuration_scope": "unique quality-peaks aggregate on admitted S2/M1 prior1-size",
+      "observed_decision": "LOCAL_GAIN_OFFICIAL_NO_GAIN_OBSERVED",
+      "reopen_requirement": "Reuse saved local evidence and score57539823; do not repackage same predictions or reuse consumed confirm256 for tuning. No general CV-LB law inferred."
+    }
+  ]
+}

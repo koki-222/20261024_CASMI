@@ -1,0 +1,2153 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-10-24T02:59:44.936010+00:00",
+  "cases": [
+    {
+      "id": "H10_early_class1_damage",
+      "source": "workspace/expA09_hard_negative/DECISION_v001.json",
+      "source_sha256": "e6df4f0288a4abe15a97541892d889354f2e5607893c69c501aea3c1c58f16af",
+      "values": [
+        {
+          "pointer": [
+            "decision"
+          ],
+          "value": "KEEP_UNSEEN_IMPROVEMENT_EVIDENCE; DO_NOT_ADOPT_AS_UNIVERSAL_SCORER"
+        },
+        {
+          "pointer": [
+            "observations"
+          ],
+          "value": {
+            "canonical_main_mrr": {
+              "fixed_analog": 0.006682003599041138,
+              "nested_selected": 0.03725838793603739,
+              "molecules": 1280
+            },
+            "canonical_np_mrr": {
+              "fixed_analog": 0.06670291397210498,
+              "nested_selected": 0.4067395773095154,
+              "molecules": 250
+            },
+            "strict_source_mrr": {
+              "fixed_analog": 0.06268132075788288,
+              "nested_selected": 0.4553452550219706,
+              "molecules": 250
+            },
+            "strict_scaffold_mrr": {
+              "fixed_analog": 0.003341470110771581,
+              "nested_selected": 0.029318924539512774,
+              "molecules": 320,
+              "positive_contexts": 5
+            },
+            "class1_same_pool_mrr": {
+              "fixed_analog": 0.8506988455988457,
+              "frozen_h10": 0.00856551137978248,
+              "molecules": 250,
+              "rank1_losses": 192
+            },
+            "actual_fold0_invariance_checks": 9
+          }
+        },
+        {
+          "pointer": [
+            "limits"
+          ],
+          "value": [
+            "Strict source/scaffold models refit inside each context and are diagnostic, not deployment weights",
+            "Only inner scores select among six preregistered settings; outer ablations never select",
+            "Class-1 sensitivity is not fully source-disjoint FP model CV",
+            "Invariance uses three real-signal molecules, not full hidden-input proof",
+            "Official initial submission remains last observed PENDING and LB0.6 remains unachieved"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H14_prior_does_not_beat_control",
+      "source": "workspace/expA63_owned_public_fp_prior/DECISION_v001.json",
+      "source_sha256": "4f179efd62548cf7a04a684388984058c34889968b163814afb53f1f7f33665a",
+      "values": [
+        {
+          "pointer": [
+            "status"
+          ],
+          "value": "VERIFIED_FIXED_PRIOR_CHANNEL_GAIN_BUT_NO_CHAMPION_REPLACEMENT"
+        },
+        {
+          "pointer": [
+            "decision"
+          ],
+          "value": "Fixedprior1improvesrawFPontrainandtune,butallnewarmslosefrozenlinear;donotselectorpackageasaccuracyimprovement."
+        },
+        {
+          "pointer": [
+            "train_uncorrected_to_prior_mrr"
+          ],
+          "value": [
+            0.015669839771659262,
+            0.027366721419243498
+          ]
+        },
+        {
+          "pointer": [
+            "tune_uncorrected_to_prior_mrr"
+          ],
+          "value": [
+            0.02107359871031746,
+            0.02485250209859585
+          ]
+        },
+        {
+          "pointer": [
+            "tune_linear_mrr"
+          ],
+          "value": 0.05295572916666667
+        }
+      ]
+    },
+    {
+      "id": "zero_candidate_reachability",
+      "source": "workspace/expA65_public_pool_owned_fp_diagnostic/REACHABILITY_GATE_DECISION_v001.json",
+      "source_sha256": "0bec97e257a9ba0e02512ed69d20a04886936c9c5c2fc758f05d4c7b03344489",
+      "values": [
+        {
+          "pointer": [
+            "status"
+          ],
+          "value": "DO_NOT_DISPATCH_ZERO_EXTERNAL_COVERAGE_TUNE_BENCHMARK"
+        },
+        {
+          "pointer": [
+            "reason"
+          ],
+          "value": "Tuningpanel0/256externalcorrectcandidate; any original_external_fp/prior1 scoring is guaranteedMRR0 on this panel. Trainonly2/512 cannot support useful ranking comparison. Do not consume localruntime for tautological zero-score benchmark."
+        },
+        {
+          "pointer": [
+            "actual_ranker_experiment_dispatched"
+          ],
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "fixed_rank_fusion_losses",
+      "source": "workspace/expA62_fixed_channel_fusion/FULLUNION_FIXED6_DECISION_v001.json",
+      "source_sha256": "dc8addca1a764e8c332d73e244d37c6d22adb9b67b05d0d6c9467396d4183600",
+      "values": [
+        {
+          "pointer": [
+            "status"
+          ],
+          "value": "FIXED6_ALL5_ALTERNATIVES_LOWER_RETAIN_EXISTING_SEALED_LINEAR_NO_NEW_SELECTION"
+        },
+        {
+          "pointer": [
+            "tune_mrr"
+          ],
+          "value": {
+            "frozen_legacy_linear": 0.30307520535014115,
+            "fp_score_only": 0.011782543970557951,
+            "size_fp_score_only": 0.013433994391025642,
+            "rrf_linear_fp": 0.2110950908179319,
+            "rrf_analog_cosine_fp": 0.08207663495528067,
+            "rrf_linear_size_fp": 0.22335107947829735
+          }
+        },
+        {
+          "pointer": [
+            "tune_candidate_coverage"
+          ],
+          "value": "242/256"
+        },
+        {
+          "pointer": [
+            "scope"
+          ],
+          "value": "owned512 ridge legacykey fullunion exploratory train/tune; library0, fragmentdisabled, GLabsent; not currentv14 CV or officialLB"
+        },
+        {
+          "pointer": [
+            "inference"
+          ],
+          "value": "In this fixed comparison missingcandidates do not explain relative losses becauseallmethods sharethe same242/256 coverage. Equal-rank blending withveryweak FPscore lowersranking. This does not establish publicFPNet efficacy or allfuturefusion strategies."
+        }
+      ]
+    },
+    {
+      "id": "H10_restored_residual",
+      "source": "workspace/expA99_restored_fullbank_residual/fixed_fit_v001/independent_audit_v001.json",
+      "source_sha256": "986f4befc70bb9dd4ac82c0ccb66e4873a50c1ada6a8794ecff66beba0b95e79",
+      "values": [
+        {
+          "pointer": [
+            "status"
+          ],
+          "value": "PASS_SAVED_H10_FULLPOOL_MATH_ORDER_METRIC_DECISION_NOT_LB"
+        },
+        {
+          "pointer": [
+            "decision"
+          ],
+          "value": "REJECT_NO_COEFFICIENT_OR_OFFSET_SEARCH"
+        },
+        {
+          "pointer": [
+            "source_oof"
+          ],
+          "value": {
+            "queries": 315,
+            "baseline_mrr_fraction": "1505369004863/4216455243000",
+            "residual_mrr_fraction": "764266088083/2810970162000",
+            "delta_fraction": "-717939745477/8432910486000",
+            "baseline_mrr": 0.3570224081856808,
+            "residual_mrr": 0.2718869443776757,
+            "paired_wlt": [
+              86,
+              127,
+              102
+            ],
+            "Top1_before_after": [
+              71,
+              49
+            ],
+            "Top1_lost_rescued": [
+              48,
+              26
+            ],
+            "Top25_lost_rescued": [
+              44,
+              33
+            ],
+            "union_legacy_key_covered": 303,
+            "coverage_is_exact_v14": false,
+            "training_target": "LEGACY_CANONICAL_KEY_EQUALITY_APPROXIMATES_NOT_EXACT_V14_LABELS",
+            "evaluation_target": "OFFICIAL_V14_ORIGINAL_MULTI_SMILES_FIRST_HIT_TOP25"
+          }
+        },
+        {
+          "pointer": [
+            "tune256"
+          ],
+          "value": {
+            "queries": 256,
+            "baseline_mrr_fraction": "72940110179/180352972800",
+            "residual_mrr_fraction": "1466753363/5020815360",
+            "delta_fraction": "-769605846307/6853412966400",
+            "baseline_mrr": 0.40442976373827755,
+            "residual_mrr": 0.29213449566088007,
+            "paired_wlt": [
+              69,
+              111,
+              76
+            ],
+            "Top1_before_after": [
+              73,
+              37
+            ],
+            "Top1_lost_rescued": [
+              51,
+              15
+            ],
+            "Top25_lost_rescued": [
+              25,
+              29
+            ],
+            "union_legacy_key_covered": 248,
+            "coverage_is_exact_v14": false,
+            "training_target": "LEGACY_CANONICAL_KEY_EQUALITY_APPROXIMATES_NOT_EXACT_V14_LABELS",
+            "evaluation_target": "OFFICIAL_V14_ORIGINAL_MULTI_SMILES_FIRST_HIT_TOP25"
+          }
+        },
+        {
+          "pointer": [
+            "limits"
+          ],
+          "value": "Saved features reused; no independent NN/entropy/chemical feature regeneration. Shared pinned RDKit primitives; independent Fraction summary, not strictCV/LB."
+        },
+        {
+          "pointer": [
+            "no_new_fit_or_selection"
+          ],
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "H21_fixed_branch_ablation",
+      "source": "workspace/expA104_prior_branch_ablation/fixed64_v001/independent_audit_v001.json",
+      "source_sha256": "d3da566ed210438930fe2a9629b011750a9b4a97ab2edee21b7f57ae73938d48",
+      "values": [
+        {
+          "pointer": [
+            "status"
+          ],
+          "value": "PASS_SAVED192_FIRST_HIT_AND_EXACT_FRACTION_AUDIT_BOTH_BRANCHES_REJECTED"
+        },
+        {
+          "pointer": [
+            "queries"
+          ],
+          "value": 64
+        },
+        {
+          "pointer": [
+            "metrics"
+          ],
+          "value": {
+            "equal_mean": {
+              "fraction": "241/416",
+              "mrr": 0.5793269230769231,
+              "Top1": 29,
+              "Top25": 55
+            },
+            "single": {
+              "fraction": "188171/340480",
+              "mrr": 0.5526638862781955,
+              "Top1": 26,
+              "Top25": 55
+            },
+            "merged": {
+              "fraction": "1867/3328",
+              "mrr": 0.5609975961538461,
+              "Top1": 28,
+              "Top25": 55
+            }
+          }
+        },
+        {
+          "pointer": [
+            "paired"
+          ],
+          "value": {
+            "single": {
+              "delta_fraction": "-118017/4426240",
+              "wins_losses_ties": [
+                12,
+                11,
+                41
+              ],
+              "Top1_lost": 7,
+              "Top1_rescued": 4,
+              "Top25_lost": 0,
+              "Top25_rescued": 0
+            },
+            "merged": {
+              "delta_fraction": "-61/3328",
+              "wins_losses_ties": [
+                4,
+                14,
+                46
+              ],
+              "Top1_lost": 4,
+              "Top1_rescued": 3,
+              "Top25_lost": 0,
+              "Top25_rescued": 0
+            }
+          }
+        },
+        {
+          "pointer": [
+            "both_branches_decision"
+          ],
+          "value": "REJECT_FIXED_BRANCH_NO_WEIGHT_SEARCH_NO_PRIVATE_RUN"
+        },
+        {
+          "pointer": [
+            "limitation"
+          ],
+          "value": "Independent list traversal and Fraction aggregation use same official metric primitives; not independent chemistry or strict training nonexposure proof."
+        }
+      ]
+    },
+    {
+      "id": "H12_fixed06",
+      "source": "workspace/expA105_prior_library_gate/fixed64_v001/independent_audit_v001.json",
+      "source_sha256": "6e3dc29d518bd25076dcd151d26a06da079472da12d19c2c8a04943311a5298f",
+      "values": [
+        {
+          "pointer": [
+            "status"
+          ],
+          "value": "PASS128_FIRST_HITS_FRACTION_FIXED_GATE_REJECTED"
+        },
+        {
+          "pointer": [
+            "queries"
+          ],
+          "value": 64
+        },
+        {
+          "pointer": [
+            "metrics_fraction"
+          ],
+          "value": {
+            "baseline": "241/416",
+            "library_gate": "2033/4160"
+          }
+        },
+        {
+          "pointer": [
+            "delta_fraction"
+          ],
+          "value": "-29/320"
+        },
+        {
+          "pointer": [
+            "triggered"
+          ],
+          "value": 28
+        },
+        {
+          "pointer": [
+            "Top1_lost"
+          ],
+          "value": 11
+        },
+        {
+          "pointer": [
+            "Top1_rescued"
+          ],
+          "value": 0
+        },
+        {
+          "pointer": [
+            "decision"
+          ],
+          "value": "REJECT_FIXED_06_DIRECT_LIBRARY_PROMOTION_NO_THRESHOLD_SEARCH_OR_PRIVATE"
+        },
+        {
+          "pointer": [
+            "limitation"
+          ],
+          "value": "Reference-excluded arm measures false-positive damage only; shared official chemical primitives, independent traversal/Fraction. No measurement of class1 benefit."
+        }
+      ]
+    },
+    {
+      "id": "H12_unconditional512",
+      "source": "workspace/expA105_prior_library_gate/independent512_v002/independent_audit_v001.json",
+      "source_sha256": "25753ba77a9cf29c1bf655c1829620f8cb4264b8a88f96d7b4ae715a1cbd6d6a",
+      "values": [
+        {
+          "pointer": [
+            "status"
+          ],
+          "value": "PASS_H12_512_REFERENCE_MASKS_CHANNELS_LEADERS_1536_FIRSTHITS"
+        },
+        {
+          "pointer": [
+            "all"
+          ],
+          "value": {
+            "queries": 512,
+            "baseline": {
+              "queries": 512,
+              "mrr_fraction": "2779689317/5465241600",
+              "mrr": 0.508612339663081,
+              "Top1": 191,
+              "Top25_hits": 445
+            },
+            "counterfactuals": {
+              "independent_source": {
+                "queries": 512,
+                "mrr_fraction": "63263692451/119189790720",
+                "mrr": 0.5307811354381745,
+                "Top1": 185,
+                "Top25_hits": 459,
+                "delta_mrr_fraction": "17874342637/806283878400",
+                "delta_mrr": 0.0221687957750936,
+                "wins_losses_ties": [
+                  85,
+                  187,
+                  240
+                ],
+                "Top1_lost": 91,
+                "Top1_rescued": 85,
+                "Top25_lost": 1,
+                "Top25_rescued": 15
+              },
+              "component_absent": {
+                "queries": 512,
+                "mrr_fraction": "318904784941/913788395520",
+                "mrr": 0.3489919400426662,
+                "Top1": 47,
+                "Top25_hits": 444,
+                "delta_mrr_fraction": "-31708536709/198649651200",
+                "delta_mrr": -0.15962039962041474,
+                "wins_losses_ties": [
+                  0,
+                  269,
+                  243
+                ],
+                "Top1_lost": 144,
+                "Top1_rescued": 0,
+                "Top25_lost": 1,
+                "Top25_rescued": 0
+              }
+            }
+          }
+        },
+        {
+          "pointer": [
+            "independent_component_reference_present"
+          ],
+          "value": 183
+        },
+        {
+          "pointer": [
+            "presence_groups"
+          ],
+          "value": {
+            "False": {
+              "queries": 329,
+              "baseline": {
+                "queries": 329,
+                "mrr_fraction": "22989859/47423376",
+                "mrr": 0.4847790465191681,
+                "Top1": 116,
+                "Top25_hits": 277
+              },
+              "counterfactuals": {
+                "independent_source": {
+                  "queries": 329,
+                  "mrr_fraction": "1358804191/4030986960",
+                  "mrr": 0.3370897014759879,
+                  "Top1": 31,
+                  "Top25_hits": 277,
+                  "delta_mrr_fraction": "-12402788/83978895",
+                  "delta_mrr": -0.14768934504318018,
+                  "wins_losses_ties": [
+                    0,
+                    166,
+                    163
+                  ],
+                  "Top1_lost": 85,
+                  "Top1_rescued": 0,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                },
+                "component_absent": {
+                  "queries": 329,
+                  "mrr_fraction": "1358804191/4030986960",
+                  "mrr": 0.3370897014759879,
+                  "Top1": 31,
+                  "Top25_hits": 277,
+                  "delta_mrr_fraction": "-12402788/83978895",
+                  "delta_mrr": -0.14768934504318018,
+                  "wins_losses_ties": [
+                    0,
+                    166,
+                    163
+                  ],
+                  "Top1_lost": 85,
+                  "Top1_rescued": 0,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                }
+              }
+            },
+            "True": {
+              "queries": 183,
+              "baseline": {
+                "queries": 183,
+                "mrr_fraction": "10937932163/19834491600",
+                "mrr": 0.5514601726923013,
+                "Top1": 75,
+                "Top25_hits": 168
+              },
+              "counterfactuals": {
+                "independent_source": {
+                  "queries": 183,
+                  "mrr_fraction": "12102913/13768920",
+                  "mrr": 0.8790023473155484,
+                  "Top1": 154,
+                  "Top25_hits": 182,
+                  "delta_mrr_fraction": "123436017713/376855340400",
+                  "delta_mrr": 0.32754217462324703,
+                  "wins_losses_ties": [
+                    85,
+                    21,
+                    77
+                  ],
+                  "Top1_lost": 6,
+                  "Top1_rescued": 85,
+                  "Top25_lost": 1,
+                  "Top25_rescued": 15
+                },
+                "component_absent": {
+                  "queries": 183,
+                  "mrr_fraction": "6979171603/18842767020",
+                  "mrr": 0.3703899536406835,
+                  "Top1": 16,
+                  "Top25_hits": 167,
+                  "delta_mrr_fraction": "-109882897/606852400",
+                  "delta_mrr": -0.18107021905161783,
+                  "wins_losses_ties": [
+                    0,
+                    103,
+                    80
+                  ],
+                  "Top1_lost": 59,
+                  "Top1_rescued": 0,
+                  "Top25_lost": 1,
+                  "Top25_rescued": 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "pointer": [
+            "limitations"
+          ],
+          "value": [
+            "Train-only diagnostics, not independent confirmation or LB.",
+            "Candidate pool held from original full input to match count-stress baseline.",
+            "Independent-source arm may lack same-compound references; retain all512.",
+            "Reference identities only define evaluation masks, never ranking features.",
+            "Counterfactual unconditional promotion is training evidence, not an adopted model."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H12_utility_oof512",
+      "source": "results/h12_fixed_utility_oof_v001/attempt-001/stages/metrics.json",
+      "source_sha256": "daa48f97813537abaa72332e9f870922a54baffc13fee5b3b0ea14bbbdb66bb5",
+      "values": [
+        {
+          "pointer": [
+            "status"
+          ],
+          "value": "COMPLETE_FIXED_H12_UTILITY_OOF_TRAIN_DIAGNOSTIC"
+        },
+        {
+          "pointer": [
+            "all"
+          ],
+          "value": {
+            "independent_source": {
+              "baseline": {
+                "queries": 512,
+                "mrr_fraction": "2779689317/5465241600",
+                "mrr": 0.508612339663081,
+                "Top1": 191,
+                "Top25_hits": 445
+              },
+              "gated": {
+                "queries": 512,
+                "mrr_fraction": "3086080733/5007974400",
+                "mrr": 0.6162333283892186,
+                "Top1": 263,
+                "Top25_hits": 460
+              },
+              "paired": {
+                "queries": 512,
+                "delta_mrr_fraction": "295028431837/2741365186560",
+                "delta_mrr": 0.10762098872613765,
+                "wins_losses_ties": [
+                  80,
+                  30,
+                  402
+                ],
+                "Top1_lost": 8,
+                "Top1_rescued": 80,
+                "Top25_lost": 0,
+                "Top25_rescued": 15
+              },
+              "promotions": 132
+            },
+            "component_absent": {
+              "baseline": {
+                "queries": 512,
+                "mrr_fraction": "2779689317/5465241600",
+                "mrr": 0.508612339663081,
+                "Top1": 191,
+                "Top25_hits": 445
+              },
+              "gated": {
+                "queries": 512,
+                "mrr_fraction": "185387038671/380745164800",
+                "mrr": 0.486905825234527,
+                "Top1": 173,
+                "Top25_hits": 445
+              },
+              "paired": {
+                "queries": 512,
+                "delta_mrr_fraction": "-1585291/73032960",
+                "delta_mrr": -0.021706514428553904,
+                "wins_losses_ties": [
+                  0,
+                  50,
+                  462
+                ],
+                "Top1_lost": 18,
+                "Top1_rescued": 0,
+                "Top25_lost": 0,
+                "Top25_rescued": 0
+              },
+              "promotions": 86
+            }
+          }
+        },
+        {
+          "pointer": [
+            "by_source"
+          ],
+          "value": {
+            "bridge": {
+              "independent_source": {
+                "baseline": {
+                  "queries": 197,
+                  "mrr_fraction": "478292831/854075376",
+                  "mrr": 0.5600124350148692,
+                  "Top1": 85,
+                  "Top25_hits": 173
+                },
+                "gated": {
+                  "queries": 197,
+                  "mrr_fraction": "2065556/2593899",
+                  "mrr": 0.7963131949239349,
+                  "Top1": 146,
+                  "Top25_hits": 187
+                },
+                "paired": {
+                  "queries": 197,
+                  "delta_mrr_fraction": "1278184849/5409144048",
+                  "delta_mrr": 0.23630075990906574,
+                  "wins_losses_ties": [
+                    62,
+                    7,
+                    128
+                  ],
+                  "Top1_lost": 1,
+                  "Top1_rescued": 62,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 14
+                },
+                "promotions": 71
+              },
+              "component_absent": {
+                "baseline": {
+                  "queries": 197,
+                  "mrr_fraction": "478292831/854075376",
+                  "mrr": 0.5600124350148692,
+                  "Top1": 85,
+                  "Top25_hits": 173
+                },
+                "gated": {
+                  "queries": 197,
+                  "mrr_fraction": "8555332243/16227432144",
+                  "mrr": 0.5272141745583133,
+                  "Top1": 74,
+                  "Top25_hits": 173
+                },
+                "paired": {
+                  "queries": 197,
+                  "delta_mrr_fraction": "-8839/269496",
+                  "delta_mrr": -0.03279826045655594,
+                  "wins_losses_ties": [
+                    0,
+                    24,
+                    173
+                  ],
+                  "Top1_lost": 11,
+                  "Top1_rescued": 0,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                },
+                "promotions": 37
+              }
+            },
+            "pure_gnps": {
+              "independent_source": {
+                "baseline": {
+                  "queries": 175,
+                  "mrr_fraction": "4463141/7882875",
+                  "mrr": 0.566181881610453,
+                  "Top1": 75,
+                  "Top25_hits": 158
+                },
+                "gated": {
+                  "queries": 175,
+                  "mrr_fraction": "98887/180180",
+                  "mrr": 0.5488233988233988,
+                  "Top1": 70,
+                  "Top25_hits": 158
+                },
+                "paired": {
+                  "queries": 175,
+                  "delta_mrr_fraction": "-42103/2425500",
+                  "delta_mrr": -0.017358482787054215,
+                  "wins_losses_ties": [
+                    0,
+                    14,
+                    161
+                  ],
+                  "Top1_lost": 5,
+                  "Top1_rescued": 0,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                },
+                "promotions": 22
+              },
+              "component_absent": {
+                "baseline": {
+                  "queries": 175,
+                  "mrr_fraction": "4463141/7882875",
+                  "mrr": 0.566181881610453,
+                  "Top1": 75,
+                  "Top25_hits": 158
+                },
+                "gated": {
+                  "queries": 175,
+                  "mrr_fraction": "98887/180180",
+                  "mrr": 0.5488233988233988,
+                  "Top1": 70,
+                  "Top25_hits": 158
+                },
+                "paired": {
+                  "queries": 175,
+                  "delta_mrr_fraction": "-42103/2425500",
+                  "delta_mrr": -0.017358482787054215,
+                  "wins_losses_ties": [
+                    0,
+                    14,
+                    161
+                  ],
+                  "Top1_lost": 5,
+                  "Top1_rescued": 0,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                },
+                "promotions": 22
+              }
+            },
+            "pure_non_gnps": {
+              "independent_source": {
+                "baseline": {
+                  "queries": 140,
+                  "mrr_fraction": "1250357/3432000",
+                  "mrr": 0.3643231351981352,
+                  "Top1": 31,
+                  "Top25_hits": 114
+                },
+                "gated": {
+                  "queries": 140,
+                  "mrr_fraction": "225562549/504504000",
+                  "mrr": 0.4470976424369282,
+                  "Top1": 47,
+                  "Top25_hits": 115
+                },
+                "paired": {
+                  "queries": 140,
+                  "delta_mrr_fraction": "379637/4586400",
+                  "delta_mrr": 0.08277450723879295,
+                  "wins_losses_ties": [
+                    18,
+                    9,
+                    113
+                  ],
+                  "Top1_lost": 2,
+                  "Top1_rescued": 18,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 1
+                },
+                "promotions": 39
+              },
+              "component_absent": {
+                "baseline": {
+                  "queries": 140,
+                  "mrr_fraction": "1250357/3432000",
+                  "mrr": 0.3643231351981352,
+                  "Top1": 31,
+                  "Top25_hits": 114
+                },
+                "gated": {
+                  "queries": 140,
+                  "mrr_fraction": "8475409/24024000",
+                  "mrr": 0.3527892524142524,
+                  "Top1": 29,
+                  "Top25_hits": 114
+                },
+                "paired": {
+                  "queries": 140,
+                  "delta_mrr_fraction": "-2519/218400",
+                  "delta_mrr": -0.011533882783882784,
+                  "wins_losses_ties": [
+                    0,
+                    12,
+                    128
+                  ],
+                  "Top1_lost": 2,
+                  "Top1_rescued": 0,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                },
+                "promotions": 27
+              }
+            }
+          }
+        },
+        {
+          "pointer": [
+            "predeclared_checks"
+          ],
+          "value": {
+            "independent_MRR_positive": true,
+            "absent_MRR_not_below_minus005": false,
+            "each_arm_Top1_net_nonnegative": false,
+            "source_groups_delta_at_least_minus01": false,
+            "source_stress_delta_at_least_minus01": false
+          }
+        },
+        {
+          "pointer": [
+            "decision"
+          ],
+          "value": "REJECT_FIXED_UTILITY_NO_COEFFICIENT_SEARCH"
+        },
+        {
+          "pointer": [
+            "fresh_confirmation_evaluated"
+          ],
+          "value": false
+        },
+        {
+          "pointer": [
+            "strictCV"
+          ],
+          "value": false
+        },
+        {
+          "pointer": [
+            "limitations"
+          ],
+          "value": [
+            "OOF only for the gate, not full upstream preprocessing or pretrained models.",
+            "Reference conditions have equal row weight for fitting; this is not a hidden class-mixture estimate.",
+            "Historical train512 diagnostic outcomes informed the fixed recipe; fresh evaluation remains necessary for generalization."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H33_ICE_single_cosine",
+      "source": "workspace/expA106_iceberg_msg/SAME64_SCIENTIFIC_DECISION_v001.json",
+      "source_sha256": "feafd46b4f0ecc0a100460f47adb68c51875c02cc5cfd48e0f74de291a40fb38",
+      "values": [
+        {
+          "pointer": [
+            "status"
+          ],
+          "value": "REJECT_FIXED_ICE_COSINE_SINGLE_REPLACEMENT_NO400_DISPATCH"
+        },
+        {
+          "pointer": [
+            "arms"
+          ],
+          "value": {
+            "raw": {
+              "queries": 64,
+              "mrr_fraction": "640873/1108800",
+              "mrr": 0.5779879148629149,
+              "Top1": 31,
+              "Top25_hits": 55
+            },
+            "GL_cosine": {
+              "queries": 64,
+              "mrr_fraction": "341/600",
+              "mrr": 0.5683333333333334,
+              "Top1": 31,
+              "Top25_hits": 54
+            },
+            "ICE_cosine": {
+              "queries": 64,
+              "mrr_fraction": "26013367/56179200",
+              "mrr": 0.46304267415698336,
+              "Top1": 23,
+              "Top25_hits": 53
+            }
+          }
+        },
+        {
+          "pointer": [
+            "raw_to_ICE"
+          ],
+          "value": {
+            "queries": 64,
+            "delta_mrr_fraction": "-352229/3064320",
+            "delta_mrr": -0.1149452407059315,
+            "wins_losses_ties": [
+              5,
+              18,
+              41
+            ],
+            "Top1_lost": 9,
+            "Top1_rescued": 1,
+            "Top25_lost": 2,
+            "Top25_rescued": 0
+          }
+        },
+        {
+          "pointer": [
+            "GL_to_ICE"
+          ],
+          "value": {
+            "queries": 64,
+            "delta_mrr_fraction": "-394343/3745280",
+            "delta_mrr": -0.10529065917634997,
+            "wins_losses_ties": [
+              9,
+              16,
+              39
+            ],
+            "Top1_lost": 11,
+            "Top1_rescued": 3,
+            "Top25_lost": 2,
+            "Top25_rescued": 1
+          }
+        },
+        {
+          "pointer": [
+            "reason"
+          ],
+          "value": "SingleICE cosine losesMRR. Limited complementary correct ranks do not establish a blend benefit. Do not rescue by seen64 weights, routing, coefficientsearch or expensive400run."
+        },
+        {
+          "pointer": [
+            "not_rejected"
+          ],
+          "value": "ICEmodel in all contexts and genuinelyinnerOOFcalibrated blend are not disproved; not implemented/authorized by this result alone."
+        },
+        {
+          "pointer": [
+            "runtime_seconds"
+          ],
+          "value": 7632.585491242
+        }
+      ]
+    },
+    {
+      "id": "H13_confirm256",
+      "source": "workspace/expA107_restored_h13/confirmation256_v001/independent_audit_v001.json",
+      "source_sha256": "32c8a0d1daedda9335fe57b9426b3c76a559e4af3c80a2d1dfcef93bd23cf375",
+      "values": [
+        {
+          "pointer": [
+            "status"
+          ],
+          "value": "PASS_CONFIRM256_SAVED_FIRST_HIT_FRACTION_PAIRED_NO_NEW_INFERENCE"
+        },
+        {
+          "pointer": [
+            "queries"
+          ],
+          "value": 256
+        },
+        {
+          "pointer": [
+            "summaries"
+          ],
+          "value": {
+            "confirm": {
+              "queries": 256,
+              "empty_pools": 0,
+              "arms": {
+                "mean": {
+                  "queries": 256,
+                  "mrr_fraction": "10962616529/21217996800",
+                  "mrr": 0.5166659526030281,
+                  "Top1": 94,
+                  "Top25_hits": 229
+                },
+                "unique_quality_peaks": {
+                  "queries": 256,
+                  "mrr_fraction": "11138351387/21217996800",
+                  "mrr": 0.5249483017642834,
+                  "Top1": 97,
+                  "Top25_hits": 228
+                }
+              },
+              "paired_vs_mean": {
+                "unique_quality_peaks": {
+                  "queries": 256,
+                  "delta_mrr_fraction": "97957/11827200",
+                  "delta_mrr": 0.008282349161255411,
+                  "wins_losses_ties": [
+                    22,
+                    10,
+                    224
+                  ],
+                  "Top1_lost": 1,
+                  "Top1_rescued": 4,
+                  "Top25_lost": 1,
+                  "Top25_rescued": 0
+                }
+              }
+            },
+            "confirm:source:bridge": {
+              "queries": 106,
+              "empty_pools": 0,
+              "arms": {
+                "mean": {
+                  "queries": 106,
+                  "mrr_fraction": "400917/682640",
+                  "mrr": 0.587303703269659,
+                  "Top1": 45,
+                  "Top25_hits": 99
+                },
+                "unique_quality_peaks": {
+                  "queries": 106,
+                  "mrr_fraction": "63961/106848",
+                  "mrr": 0.5986167265648398,
+                  "Top1": 47,
+                  "Top25_hits": 98
+                }
+              },
+              "paired_vs_mean": {
+                "unique_quality_peaks": {
+                  "queries": 106,
+                  "delta_mrr_fraction": "139009/12287520",
+                  "delta_mrr": 0.011313023295180802,
+                  "wins_losses_ties": [
+                    8,
+                    7,
+                    91
+                  ],
+                  "Top1_lost": 0,
+                  "Top1_rescued": 2,
+                  "Top25_lost": 1,
+                  "Top25_rescued": 0
+                }
+              }
+            },
+            "confirm:source:pure_gnps": {
+              "queries": 68,
+              "empty_pools": 0,
+              "arms": {
+                "mean": {
+                  "queries": 68,
+                  "mrr_fraction": "820657/1485120",
+                  "mrr": 0.5525863229907347,
+                  "Top1": 27,
+                  "Top25_hits": 63
+                },
+                "unique_quality_peaks": {
+                  "queries": 68,
+                  "mrr_fraction": "421567/742560",
+                  "mrr": 0.5677211269123034,
+                  "Top1": 29,
+                  "Top25_hits": 63
+                }
+              },
+              "paired_vs_mean": {
+                "unique_quality_peaks": {
+                  "queries": 68,
+                  "delta_mrr_fraction": "247/16320",
+                  "delta_mrr": 0.015134803921568627,
+                  "wins_losses_ties": [
+                    5,
+                    0,
+                    63
+                  ],
+                  "Top1_lost": 0,
+                  "Top1_rescued": 2,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                }
+              }
+            },
+            "confirm:source:pure_non_gnps": {
+              "queries": 82,
+              "empty_pools": 0,
+              "arms": {
+                "mean": {
+                  "queries": 82,
+                  "mrr_fraction": "561961/1420650",
+                  "mrr": 0.3955661141026995,
+                  "Top1": 22,
+                  "Top25_hits": 67
+                },
+                "unique_quality_peaks": {
+                  "queries": 82,
+                  "mrr_fraction": "25764083/65349900",
+                  "mrr": 0.39424823909447454,
+                  "Top1": 21,
+                  "Top25_hits": 67
+                }
+              },
+              "paired_vs_mean": {
+                "unique_quality_peaks": {
+                  "queries": 82,
+                  "delta_mrr_fraction": "-86123/65349900",
+                  "delta_mrr": -0.0013178750082249553,
+                  "wins_losses_ties": [
+                    9,
+                    3,
+                    70
+                  ],
+                  "Top1_lost": 1,
+                  "Top1_rescued": 0,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "pointer": [
+            "strictCV"
+          ],
+          "value": false
+        },
+        {
+          "pointer": [
+            "confirm_used"
+          ],
+          "value": true
+        },
+        {
+          "pointer": [
+            "selection_changed"
+          ],
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "H13_selected_train_tune",
+      "source": "workspace/expA107_restored_h13/fixed768_v003/independent_audit_v001.json",
+      "source_sha256": "7adc6477f6ba840c9a72a964d523b27ea962c5d25bcc8a6552da8cacdf25e4b1",
+      "values": [
+        {
+          "pointer": [
+            "status"
+          ],
+          "value": "PASS_ALL768_SAVED_FIRST_HIT_FRACTION_PAIRED_NO_NEW_INFERENCE"
+        },
+        {
+          "pointer": [
+            "queries"
+          ],
+          "value": 768
+        },
+        {
+          "pointer": [
+            "summaries"
+          ],
+          "value": {
+            "train": {
+              "queries": 512,
+              "empty_pools": 2,
+              "arms": {
+                "mean": {
+                  "queries": 512,
+                  "mrr_fraction": "5894223911/11272060800",
+                  "mrr": 0.5229056173117874,
+                  "Top1": 202,
+                  "Top25_hits": 450
+                },
+                "unique_mean": {
+                  "queries": 512,
+                  "mrr_fraction": "5894223911/11272060800",
+                  "mrr": 0.5229056173117874,
+                  "Top1": 202,
+                  "Top25_hits": 450
+                },
+                "unique_quality_peaks": {
+                  "queries": 512,
+                  "mrr_fraction": "17349163067/33108275200",
+                  "mrr": 0.524012892915666,
+                  "Top1": 202,
+                  "Top25_hits": 450
+                },
+                "unique_condition_balanced": {
+                  "queries": 512,
+                  "mrr_fraction": "3584519552879/6853412966400",
+                  "mrr": 0.5230269313191406,
+                  "Top1": 203,
+                  "Top25_hits": 451
+                }
+              },
+              "paired_vs_mean": {
+                "unique_mean": {
+                  "queries": 512,
+                  "delta_mrr_fraction": "0",
+                  "delta_mrr": 0.0,
+                  "wins_losses_ties": [
+                    0,
+                    0,
+                    512
+                  ],
+                  "Top1_lost": 0,
+                  "Top1_rescued": 0,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                },
+                "unique_quality_peaks": {
+                  "queries": 512,
+                  "delta_mrr_fraction": "689874271/623037542400",
+                  "delta_mrr": 0.0011072756038786019,
+                  "wins_losses_ties": [
+                    27,
+                    21,
+                    464
+                  ],
+                  "Top1_lost": 4,
+                  "Top1_rescued": 4,
+                  "Top25_lost": 3,
+                  "Top25_rescued": 3
+                },
+                "unique_condition_balanced": {
+                  "queries": 512,
+                  "delta_mrr_fraction": "75583181/623037542400",
+                  "delta_mrr": 0.00012131400735314663,
+                  "wins_losses_ties": [
+                    16,
+                    11,
+                    485
+                  ],
+                  "Top1_lost": 2,
+                  "Top1_rescued": 3,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 1
+                }
+              }
+            },
+            "train:source:bridge": {
+              "queries": 197,
+              "empty_pools": 0,
+              "arms": {
+                "mean": {
+                  "queries": 197,
+                  "mrr_fraction": "1424511299/2413691280",
+                  "mrr": 0.5901795771495681,
+                  "Top1": 93,
+                  "Top25_hits": 177
+                },
+                "unique_mean": {
+                  "queries": 197,
+                  "mrr_fraction": "1424511299/2413691280",
+                  "mrr": 0.5901795771495681,
+                  "Top1": 93,
+                  "Top25_hits": 177
+                },
+                "unique_quality_peaks": {
+                  "queries": 197,
+                  "mrr_fraction": "136089164489/229300671600",
+                  "mrr": 0.5934965804478699,
+                  "Top1": 94,
+                  "Top25_hits": 179
+                },
+                "unique_condition_balanced": {
+                  "queries": 197,
+                  "mrr_fraction": "519453524321/878985907800",
+                  "mrr": 0.5909691153310206,
+                  "Top1": 94,
+                  "Top25_hits": 178
+                }
+              },
+              "paired_vs_mean": {
+                "unique_mean": {
+                  "queries": 197,
+                  "delta_mrr_fraction": "0",
+                  "delta_mrr": 0.0,
+                  "wins_losses_ties": [
+                    0,
+                    0,
+                    197
+                  ],
+                  "Top1_lost": 0,
+                  "Top1_rescued": 0,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                },
+                "unique_quality_peaks": {
+                  "queries": 197,
+                  "delta_mrr_fraction": "1016833/306551700",
+                  "delta_mrr": 0.003317003298301722,
+                  "wins_losses_ties": [
+                    14,
+                    13,
+                    170
+                  ],
+                  "Top1_lost": 2,
+                  "Top1_rescued": 3,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 2
+                },
+                "unique_condition_balanced": {
+                  "queries": 197,
+                  "delta_mrr_fraction": "22267153/28202756400",
+                  "delta_mrr": 0.0007895381814523633,
+                  "wins_losses_ties": [
+                    11,
+                    8,
+                    178
+                  ],
+                  "Top1_lost": 1,
+                  "Top1_rescued": 2,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 1
+                }
+              }
+            },
+            "train:source:pure_gnps": {
+              "queries": 175,
+              "empty_pools": 2,
+              "arms": {
+                "mean": {
+                  "queries": 175,
+                  "mrr_fraction": "154079777/274890000",
+                  "mrr": 0.5605143039033795,
+                  "Top1": 75,
+                  "Top25_hits": 158
+                },
+                "unique_mean": {
+                  "queries": 175,
+                  "mrr_fraction": "154079777/274890000",
+                  "mrr": 0.5605143039033795,
+                  "Top1": 75,
+                  "Top25_hits": 158
+                },
+                "unique_quality_peaks": {
+                  "queries": 175,
+                  "mrr_fraction": "44306033/78828750",
+                  "mrr": 0.5620542378256664,
+                  "Top1": 75,
+                  "Top25_hits": 158
+                },
+                "unique_condition_balanced": {
+                  "queries": 175,
+                  "mrr_fraction": "1138757/2021250",
+                  "mrr": 0.5633924551638837,
+                  "Top1": 76,
+                  "Top25_hits": 158
+                }
+              },
+              "paired_vs_mean": {
+                "unique_mean": {
+                  "queries": 175,
+                  "delta_mrr_fraction": "0",
+                  "delta_mrr": 0.0,
+                  "wins_losses_ties": [
+                    0,
+                    0,
+                    175
+                  ],
+                  "Top1_lost": 0,
+                  "Top1_rescued": 0,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                },
+                "unique_quality_peaks": {
+                  "queries": 175,
+                  "delta_mrr_fraction": "42881/27846000",
+                  "delta_mrr": 0.0015399339222868635,
+                  "wins_losses_ties": [
+                    6,
+                    3,
+                    166
+                  ],
+                  "Top1_lost": 0,
+                  "Top1_rescued": 0,
+                  "Top25_lost": 1,
+                  "Top25_rescued": 1
+                },
+                "unique_condition_balanced": {
+                  "queries": 175,
+                  "delta_mrr_fraction": "137/47600",
+                  "delta_mrr": 0.0028781512605042018,
+                  "wins_losses_ties": [
+                    2,
+                    0,
+                    173
+                  ],
+                  "Top1_lost": 0,
+                  "Top1_rescued": 1,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                }
+              }
+            },
+            "train:source:pure_non_gnps": {
+              "queries": 140,
+              "empty_pools": 0,
+              "arms": {
+                "mean": {
+                  "queries": 140,
+                  "mrr_fraction": "9830323/25785760",
+                  "mrr": 0.3812306870148485,
+                  "Top1": 34,
+                  "Top25_hits": 115
+                },
+                "unique_mean": {
+                  "queries": 140,
+                  "mrr_fraction": "9830323/25785760",
+                  "mrr": 0.3812306870148485,
+                  "Top1": 34,
+                  "Top25_hits": 115
+                },
+                "unique_quality_peaks": {
+                  "queries": 140,
+                  "mrr_fraction": "725988017/1917115200",
+                  "mrr": 0.3786877371792785,
+                  "Top1": 33,
+                  "Top25_hits": 113
+                },
+                "unique_condition_balanced": {
+                  "queries": 140,
+                  "mrr_fraction": "112919783/299549250",
+                  "mrr": 0.37696566758220895,
+                  "Top1": 33,
+                  "Top25_hits": 115
+                }
+              },
+              "paired_vs_mean": {
+                "unique_mean": {
+                  "queries": 140,
+                  "delta_mrr_fraction": "0",
+                  "delta_mrr": 0.0,
+                  "wins_losses_ties": [
+                    0,
+                    0,
+                    140
+                  ],
+                  "Top1_lost": 0,
+                  "Top1_rescued": 0,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                },
+                "unique_quality_peaks": {
+                  "queries": 140,
+                  "delta_mrr_fraction": "-1456207/572644800",
+                  "delta_mrr": -0.0025429498355699727,
+                  "wins_losses_ties": [
+                    7,
+                    5,
+                    128
+                  ],
+                  "Top1_lost": 2,
+                  "Top1_rescued": 1,
+                  "Top25_lost": 2,
+                  "Top25_rescued": 0
+                },
+                "unique_condition_balanced": {
+                  "queries": 140,
+                  "delta_mrr_fraction": "-469681/110124000",
+                  "delta_mrr": -0.00426501943263957,
+                  "wins_losses_ties": [
+                    3,
+                    3,
+                    134
+                  ],
+                  "Top1_lost": 1,
+                  "Top1_rescued": 0,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                }
+              }
+            },
+            "tune": {
+              "queries": 256,
+              "empty_pools": 2,
+              "arms": {
+                "mean": {
+                  "queries": 256,
+                  "mrr_fraction": "33764679101/59594895360",
+                  "mrr": 0.566569987194957,
+                  "Top1": 110,
+                  "Top25_hits": 235
+                },
+                "unique_mean": {
+                  "queries": 256,
+                  "mrr_fraction": "33764679101/59594895360",
+                  "mrr": 0.566569987194957,
+                  "Top1": 110,
+                  "Top25_hits": 235
+                },
+                "unique_quality_peaks": {
+                  "queries": 256,
+                  "mrr_fraction": "1337471679/2343047168",
+                  "mrr": 0.5708257594069912,
+                  "Top1": 112,
+                  "Top25_hits": 235
+                },
+                "unique_condition_balanced": {
+                  "queries": 256,
+                  "mrr_fraction": "6947340757/12238237440",
+                  "mrr": 0.5676749442932855,
+                  "Top1": 110,
+                  "Top25_hits": 235
+                }
+              },
+              "paired_vs_mean": {
+                "unique_mean": {
+                  "queries": 256,
+                  "delta_mrr_fraction": "0",
+                  "delta_mrr": 0.0,
+                  "wins_losses_ties": [
+                    0,
+                    0,
+                    256
+                  ],
+                  "Top1_lost": 0,
+                  "Top1_rescued": 0,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                },
+                "unique_quality_peaks": {
+                  "queries": 256,
+                  "delta_mrr_fraction": "6977647/1639572480",
+                  "delta_mrr": 0.004255772212034201,
+                  "wins_losses_ties": [
+                    12,
+                    5,
+                    239
+                  ],
+                  "Top1_lost": 1,
+                  "Top1_rescued": 3,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                },
+                "unique_condition_balanced": {
+                  "queries": 256,
+                  "delta_mrr_fraction": "61937/56053760",
+                  "delta_mrr": 0.0011049570983284619,
+                  "wins_losses_ties": [
+                    6,
+                    3,
+                    247
+                  ],
+                  "Top1_lost": 0,
+                  "Top1_rescued": 0,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                }
+              }
+            },
+            "tune:source:bridge": {
+              "queries": 111,
+              "empty_pools": 1,
+              "arms": {
+                "mean": {
+                  "queries": 111,
+                  "mrr_fraction": "951707/1627920",
+                  "mrr": 0.5846153373630154,
+                  "Top1": 48,
+                  "Top25_hits": 106
+                },
+                "unique_mean": {
+                  "queries": 111,
+                  "mrr_fraction": "951707/1627920",
+                  "mrr": 0.5846153373630154,
+                  "Top1": 48,
+                  "Top25_hits": 106
+                },
+                "unique_quality_peaks": {
+                  "queries": 111,
+                  "mrr_fraction": "21542623/36809080",
+                  "mrr": 0.5852529593241668,
+                  "Top1": 48,
+                  "Top25_hits": 106
+                },
+                "unique_condition_balanced": {
+                  "queries": 111,
+                  "mrr_fraction": "28737031/48939345",
+                  "mrr": 0.5871968862680937,
+                  "Top1": 48,
+                  "Top25_hits": 106
+                }
+              },
+              "paired_vs_mean": {
+                "unique_mean": {
+                  "queries": 111,
+                  "delta_mrr_fraction": "0",
+                  "delta_mrr": 0.0,
+                  "wins_losses_ties": [
+                    0,
+                    0,
+                    111
+                  ],
+                  "Top1_lost": 0,
+                  "Top1_rescued": 0,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                },
+                "unique_quality_peaks": {
+                  "queries": 111,
+                  "delta_mrr_fraction": "4447/6974352",
+                  "delta_mrr": 0.0006376219611513729,
+                  "wins_losses_ties": [
+                    7,
+                    4,
+                    100
+                  ],
+                  "Top1_lost": 1,
+                  "Top1_rescued": 1,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                },
+                "unique_condition_balanced": {
+                  "queries": 111,
+                  "delta_mrr_fraction": "106391/41212080",
+                  "delta_mrr": 0.002581548905078317,
+                  "wins_losses_ties": [
+                    5,
+                    2,
+                    104
+                  ],
+                  "Top1_lost": 0,
+                  "Top1_rescued": 0,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                }
+              }
+            },
+            "tune:source:pure_gnps": {
+              "queries": 65,
+              "empty_pools": 0,
+              "arms": {
+                "mean": {
+                  "queries": 65,
+                  "mrr_fraction": "9789917/15615600",
+                  "mrr": 0.626931850201081,
+                  "Top1": 33,
+                  "Top25_hits": 62
+                },
+                "unique_mean": {
+                  "queries": 65,
+                  "mrr_fraction": "9789917/15615600",
+                  "mrr": 0.626931850201081,
+                  "Top1": 33,
+                  "Top25_hits": 62
+                },
+                "unique_quality_peaks": {
+                  "queries": 65,
+                  "mrr_fraction": "51367/81900",
+                  "mrr": 0.6271916971916972,
+                  "Top1": 33,
+                  "Top25_hits": 62
+                },
+                "unique_condition_balanced": {
+                  "queries": 65,
+                  "mrr_fraction": "107567/171600",
+                  "mrr": 0.6268473193473193,
+                  "Top1": 33,
+                  "Top25_hits": 62
+                }
+              },
+              "paired_vs_mean": {
+                "unique_mean": {
+                  "queries": 65,
+                  "delta_mrr_fraction": "0",
+                  "delta_mrr": 0.0,
+                  "wins_losses_ties": [
+                    0,
+                    0,
+                    65
+                  ],
+                  "Top1_lost": 0,
+                  "Top1_rescued": 0,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                },
+                "unique_quality_peaks": {
+                  "queries": 65,
+                  "delta_mrr_fraction": "1739/6692400",
+                  "delta_mrr": 0.00025984699061622137,
+                  "wins_losses_ties": [
+                    2,
+                    1,
+                    62
+                  ],
+                  "Top1_lost": 0,
+                  "Top1_rescued": 0,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                },
+                "unique_condition_balanced": {
+                  "queries": 65,
+                  "delta_mrr_fraction": "-1/11830",
+                  "delta_mrr": -8.4530853761623e-05,
+                  "wins_losses_ties": [
+                    0,
+                    1,
+                    64
+                  ],
+                  "Top1_lost": 0,
+                  "Top1_rescued": 0,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                }
+              }
+            },
+            "tune:source:pure_non_gnps": {
+              "queries": 80,
+              "empty_pools": 1,
+              "arms": {
+                "mean": {
+                  "queries": 80,
+                  "mrr_fraction": "2184283/4435200",
+                  "mrr": 0.49248805014430014,
+                  "Top1": 29,
+                  "Top25_hits": 67
+                },
+                "unique_mean": {
+                  "queries": 80,
+                  "mrr_fraction": "2184283/4435200",
+                  "mrr": 0.49248805014430014,
+                  "Top1": 29,
+                  "Top25_hits": 67
+                },
+                "unique_quality_peaks": {
+                  "queries": 80,
+                  "mrr_fraction": "51515939/102009600",
+                  "mrr": 0.5050106950718364,
+                  "Top1": 31,
+                  "Top25_hits": 67
+                },
+                "unique_condition_balanced": {
+                  "queries": 80,
+                  "mrr_fraction": "50240819/102009600",
+                  "mrr": 0.49251069507183637,
+                  "Top1": 29,
+                  "Top25_hits": 67
+                }
+              },
+              "paired_vs_mean": {
+                "unique_mean": {
+                  "queries": 80,
+                  "delta_mrr_fraction": "0",
+                  "delta_mrr": 0.0,
+                  "wins_losses_ties": [
+                    0,
+                    0,
+                    80
+                  ],
+                  "Top1_lost": 0,
+                  "Top1_rescued": 0,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                },
+                "unique_quality_peaks": {
+                  "queries": 80,
+                  "delta_mrr_fraction": "553/44160",
+                  "delta_mrr": 0.012522644927536231,
+                  "wins_losses_ties": [
+                    3,
+                    0,
+                    77
+                  ],
+                  "Top1_lost": 0,
+                  "Top1_rescued": 2,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                },
+                "unique_condition_balanced": {
+                  "queries": 80,
+                  "delta_mrr_fraction": "1/44160",
+                  "delta_mrr": 2.2644927536231884e-05,
+                  "wins_losses_ties": [
+                    1,
+                    0,
+                    79
+                  ],
+                  "Top1_lost": 0,
+                  "Top1_rescued": 0,
+                  "Top25_lost": 0,
+                  "Top25_rescued": 0
+                }
+              }
+            }
+          }
+        },
+        {
+          "pointer": [
+            "strictCV"
+          ],
+          "value": false
+        },
+        {
+          "pointer": [
+            "confirm_used"
+          ],
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "H13_execution_failure",
+      "source": "workspace/expA107_restored_h13/fixed768_v002/FAILURE_OBSERVATION_v001.json",
+      "source_sha256": "c48482098b9dc3b5367a12250e33c9b6ab0339b45b7fb4350f095b9b5af49846",
+      "values": [
+        {
+          "pointer": [
+            "status"
+          ],
+          "value": "FAILED_AFTER174_SAVED_NO_METRIC_RESULT"
+        },
+        {
+          "pointer": [
+            "cause"
+          ],
+          "value": "PUBLIC_LIBRARY_NO_QUERY_NEUTRAL_MASS"
+        },
+        {
+          "pointer": [
+            "saved_queries"
+          ],
+          "value": 174
+        },
+        {
+          "pointer": [
+            "confirmed_no_metrics_terminal"
+          ],
+          "value": false
+        },
+        {
+          "pointer": [
+            "proportional_recovery"
+          ],
+          "value": "newv003 preserves174 and computes remaining594; exact missingmass empty all4arms, full768 denominator, no tuning or confirm"
+        }
+      ]
+    },
+    {
+      "id": "feature_precision_repair",
+      "source": "workspace/expA60_owned_public_fp_ranker/QUANTIZATION_REPAIR_RESULT_v001.json",
+      "source_sha256": "7e18f21667f124dd979dcc3e76eb1212df93ca2b0eec009e6548288dc292d04c",
+      "values": [
+        {
+          "pointer": [
+            "status"
+          ],
+          "value": "PASS_OWNED_FEATURE_NEGATIVE_FLOAT32_METADATA_PARITY_NO_FEATURE_REPLAY"
+        },
+        {
+          "pointer": [
+            "queries"
+          ],
+          "value": 768
+        },
+        {
+          "pointer": [
+            "negative_order_changes"
+          ],
+          "value": 13
+        },
+        {
+          "pointer": [
+            "negative_set_changes"
+          ],
+          "value": 2
+        },
+        {
+          "pointer": [
+            "candidate_arrays_changed"
+          ],
+          "value": false
+        },
+        {
+          "pointer": [
+            "feature_generation_replayed"
+          ],
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "H12_source_transfer_pure_gnps",
+      "source": "results/h12_fixed_utility_oof_v001/attempt-001/stages/metrics.json",
+      "source_sha256": "daa48f97813537abaa72332e9f870922a54baffc13fee5b3b0ea14bbbdb66bb5",
+      "values": [
+        {
+          "pointer": [
+            "source_stress",
+            "pure_gnps",
+            "train_source"
+          ],
+          "value": "pure_non_gnps"
+        },
+        {
+          "pointer": [
+            "source_stress",
+            "pure_gnps",
+            "metrics"
+          ],
+          "value": {
+            "independent_source": {
+              "baseline": {
+                "queries": 175,
+                "mrr_fraction": "4463141/7882875",
+                "mrr": 0.566181881610453,
+                "Top1": 75,
+                "Top25_hits": 158
+              },
+              "gated": {
+                "queries": 175,
+                "mrr_fraction": "2451583/4504500",
+                "mrr": 0.5442519702519703,
+                "Top1": 68,
+                "Top25_hits": 158
+              },
+              "paired": {
+                "queries": 175,
+                "delta_mrr_fraction": "-53191/2425500",
+                "delta_mrr": -0.02192991135848279,
+                "wins_losses_ties": [
+                  0,
+                  16,
+                  159
+                ],
+                "Top1_lost": 7,
+                "Top1_rescued": 0,
+                "Top25_lost": 0,
+                "Top25_rescued": 0
+              },
+              "promotions": 24
+            },
+            "component_absent": {
+              "baseline": {
+                "queries": 175,
+                "mrr_fraction": "4463141/7882875",
+                "mrr": 0.566181881610453,
+                "Top1": 75,
+                "Top25_hits": 158
+              },
+              "gated": {
+                "queries": 175,
+                "mrr_fraction": "2451583/4504500",
+                "mrr": 0.5442519702519703,
+                "Top1": 68,
+                "Top25_hits": 158
+              },
+              "paired": {
+                "queries": 175,
+                "delta_mrr_fraction": "-53191/2425500",
+                "delta_mrr": -0.02192991135848279,
+                "wins_losses_ties": [
+                  0,
+                  16,
+                  159
+                ],
+                "Top1_lost": 7,
+                "Top1_rescued": 0,
+                "Top25_lost": 0,
+                "Top25_rescued": 0
+              },
+              "promotions": 24
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "H12_source_transfer_pure_non_gnps",
+      "source": "results/h12_fixed_utility_oof_v001/attempt-001/stages/metrics.json",
+      "source_sha256": "daa48f97813537abaa72332e9f870922a54baffc13fee5b3b0ea14bbbdb66bb5",
+      "values": [
+        {
+          "pointer": [
+            "source_stress",
+            "pure_non_gnps",
+            "train_source"
+          ],
+          "value": "pure_gnps"
+        },
+        {
+          "pointer": [
+            "source_stress",
+            "pure_non_gnps",
+            "metrics"
+          ],
+          "value": {
+            "independent_source": {
+              "baseline": {
+                "queries": 140,
+                "mrr_fraction": "1250357/3432000",
+                "mrr": 0.3643231351981352,
+                "Top1": 31,
+                "Top25_hits": 114
+              },
+              "gated": {
+                "queries": 140,
+                "mrr_fraction": "1250357/3432000",
+                "mrr": 0.3643231351981352,
+                "Top1": 31,
+                "Top25_hits": 114
+              },
+              "paired": {
+                "queries": 140,
+                "delta_mrr_fraction": "0",
+                "delta_mrr": 0.0,
+                "wins_losses_ties": [
+                  0,
+                  0,
+                  140
+                ],
+                "Top1_lost": 0,
+                "Top1_rescued": 0,
+                "Top25_lost": 0,
+                "Top25_rescued": 0
+              },
+              "promotions": 0
+            },
+            "component_absent": {
+              "baseline": {
+                "queries": 140,
+                "mrr_fraction": "1250357/3432000",
+                "mrr": 0.3643231351981352,
+                "Top1": 31,
+                "Top25_hits": 114
+              },
+              "gated": {
+                "queries": 140,
+                "mrr_fraction": "1250357/3432000",
+                "mrr": 0.3643231351981352,
+                "Top1": 31,
+                "Top25_hits": 114
+              },
+              "paired": {
+                "queries": 140,
+                "delta_mrr_fraction": "0",
+                "delta_mrr": 0.0,
+                "wins_losses_ties": [
+                  0,
+                  0,
+                  140
+                ],
+                "Top1_lost": 0,
+                "Top1_rescued": 0,
+                "Top25_lost": 0,
+                "Top25_rescued": 0
+              },
+              "promotions": 0
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "source_bindings": [
+    {
+      "audit": "workspace/expA107_restored_h13/fixed768_v003/independent_audit_v001.json",
+      "metrics": "results/h13_restored_fixed_aggregation768_v003/attempt-001/stages/metrics.json",
+      "sha256_matches": true
+    },
+    {
+      "audit": "workspace/expA107_restored_h13/confirmation256_v001/independent_audit_v001.json",
+      "metrics": "results/h13_restored_quality_confirmation256_v001/attempt-001/stages/metrics.json",
+      "sha256_matches": true
+    },
+    {
+      "audit": "workspace/expA105_prior_library_gate/independent512_v002/independent_audit_v001.json",
+      "metrics": "results/h12_independent_reference512_v002/attempt-001/stages/metrics.json",
+      "sha256_matches": true
+    }
+  ],
+  "scope": "Explicit aggregate projections only. No per-molecule keys, answers, predictions, feature arrays or fitted parameters are published."
+}

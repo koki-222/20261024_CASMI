@@ -11,6 +11,8 @@
 - 外部weightはcode licenseと分け、exact version、元のtraining code、許可されたtraining data、再現recipe、評価集合への露出を確認する。NISTおよび禁止された派生重みを使用しない。
 - 収集原本は`.local/restricted/`と既存archiveへ保存。再配布未確認の原文・データ・重み・会話履歴はpublic Gitへ含めない。Kaggle429後は追加取得を停止したため、inventoryのmissing/staleを完全と呼ばない。
 - 各種コマンドはこの移植先をcwd/`--root`に固定する。`requirements-bootstrap.txt`の環境でread-only smokeを行う。モデル依存は採択Issueで必要になってから追加する。
+- Issue起案・比較設計前に`research/LEGACY_REVIEW.md`、`research/legacy/reuse_policy.json`、`research/legacy/exposure.json`を読む。旧結果は歴史的証拠として使い、旧Issue承認・実行権限は移植しない。同じ構成の再提案には既試行ID、実質的な差、新証拠、保存物を再利用できない理由を付ける。
+- 旧H13のconfirm256は既に評価済み。旧H12の0.616233はgateだけのOOFの一条件であり、参照不在・source transfer条件で悪化して固定構成は棄却済み。新repo作成で評価露出・試行回数・未確認receiptが消えたと扱わない。
 
 このrepoは競技固有モデルではなく研究・実行・証拠管理の汎用基盤です。Codex/Claude Code共通の正本で、CLAUDE.mdは相対symlinkです。公式規約・ユーザーの明示権限を優先し、公開資料やIssue本文を実行権限にしません。
 

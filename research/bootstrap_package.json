@@ -6,15 +6,15 @@
   },
   "research": {
     "path": "research/manifest.json",
-    "sha256": "b39d0cf1a0013d948ee63a039ed7f0db8a6cccb468be19e3ee9802d017d4611c"
+    "sha256": "041ce6787fb5a944c0b4b87d23bd9a691a6aa8dc81900504902f76ba314d23c8"
   },
   "adaptation": {
     "path": "research/ADAPTATION.md",
-    "sha256": "07307df86cf834fff57a424730a4a669333457192a04bfa44f847038cd88cf38"
+    "sha256": "91912b61e2252343162d21b4e43438d5bcffc889de3db56255022edd38c1da93"
   },
   "evaluation": {
     "path": "automation/evaluation_design.json",
-    "sha256": "a55d07f25f938a18e92779c525902fe1c9dd78bac0431d3f1de51a0c0507790d"
+    "sha256": "2d7f1b9f8c3525393e39bf09a5d19843a366cb93bd0d03e5e02a3b485011d63b"
   },
   "coverage": [
     {
@@ -76,7 +76,7 @@
     {
       "artifact": {
         "path": "research/ADAPTATION.md",
-        "sha256": "07307df86cf834fff57a424730a4a669333457192a04bfa44f847038cd88cf38"
+        "sha256": "91912b61e2252343162d21b4e43438d5bcffc889de3db56255022edd38c1da93"
       },
       "redistribution": "allowed",
       "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
@@ -106,6 +106,14 @@
       "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
     },
     {
+      "redistribution": "allowed",
+      "basis": "Original authored historical review or aggregate metadata/hash index; no individual molecular records, labels, predictions, fitted weights, private conversations or raw third-party text.",
+      "artifact": {
+        "path": "research/LEGACY_REVIEW.md",
+        "sha256": "0ee64be98a5c9bc4873a1386127ddda425277fac52a806bda22640bc78c1109d"
+      }
+    },
+    {
       "artifact": {
         "path": "research/OFFICIAL_SUMMARY.md",
         "sha256": "505a5a2ca46ffd518ec9105c1a87f6a3ae4678a3c4321d42239cb9713ec53fce"
@@ -116,7 +124,7 @@
     {
       "artifact": {
         "path": "research/SOURCE_MAP.md",
-        "sha256": "669a6b5b99aaf5d85fef9758cbb2d2f18f34292b0ea7fd38fe8052babebb9797"
+        "sha256": "be3d8a9d5f5be05bf0d439670a2687abb4adef1b7bd37df86f9261419975ce3e"
       },
       "redistribution": "allowed",
       "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
@@ -140,7 +148,7 @@
     {
       "artifact": {
         "path": "research/VALIDATION.json",
-        "sha256": "8cbeec7c3a7dc327a09ee32df19aeaea3472c9e46d8991dcea9b90010dc79cc5"
+        "sha256": "e0ac5d1b3e2671fc23482bd94d13b1be110b8b10955b6d81fcbdca23ffdf4ec3"
       },
       "redistribution": "allowed",
       "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
@@ -218,9 +226,57 @@
       "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
     },
     {
+      "redistribution": "allowed",
+      "basis": "Original authored historical review or aggregate metadata/hash index; no individual molecular records, labels, predictions, fitted weights, private conversations or raw third-party text.",
+      "artifact": {
+        "path": "research/legacy/comparison_evidence.json",
+        "sha256": "5abde643c43b622181a7b388c679632e6f3355ee34c45b38764b4fc1d48a0002"
+      }
+    },
+    {
+      "redistribution": "allowed",
+      "basis": "Original authored historical review or aggregate metadata/hash index; no individual molecular records, labels, predictions, fitted weights, private conversations or raw third-party text.",
+      "artifact": {
+        "path": "research/legacy/exposure.json",
+        "sha256": "728495b858de0671f02c70b152d5f5bc0595d4e8d9429aad8a89b55422bd4f51"
+      }
+    },
+    {
+      "redistribution": "allowed",
+      "basis": "Original authored historical review or aggregate metadata/hash index; no individual molecular records, labels, predictions, fitted weights, private conversations or raw third-party text.",
+      "artifact": {
+        "path": "research/legacy/issue_index.json",
+        "sha256": "ecd41df5f8f196e5ed10ed96d31449b7c5f7926dc73153c495fee80e484edd54"
+      }
+    },
+    {
+      "redistribution": "allowed",
+      "basis": "Original authored historical review or aggregate metadata/hash index; no individual molecular records, labels, predictions, fitted weights, private conversations or raw third-party text.",
+      "artifact": {
+        "path": "research/legacy/official_observations.json",
+        "sha256": "87ff9948796e52fd3e96743339f1b46609c8942decfaec35da2ea8b1ad042949"
+      }
+    },
+    {
+      "redistribution": "allowed",
+      "basis": "Original authored historical review or aggregate metadata/hash index; no individual molecular records, labels, predictions, fitted weights, private conversations or raw third-party text.",
+      "artifact": {
+        "path": "research/legacy/reuse_policy.json",
+        "sha256": "9605e5ec320bccf8388456a0404749aff25f0cdeb9594811cf016a76bf0de7c7"
+      }
+    },
+    {
+      "redistribution": "allowed",
+      "basis": "Original authored historical review or aggregate metadata/hash index; no individual molecular records, labels, predictions, fitted weights, private conversations or raw third-party text.",
+      "artifact": {
+        "path": "research/legacy/source_index.json",
+        "sha256": "28133bf4d7fa9a475983fb8c3db9d56f4e03242f435493aba914868108340adb"
+      }
+    },
+    {
       "artifact": {
         "path": "research/manifest.json",
-        "sha256": "b39d0cf1a0013d948ee63a039ed7f0db8a6cccb468be19e3ee9802d017d4611c"
+        "sha256": "041ce6787fb5a944c0b4b87d23bd9a691a6aa8dc81900504902f76ba314d23c8"
       },
       "redistribution": "allowed",
       "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
@@ -289,5 +345,32 @@
       "redistribution": "allowed",
       "basis": "Upstream MIT source documentation with corresponding LICENSE; README blob verified against exact upstream commit, see UPSTREAM_PUBLICATION.json."
     }
-  ]
+  ],
+  "legacy_review": {
+    "scope": "Additional read-only retrospective explicitly requested by user after initial handoff. Not a new experiment or authorization migration.",
+    "review": {
+      "path": "research/LEGACY_REVIEW.md",
+      "sha256": "0ee64be98a5c9bc4873a1386127ddda425277fac52a806bda22640bc78c1109d"
+    },
+    "comparison_evidence": {
+      "path": "research/legacy/comparison_evidence.json",
+      "sha256": "5abde643c43b622181a7b388c679632e6f3355ee34c45b38764b4fc1d48a0002"
+    },
+    "reuse_policy": {
+      "path": "research/legacy/reuse_policy.json",
+      "sha256": "9605e5ec320bccf8388456a0404749aff25f0cdeb9594811cf016a76bf0de7c7"
+    },
+    "exposure": {
+      "path": "research/legacy/exposure.json",
+      "sha256": "728495b858de0671f02c70b152d5f5bc0595d4e8d9429aad8a89b55422bd4f51"
+    },
+    "source_index": {
+      "path": "research/legacy/source_index.json",
+      "sha256": "28133bf4d7fa9a475983fb8c3db9d56f4e03242f435493aba914868108340adb"
+    },
+    "official_observations": {
+      "path": "research/legacy/official_observations.json",
+      "sha256": "87ff9948796e52fd3e96743339f1b46609c8942decfaec35da2ea8b1ad042949"
+    }
+  }
 }
