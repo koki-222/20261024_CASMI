@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "competition_slug": "replace-with-competition-slug",
+  "kernel": {
+    "owner": "replace-with-kaggle-owner",
+    "slug": "replace-with-analysis-pdca-slug",
+    "title": "Replace with competition analysis PDCA",
+    "source_dir": "notebooks/kaggle/analysis-pdca",
+    "code_file": "analysis_pdca.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_internet": false,
+    "dataset_sources": [],
+    "kernel_sources": []
+  },
+  "quota": {
+    "colab_linked": true,
+    "exact_weekly_gpu_hours": null,
+    "remaining_gpu_hours": null,
+    "reset_at": null,
+    "evidence_kind": "user_reported",
+    "observed_at": null
+  },
+  "execution": {
+    "official_max_runtime_minutes": 720,
+    "planning_limit_minutes": 540,
+    "checkpoint_interval_minutes": 30,
+    "required_outputs": [
+      "runtime_probe.json",
+      "data_inventory.json",
+      "run_manifest.json"
+    ]
+  },
+  "output_root": "state/kaggle/runs"
+}

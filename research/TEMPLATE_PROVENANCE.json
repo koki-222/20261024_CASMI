@@ -1,0 +1,776 @@
+{
+  "source": "/Users/kokiimai/Documents/2026_workspace/2_Dev/202608_comp_template",
+  "source_commit": "84f83415a17f83025d15c60c58482f227c0c2e37",
+  "source_status": [
+    " M .agents/skills/competition-bootstrap/SKILL.md",
+    " M .agents/skills/competition-bootstrap/agents/openai.yaml",
+    " M AGENTS.md",
+    " M README.md",
+    " M docs/workflow/BOOTSTRAP.md"
+  ],
+  "source_diff_sha256": "24f65f6d32ce4f3fe945b9b2672ed786875b421f63cae126fb96e0e28b109bfc",
+  "adopted_files": [
+    {
+      "path": ".agents/skills/competition-bootstrap/SKILL.md",
+      "sha256": "b78171287133f5c57a63ff63440019c11316180be21c1b7dd7fa45113befc0c7",
+      "symlink": null
+    },
+    {
+      "path": ".agents/skills/competition-bootstrap/agents/openai.yaml",
+      "sha256": "8ed1719e5e8c93e065983e5a21fd8c1a4f026e76f7c3613925ff772aedf5303b",
+      "symlink": null
+    },
+    {
+      "path": ".agents/skills/competition-pdca/SKILL.md",
+      "sha256": "72c20c56014f88e299cbf89156f639f98dcaefd0a7929cdbe7839d45f1e5a65d",
+      "symlink": null
+    },
+    {
+      "path": ".agents/skills/competition-pdca/agents/openai.yaml",
+      "sha256": "365889dbb8e2dc1d7215e67680dff9052a1cfed73b1242b031e68e4cdca66980",
+      "symlink": null
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "c1433b5f960d799f71aa3ade422c8bc480a999de09ff3a88d3404afbdb35d44b",
+      "symlink": null
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "c3418ba1fc46f0488716684cc6f50ed81dd2b638db8e64268e2c49cc0382fdc4",
+      "symlink": null
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": null,
+      "symlink": "AGENTS.md"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "8049d1b5bb68b53906cebda6937f0d69f95df930d72687a438e8799d856b4218",
+      "symlink": null
+    },
+    {
+      "path": "automation/bootstrap_package.template.json",
+      "sha256": "65e36c600b99b5558d4e172090882d898565d3b4cef95bc6fb4e483f500bcc49",
+      "symlink": null
+    },
+    {
+      "path": "automation/candidate_result_evidence.template.json",
+      "sha256": "187c5fd5a6c29f3338b0ea6c09fa55f957807a82b6f7cc2593bf6562d47298fc",
+      "symlink": null
+    },
+    {
+      "path": "automation/completion_state.template.json",
+      "sha256": "a0432e369eafecbdce1a238330272a276cd4f2efd443dcabc6abd2a04b277991",
+      "symlink": null
+    },
+    {
+      "path": "automation/compute_job.template.json",
+      "sha256": "c5735310e0c098c6f50fc067d4074fb7888e51ff75463b55a23a4c1c39eaf891",
+      "symlink": null
+    },
+    {
+      "path": "automation/compute_profiles.template.json",
+      "sha256": "2fac0e9de8125468a5cf669a37ceffd21acedd02fbf159d7e9f354c97469acb2",
+      "symlink": null
+    },
+    {
+      "path": "automation/compute_request.template.json",
+      "sha256": "132d3f53a66685650e34038a680802d20ea610a6163f990be7f626c07ab42465",
+      "symlink": null
+    },
+    {
+      "path": "automation/continuation.template.json",
+      "sha256": "5c3d1ee2fc8bf1d5e73b622e3022a0dc5bd77d78aa7d9d23d8e83e718546a881",
+      "symlink": null
+    },
+    {
+      "path": "automation/contracts/README.md",
+      "sha256": "1195c18b49f62117e03e4abd4267779645fd914b19c5dd4d99859cb5e4d466c6",
+      "symlink": null
+    },
+    {
+      "path": "automation/contracts/template.json",
+      "sha256": "7b0127fe90ce5e7aad7a4ab445d74d75e4b91b725616baeec8ca200c6a6a273f",
+      "symlink": null
+    },
+    {
+      "path": "automation/controller_state.template.json",
+      "sha256": "ecc41047a7381e2877d7bcc0b99cd2b7528b7a9f364e2721f7e371d82813acd0",
+      "symlink": null
+    },
+    {
+      "path": "automation/eligibility_evidence.template.json",
+      "sha256": "76baa7799a58b721c3a31c9d39bc2988b1b8239a678a410a0e54c6212f4a0ac4",
+      "symlink": null
+    },
+    {
+      "path": "automation/evaluation_design.template.json",
+      "sha256": "6f7c2bdd01afafcab8f37bc541282f4d70e0783f3311b1abcb9ddfdd5917c14e",
+      "symlink": null
+    },
+    {
+      "path": "automation/evaluation_profile_manifest.template.json",
+      "sha256": "0f6b42404d067502d174203031fa1fa8a72ebe759f30df761ba78b389654a6b0",
+      "symlink": null
+    },
+    {
+      "path": "automation/evaluation_profiles.template.json",
+      "sha256": "f5b9693505c6cd903f473e80976363c09302dac6db182f8f59304044a661b761",
+      "symlink": null
+    },
+    {
+      "path": "automation/experiment_record.template.json",
+      "sha256": "f407c6a8938a5cceee3468c263eaea98ac162876cb4f34b4711b9c828346e734",
+      "symlink": null
+    },
+    {
+      "path": "automation/exploration_plan.template.json",
+      "sha256": "df1d07aba2518f32fca11ae43d219e4f70022b2488b9fffbd8cc16e1fe3e3436",
+      "symlink": null
+    },
+    {
+      "path": "automation/fidelity_plan.template.json",
+      "sha256": "3d3a390d5bcb207e116322058ce0e740fb96a2c00f2ef5c461aef79b4ecbcac5",
+      "symlink": null
+    },
+    {
+      "path": "automation/final_leaderboard_snapshot.template.json",
+      "sha256": "43aebfc8f5bbaeb49ea44ecc1caf8c73cba1aeab4768c8d1e89960da021c4ab7",
+      "symlink": null
+    },
+    {
+      "path": "automation/issue_intake.template.json",
+      "sha256": "9041d785c209225ee0333b3cbb6cb9f646f2e6ccf20153a5961ee7a042e2ce0b",
+      "symlink": null
+    },
+    {
+      "path": "automation/kaggle_notebook.template.json",
+      "sha256": "7b7873bc13194c9af3d76cf75981a393e0b2666b5033798daed1c6af386e1e8a",
+      "symlink": null
+    },
+    {
+      "path": "automation/layout.json",
+      "sha256": "eda4a4aafdc2187407a4e4fb8de599359f9356b01df071d1fefc884cd20a67fe",
+      "symlink": null
+    },
+    {
+      "path": "automation/official_feedback_comparison.template.json",
+      "sha256": "57766f8a361b6d909d82b3cc70637597ab828a816c5b1c6585cdc8e351a73ffd",
+      "symlink": null
+    },
+    {
+      "path": "automation/pdca_goal.template.json",
+      "sha256": "a7ef663408218e1e619751d275c2dbddd5dd786b3f434463973fef71f8a97132",
+      "symlink": null
+    },
+    {
+      "path": "automation/quota.template.json",
+      "sha256": "50071e6e5fbda01bbeecc6ae537f9d703688019bbf0991287cf568198e95f417",
+      "symlink": null
+    },
+    {
+      "path": "automation/research_manifest.template.json",
+      "sha256": "03c198b0c3689ac24d2a88dff3028b512b0c2b9263898d1e29459aa682b2af62",
+      "symlink": null
+    },
+    {
+      "path": "automation/retrospective.template.json",
+      "sha256": "bc99f4d1eb06660bf6fde3fd9fdee9024467d49e6c4650c5f8ca9384c46711fb",
+      "symlink": null
+    },
+    {
+      "path": "automation/runtime_request.template.json",
+      "sha256": "db2180066925af3d9ae6e735cf2dab9efeb06c49037e9c28139e3585732ef277",
+      "symlink": null
+    },
+    {
+      "path": "automation/selection_plan.template.json",
+      "sha256": "11ac8a67a9b322bb4f9fb3dc306935d6a55ede266acfd1bdaad5423fd9ae261f",
+      "symlink": null
+    },
+    {
+      "path": "automation/source_issue.template.json",
+      "sha256": "ef0b091565d0112a989eaf529c055fd3dd6258f22abb040d76b20c93e99ef2c1",
+      "symlink": null
+    },
+    {
+      "path": "automation/validation_plan.template.json",
+      "sha256": "88a210a3a50485aa9c80065fba911601f632d73e9af7569c04282bc5b4010794",
+      "symlink": null
+    },
+    {
+      "path": "automation/work_queue.template.json",
+      "sha256": "079e8021606af243c13b0bb4853d1661237f4476f967fe63c8b27e0d25fe8d5a",
+      "symlink": null
+    },
+    {
+      "path": "automation/worker_inputs.template.json",
+      "sha256": "bdb6154af48509e40b2e3e914fd85baea33f1c4cab2b80c417cc9283dd87293b",
+      "symlink": null
+    },
+    {
+      "path": "docs/automation/AUTOMATION_GUIDE.md",
+      "sha256": "a8206aba7a0f2aeacafdba19a8c0a987f4b8ec0b8d63bfe395430b456a84d6ed",
+      "symlink": null
+    },
+    {
+      "path": "docs/automation/HISTORY_TO_GENERIC_DESIGN.md",
+      "sha256": "6b26d8340fc97370548596fbd85a18ce2b46336718decc93da6383aeb6838959",
+      "symlink": null
+    },
+    {
+      "path": "docs/automation/KAGGLE_NOTEBOOK.md",
+      "sha256": "a7723c4acff610ca32c6927c6386f5470a3fcbd88cf937272ffc435070036609",
+      "symlink": null
+    },
+    {
+      "path": "docs/workflow/BOOTSTRAP.md",
+      "sha256": "d01828d1c62a3e8bf542c4c9c12f79642ec2f143892ddb3458140c358c6f9f75",
+      "symlink": null
+    },
+    {
+      "path": "docs/workflow/PDCA.md",
+      "sha256": "5472ac29576bfb383277bdd058dc304d659b2cb136cb1ed168c6aa675d397042",
+      "symlink": null
+    },
+    {
+      "path": "docs/workflow/PRO_ISSUES_PROMPT.md",
+      "sha256": "69ff353f7a12ac9b7586e15e494723a5f52867923491c52af68aaf6b4e3b5608",
+      "symlink": null
+    },
+    {
+      "path": "reference_generic/README.md",
+      "sha256": "dafdbe1582bbaa1246defe5787dda563a18fa0d14a7c40ee1534abc05e64644c",
+      "symlink": null
+    },
+    {
+      "path": "reference_generic/config.json",
+      "sha256": "54cc94fa127bc23f4eca0f4e8569e8473269b6d5ef33ddebb3f83f76c61b3141",
+      "symlink": null
+    },
+    {
+      "path": "reference_generic/run.py",
+      "sha256": "5f2507bef3c1132e4feadd8450b18d52269c49df92d2e2a0d3c8bfc7d38bccd0",
+      "symlink": null
+    },
+    {
+      "path": "tests/fixtures/time_block.csv",
+      "sha256": "3752aa2d6e6df6410afef633d4454bb58e408ad4437124cf06ae74160e7adf98",
+      "symlink": null
+    },
+    {
+      "path": "tests/test_competition_automation.py",
+      "sha256": "dc517d680e9b6b33c39ccbc47a596cdf9c5419516ff997652d709adb9028c2c7",
+      "symlink": null
+    },
+    {
+      "path": "tests/test_compute.py",
+      "sha256": "2e0bd895de7964b1cf59f34cea6f3afd5b757699858e9c443ca94951c1c4ee5d",
+      "symlink": null
+    },
+    {
+      "path": "tests/test_continuation.py",
+      "sha256": "e1f3d3d94a4c25cdcc3dbb4447d56fabba6fbfdb6c79f2292544c82dbeced785",
+      "symlink": null
+    },
+    {
+      "path": "tests/test_controller.py",
+      "sha256": "f67b487518928efc4f6cd7e62d48101757b5df16015ee70c10666e16cfa1729e",
+      "symlink": null
+    },
+    {
+      "path": "tests/test_exploration.py",
+      "sha256": "296f5c64518f43d067208bc875126c19a3cc4d4a18dc689a63ce0695ba1810c2",
+      "symlink": null
+    },
+    {
+      "path": "tests/test_feedback.py",
+      "sha256": "48aaeeae406738aee1f2b10b47b505cf3c61c5bfa5fb9b7afc9ad30d74224e38",
+      "symlink": null
+    },
+    {
+      "path": "tests/test_fidelity.py",
+      "sha256": "0b87e4fabe9ba09454f9b27a2ff4aaf0c6861c96ca6912e6c80617e7079a1328",
+      "symlink": null
+    },
+    {
+      "path": "tests/test_fold_time_block.py",
+      "sha256": "1f928242cc39d93d3fa6f8451820fa36b206b554968c958b851bf17ba29b720d",
+      "symlink": null
+    },
+    {
+      "path": "tests/test_kaggle_elapsed_time.py",
+      "sha256": "6048ff748df50e07081958ba18e67f8962c922831379b07eceb6c670c304f72d",
+      "symlink": null
+    },
+    {
+      "path": "tests/test_kaggle_notebook.py",
+      "sha256": "52d7a2595b43b064c6f0b6afb038f30c211d90a859d07d84f6f1216b2706456c",
+      "symlink": null
+    },
+    {
+      "path": "tests/test_quota_binding.py",
+      "sha256": "a2cc73032126d600773121e3ce93ec2c735fbbb6de68e701df9218d5976e318f",
+      "symlink": null
+    },
+    {
+      "path": "tests/test_reference_generic.py",
+      "sha256": "8a4c0672ae7072b446c5386f0fdd03b6fae4e45dc5cf4d9e3666ef54f5739816",
+      "symlink": null
+    },
+    {
+      "path": "tests/test_runtime.py",
+      "sha256": "b07526c32847d6ae410c7e60f277fc58345f5e351c042b5229e2281acfa942fc",
+      "symlink": null
+    },
+    {
+      "path": "tests/test_scheduler.py",
+      "sha256": "8b3bbf42c31cb15ddfb8e278855e7e907c255236cf65d83ec4e0ccdef20be526",
+      "symlink": null
+    },
+    {
+      "path": "tests/test_selection.py",
+      "sha256": "3b9d47d5dbf7fdcacb81950e85ab2337f437264416f1ee90e95a6fcbc196aa08",
+      "symlink": null
+    },
+    {
+      "path": "tests/test_validation.py",
+      "sha256": "3045eec7684801a67625ad6841a5bc99efd471f2b204087ea74c6a2810cfa86f",
+      "symlink": null
+    },
+    {
+      "path": "tests/test_worker_inputs.py",
+      "sha256": "d1d551726fe3cedcab1aa8830066bc4cc1949e79fcf9698e0382a0265013d90c",
+      "symlink": null
+    },
+    {
+      "path": "tests/test_workflow.py",
+      "sha256": "305609c8c0ec698e2e882b569697132927ad6c900fdcef92055909b186ef2754",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/__init__.py",
+      "sha256": "c2708159341c7016c09e372b11db068abbe2ec06a2f74d65afd7f3788a561c7f",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/__main__.py",
+      "sha256": "57f91356ab3b9348a4dc6899f9c554f1fae57c74af5dd588ee84c1efdc3fe0cd",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/audit.py",
+      "sha256": "a5e633e9494529438258cdebb7ca3db31ccd2a5a51eae65ee8a16b969a9ba671",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/cli.py",
+      "sha256": "8f0c100970423efccd90d0de07eeacf9491d47a34eaad98e59b60eff544f795e",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/completion.py",
+      "sha256": "5abf54208db95a4c94bdc5e4ef706fd725c3e60aa1eafede49f33c0c4822d3bb",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/compute.py",
+      "sha256": "24fb6d17e69629b5ef0bb9636c97274ed50c536e61412785e4be7b7c5d599d14",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/continuation.py",
+      "sha256": "ab7ccbfa92fb997db9d9893885b22c2ee97d4ce9e6293e1e66c5d826863b9128",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/contract.py",
+      "sha256": "2577ed048b4cea0986d34ee9a326f3fa9314cc9cbd820ac9f459c8b48c8cd78e",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/controller.py",
+      "sha256": "f12c81d111ff1406e796dd0d906145c719010636d996cf319bc386210cad453e",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/exploration.py",
+      "sha256": "b4d29da541e21613075b4f834670bf0f5a9afb1a5508200c8d3a64f4b796a2e9",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/feedback.py",
+      "sha256": "184de6a26ff13fe27475ceb06675e015dea83b94ca1dc071d5c2f81370b137ba",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/fidelity.py",
+      "sha256": "6fcd13d2758e76b50da64fa31cd09ae71f9d02b771ca974bf63e14f96db5ef3d",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/fingerprint.py",
+      "sha256": "106e941bef93f5e7c3d1099fbe6138406af75bef93a274bce71621954862d805",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/gate.py",
+      "sha256": "30dcb2d969a24e9001a0805562ec113de940e180995d69a915b00bea71a7edf2",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/ledger.py",
+      "sha256": "c82730d46eb8fd76b94501451d5d2d3e5ef8b72fb30bcc763e89cf1a68812d62",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/preflight.py",
+      "sha256": "03ed4d886660d847e1b9e5141f7f36a74833870ade2cdfea9e1e4ffef39a1ed4",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/quota.py",
+      "sha256": "e8d20abc95ce26c1fe8fdc9e7b63a04ae3daa1f95dac91c406cbbafbf311f354",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/record.py",
+      "sha256": "f37a68912e9cef0b03176b074eeb7560d100e7abd2d173f89db73c79d567ef05",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/research.py",
+      "sha256": "1385920fac49f7418983f132309e3c3779d230557db9a2429adb53f8f9f7a95c",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/retrospective.py",
+      "sha256": "bfa9c903446fda2c4a50ee2fbcbd7deef317567312a4e8419d623c16899183a2",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/runtime.py",
+      "sha256": "6afa22633b8f0fa7fad79033024871c7d85848df40daa7dbddae41676a0cf935",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/scheduler.py",
+      "sha256": "a988f6b7121de8a791f95981ff07adf7c1b2a04a707143d4ea2004c19c572d43",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/selection.py",
+      "sha256": "9da43343aa6dafc1bd6f673dc08babca4ff016b6f3450b17b5d72a56cdfa6c0e",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/signature.py",
+      "sha256": "83114b2e477995a7b77488605cfb8c13b63c8ae1d79bc42a9ca223c242f24a0a",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/state.py",
+      "sha256": "d7dbc8afbef92dfa0c63db5beb4e4603a69bdafe5c4bb033b22ab0ae971bdd01",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/submission.py",
+      "sha256": "4aa03e24d6c2f089b01ad77354ffe91c3bcde223c970f8a4225f4648adca68d3",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/validation.py",
+      "sha256": "7d8abcf1d3002129c8cb9d4268e5b0e425f9f1d04b47be1484e2065e6aa1ecc9",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/worker_inputs.py",
+      "sha256": "de65f844444c34ecf9b42eb725399770ea8c664cf7046a62be1691513d29ea1a",
+      "symlink": null
+    },
+    {
+      "path": "tools/competition_automation/workflow.py",
+      "sha256": "6bc20073463c043afa68bbad41741c9e515f3f082066f7a395b38575edb344c6",
+      "symlink": null
+    },
+    {
+      "path": "tools/git-hooks/install.sh",
+      "sha256": "23074e6b246e53a389196d87cb3f80fed8b1182523e82f9323549293ced1ce87",
+      "symlink": null
+    },
+    {
+      "path": "tools/git-hooks/pre-commit",
+      "sha256": "a1546fd0034bf59839c59e4994ed47b8850d48238e472feceff7817239d5c931",
+      "symlink": null
+    },
+    {
+      "path": "tools/install_competition_skills.sh",
+      "sha256": "9868e3615aab14340556344bd05d8d13799ec0b5b38556bd6378e92c64a18a6e",
+      "symlink": null
+    },
+    {
+      "path": "tools/kaggle_code_competition_submission.md",
+      "sha256": "ea3bb9f5da71d0013696696169e49ee7f5b6971b39b3c2f20bf6ee52687ba109",
+      "symlink": null
+    },
+    {
+      "path": "tools/kaggle_elapsed_time.py",
+      "sha256": "8b395d2b3b38f72348bd0f3c69ac2d90c8dbb4cb8ee1665897b4bf54ac0ccaa2",
+      "symlink": null
+    },
+    {
+      "path": "tools/kaggle_notebook.py",
+      "sha256": "aff843dad481260f06c1bc511f7a3e35d2c68d2fb210835e64b55444450b9f80",
+      "symlink": null
+    },
+    {
+      "path": "tools/kaggle_upload.sh",
+      "sha256": "702a740e16765c8c569c71e47aba1626c252177217de9cb8027679335609db30",
+      "symlink": null
+    },
+    {
+      "path": "workspace/fold/README.md",
+      "sha256": "bc7451a1a018810461c04a17af5d67d9ecc3fb28670aff683c30f5e600c50996",
+      "symlink": null
+    },
+    {
+      "path": "workspace/fold/generate_folds.py",
+      "sha256": "9f4af56a44f390ead3e1abcff41fdd608afe6addc7f630d5529d14020e144309",
+      "symlink": null
+    },
+    {
+      "path": "setup.sh",
+      "sha256": "60b9338843713741ff9f54968f0bb28a8761d293ba09ee0fa41f582d126fccb7",
+      "symlink": null
+    },
+    {
+      "path": "locales/en/.claude/agents/code-reviewer.md",
+      "sha256": "e93ce75f4067904d8be59c9f549fc299330c077a2f4b622a780162a3e8be6784",
+      "symlink": null
+    },
+    {
+      "path": "locales/en/.claude/agents/competition-strategist.md",
+      "sha256": "5f76c1448969303e97dc3f29abca72330ad2e3fe06f2ebc481144cd59ec4d1df",
+      "symlink": null
+    },
+    {
+      "path": "locales/en/.claude/agents/data-analyst.md",
+      "sha256": "6b3af925de3e3520cfec28034830ec13c4a74174992e0ede1daccbb13494005d",
+      "symlink": null
+    },
+    {
+      "path": "locales/en/.claude/agents/kaggle-researcher.md",
+      "sha256": "27076fbf0466997e8b65fc699866667ff42b98564ed2ffcfa330715c6cf6f1a4",
+      "symlink": null
+    },
+    {
+      "path": "locales/en/.claude/agents/submission-validator.md",
+      "sha256": "979c58dd94c1828bea18f63c4996d4d7b639a4dca8c2776510e520131d65271e",
+      "symlink": null
+    },
+    {
+      "path": "locales/en/.claude/skills/daily-report/SKILL.md",
+      "sha256": "b7a7f196f9467ac73297c06b5e4e0ae0085ffa97afe4c079c230744816396134",
+      "symlink": null
+    },
+    {
+      "path": "locales/en/.claude/skills/exp-new/SKILL.md",
+      "sha256": "112a01c1b85bb54a983865ef596de90e1c66f9cc8eec3919257b634f94b54d58",
+      "symlink": null
+    },
+    {
+      "path": "locales/en/.claude/skills/onboard/SKILL.md",
+      "sha256": "c1dff67b661f4eac7bedb5a2721f48c53a353a9e2ea0f891cdd1dbad8173d541",
+      "symlink": null
+    },
+    {
+      "path": "locales/en/.claude/skills/strategy/SKILL.md",
+      "sha256": "95dba779297a3efe330b5606df9ba26f8897641ff5437650fc10fd6610841110",
+      "symlink": null
+    },
+    {
+      "path": "locales/en/.claude/skills/submit-check/SKILL.md",
+      "sha256": "8270396e6daf82b28f164711e5c08cd3e4d720aa71d3eed49d6051cc9d2e8b1e",
+      "symlink": null
+    },
+    {
+      "path": "locales/en/.claude/skills/survey-papers/SKILL.md",
+      "sha256": "da591704b3e644097ce10530dd1e43f0258b851225d6aca3ef040277dca635d8",
+      "symlink": null
+    },
+    {
+      "path": "locales/en/.claude/skills/wiki/SKILL.md",
+      "sha256": "13fbaf683d76bdddc79088be506a80b0e0f4f099ba8ae480bce2c4d4dbb65ce3",
+      "symlink": null
+    },
+    {
+      "path": "locales/en/AGENTS.md",
+      "sha256": "bfff1e213776938615b5277b71af82486785a85e9147cd0384d873e3f532b980",
+      "symlink": null
+    },
+    {
+      "path": "locales/en/CLAUDE.md",
+      "sha256": null,
+      "symlink": "AGENTS.md"
+    },
+    {
+      "path": "locales/en/KAGGLE_DIRECTION.md",
+      "sha256": "fc9a18555874fdace9ea8bc69ee720f024c9295a61f65054f7d453ca7c53a05f",
+      "symlink": null
+    },
+    {
+      "path": "locales/en/knowledge/INDEX.md",
+      "sha256": "28f7fc9801a56878c14c01f677260fc0c1a6f76289c309346d26d35124fb1c76",
+      "symlink": null
+    },
+    {
+      "path": "locales/en/knowledge/README.md",
+      "sha256": "56ce77c5cd30cc1f8ac7ca6e4b5c0342232b192ccfd92555ff655d57aa9b879b",
+      "symlink": null
+    },
+    {
+      "path": "locales/en/knowledge/_template.md",
+      "sha256": "d0eeb3a7bef4ef015db72a5ae6aac1194a069c4fb28fb9d5f71f7d20bd15999c",
+      "symlink": null
+    },
+    {
+      "path": "locales/en/submit/SUBMISSIONS.md",
+      "sha256": "46b95f15330db7296db7346af5d0a9368cf000cc021bf85e78a209f1787cd7f6",
+      "symlink": null
+    },
+    {
+      "path": "locales/ja/.claude/agents/code-reviewer.md",
+      "sha256": "92cb9fad0ec72351f7b4385301e5db22e8902923ee3e8a9c2f39f285426a1442",
+      "symlink": null
+    },
+    {
+      "path": "locales/ja/.claude/agents/competition-strategist.md",
+      "sha256": "d88eafcd314cfb0719ba611f2388306168accbef7f14d908208c37f09ebfc692",
+      "symlink": null
+    },
+    {
+      "path": "locales/ja/.claude/agents/data-analyst.md",
+      "sha256": "2350a4768870111d8a3f47b5c5912b9d774f757332f38d9b7e6c4cb5871978ec",
+      "symlink": null
+    },
+    {
+      "path": "locales/ja/.claude/agents/kaggle-researcher.md",
+      "sha256": "4287c6d2b261983856b5eb1b85322b64bc618484493d27172aabde37c76a0906",
+      "symlink": null
+    },
+    {
+      "path": "locales/ja/.claude/agents/submission-validator.md",
+      "sha256": "5831f28fd24b628e139361ea64b2cb98833ed24fd6cc208490bc0b8cc120665b",
+      "symlink": null
+    },
+    {
+      "path": "locales/ja/.claude/skills/daily-report/SKILL.md",
+      "sha256": "539aa353a14d74a7db826b8adbc3270d3a8950ec4eef5bbece023f3de10dbc5c",
+      "symlink": null
+    },
+    {
+      "path": "locales/ja/.claude/skills/exp-new/SKILL.md",
+      "sha256": "137011a18fd5d3243a659ecef6a51183bffbd6ab7ca5043a774cd1ea6876c19e",
+      "symlink": null
+    },
+    {
+      "path": "locales/ja/.claude/skills/onboard/SKILL.md",
+      "sha256": "c1dff67b661f4eac7bedb5a2721f48c53a353a9e2ea0f891cdd1dbad8173d541",
+      "symlink": null
+    },
+    {
+      "path": "locales/ja/.claude/skills/strategy/SKILL.md",
+      "sha256": "2593a8653d00469dc5e1a41b9f85afcc3c46e42caf1804cf4d1d751673c38875",
+      "symlink": null
+    },
+    {
+      "path": "locales/ja/.claude/skills/submit-check/SKILL.md",
+      "sha256": "51c81a32cc99f50b1e6064014aa7e8fb8d4cae58c668f9975235c26728b9ecf3",
+      "symlink": null
+    },
+    {
+      "path": "locales/ja/.claude/skills/survey-papers/SKILL.md",
+      "sha256": "382e30490426d3e14cebe3b60cd84ec16f3fcb79df7c98623a56e07dd014d19d",
+      "symlink": null
+    },
+    {
+      "path": "locales/ja/.claude/skills/wiki/SKILL.md",
+      "sha256": "76ffad5abb8e2b363057f48e1cf4ed700109e3f6dbb277faa1064a4f1f369b51",
+      "symlink": null
+    },
+    {
+      "path": "locales/ja/AGENTS.md",
+      "sha256": "bfff1e213776938615b5277b71af82486785a85e9147cd0384d873e3f532b980",
+      "symlink": null
+    },
+    {
+      "path": "locales/ja/CLAUDE.md",
+      "sha256": null,
+      "symlink": "AGENTS.md"
+    },
+    {
+      "path": "locales/ja/KAGGLE_DIRECTION.md",
+      "sha256": "fc9a18555874fdace9ea8bc69ee720f024c9295a61f65054f7d453ca7c53a05f",
+      "symlink": null
+    },
+    {
+      "path": "locales/ja/knowledge/INDEX.md",
+      "sha256": "f280541cda58c3c95e79f911a8c189e4040e1be6e7fa202b674c2c2621aaac80",
+      "symlink": null
+    },
+    {
+      "path": "locales/ja/knowledge/README.md",
+      "sha256": "cc41541d94b8e45e457c33488426302b5aeb53a0aabb18c2407be9dadcca5b85",
+      "symlink": null
+    },
+    {
+      "path": "locales/ja/knowledge/_template.md",
+      "sha256": "7a2ebe8ad83c37ce025ba49c1e5d782440dde9459c349ffb58e62ed2282c2e40",
+      "symlink": null
+    },
+    {
+      "path": "locales/ja/submit/SUBMISSIONS.md",
+      "sha256": "cebc39d514ecb5fa2e86d440256b816bc37f04134c6701c6f403028ce2f05a9c",
+      "symlink": null
+    },
+    {
+      "path": "tests/fixtures/reference_contracts/sad.json",
+      "source_path": "automation/contracts/sad.json",
+      "sha256": "167577fc1cd0f8ca943c2caa4ccc1937393b647c2ed00e3023e4d9fc68c5fe8c",
+      "symlink": null,
+      "purpose": "isolated generic regression fixture, never active competition contract"
+    },
+    {
+      "path": "tests/fixtures/reference_contracts/geoai.json",
+      "source_path": "automation/contracts/geoai.json",
+      "sha256": "ccbd421227474a38170cbf2111ba2d69bffcf4541e1cd61c00bed18d721f142d",
+      "symlink": null,
+      "purpose": "isolated generic regression fixture, never active competition contract"
+    },
+    {
+      "path": "tests/fixtures/reference_contracts/nedo.json",
+      "source_path": "automation/contracts/nedo.json",
+      "sha256": "20c5da45181e238b67a26a93c5cdb76af39173b3142a3046d32ccc948eeca2ea",
+      "symlink": null,
+      "purpose": "isolated generic regression fixture, never active competition contract"
+    },
+    {
+      "path": "tests/fixtures/reference_contracts/rogii.json",
+      "source_path": "automation/contracts/rogii.json",
+      "sha256": "3830eb80b3c79878fb345a175a7bf69fb597ca784522265b42629607c219e99c",
+      "symlink": null,
+      "purpose": "isolated generic regression fixture, never active competition contract"
+    },
+    {
+      "path": "tests/fixtures/reference_contracts/template.json",
+      "source_path": "automation/contracts/template.json",
+      "sha256": "7b0127fe90ce5e7aad7a4ab445d74d75e4b91b725616baeec8ca200c6a6a273f",
+      "symlink": null,
+      "purpose": "isolated generic regression fixture, never active competition contract"
+    }
+  ],
+  "destination_initial_commit": "76d17fa458c6d6db0433cfd4c25ed9d44bda52d9",
+  "destination_readme_sha256": "37592f18b89d0b958e49706a478770762cc25db6eb212f5f286ed908c6321896"
+}

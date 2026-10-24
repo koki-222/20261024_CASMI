@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "competition": {
+    "name": "Enveda CASMI 2026 - Molecule ID From Mass Spectra",
+    "slug": "enveda-CASMI26-molecule-id-mass-spectra"
+  },
+  "platform": {
+    "kind": "kaggle_code_competition"
+  },
+  "data": {
+    "root": "datasets/raw/casmi26",
+    "train": "datasets/raw/casmi26/train.parquet",
+    "test": "datasets/raw/casmi26/test.parquet",
+    "sample_submission": "datasets/raw/casmi26/sample_submission.csv",
+    "train_label": "normalized_smiles",
+    "test_molecule_key": "molecule_id",
+    "test_spectrum_key": "spectrum_id",
+    "train_row_key": "file_sha256:row_group:row_offset",
+    "train_molecule_group": "stereo_removed_tautomer_canonical_inchikey14_and_duplicate_components",
+    "max_candidates": 25,
+    "output_filename": "submission.csv",
+    "notebook_max_seconds": 32400,
+    "internet_enabled": false,
+    "train_provisioned": false
+  },
+  "submission": {
+    "format": "csv",
+    "upload_mode": "disabled",
+    "columns": [
+      {
+        "name": "molecule_id",
+        "role": "id",
+        "type": "string"
+      },
+      {
+        "name": "smiles",
+        "role": "prediction",
+        "type": "string"
+      }
+    ],
+    "sample_order": false
+  },
+  "evaluation": {
+    "metric": "MRR@25",
+    "direction": "max",
+    "metric_domain": {
+      "minimum": 0,
+      "maximum": 1
+    },
+    "formula": "mean first-hit reciprocal rank per molecule; missing hit within25 gives0; stereo removal before RDKit2026.03.3 tautomer canonicalization and InChIKey14 comparison",
+    "scope": "hidden molecule-level official score; public scorer version14 observed, actual deployment pin unconfirmed",
+    "proxy_metrics": [
+      "candidate_recall_at25",
+      "top1",
+      "source_stratified_mrr",
+      "paired_rescues_and_losses",
+      "runtime_seconds"
+    ]
+  },
+  "split": {
+    "strategy": "component_group_holdout_with_source_and_reference_visibility_panels",
+    "group_key": "canonical_component",
+    "primary_holdout": "untouched unseen structures with source/reference exposure declared",
+    "selection_must_be_nested": true
+  },
+  "research": {
+    "required_sections": [
+      "rules",
+      "data",
+      "metric",
+      "submission",
+      "timeline_quota",
+      "leakage",
+      "history"
+    ],
+    "minimum_sources": 7
+  },
+  "policy": {
+    "required_checks": [
+      "contract",
+      "leakage",
+      "reproducibility",
+      "submission",
+      "smiles_and_runtime_ids",
+      "offline_runtime",
+      "weight_training_code_and_allowed_data"
+    ],
+    "seed_only_adoption_forbidden": true,
+    "research_preflight_required": true,
+    "completion_proof_required": true,
+    "selection_proof_required_for_adoption": true,
+    "issue_evidence_required": true,
+    "external_data_requires_provenance": true,
+    "test_labels_forbidden": true,
+    "same_id_lookup_forbidden": true,
+    "hidden_test_safe_required": true,
+    "unsafe_fallback_forbidden": true,
+    "proxy_cannot_claim_lb": true,
+    "compile_import_smoke_required": true,
+    "external_upload_requires_user_confirmation": true,
+    "train_only_columns": [
+      "normalized_smiles",
+      "inchikey",
+      "inchikey14",
+      "molecular_formula",
+      "ingest_lib",
+      "adduct_orig",
+      "precursor_error_ppm",
+      "num_peaks"
+    ],
+    "forbidden_inference_columns": [
+      "normalized_smiles",
+      "inchikey",
+      "inchikey14",
+      "molecular_formula",
+      "ingest_lib",
+      "adduct_orig",
+      "precursor_error_ppm"
+    ]
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "scope": "All11 required official textual pages, file list, quota observation, public metric14 and4 primary clarification/provenance topics. Raw retained locally; embedded images excluded; actual deployment pin not asserted.",
+  "observed_at": "2026-10-24T02:42:18.292298+00:00",
+  "pagination_complete": true,
+  "items": [
+    {
+      "uri": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/data",
+      "version": "observed-20261024:e10f34485bc909fa57238a56c9252199786880ec3d0e723859040bb44e05504b",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/api/official_pages.json",
+        "sha256": "63da999138a77070e7cff9fb8cb3b42736f4084c64331fafc4beeb8a81672f33"
+      },
+      "publication": "Local original only; original summaries published in OFFICIAL_SUMMARY.md"
+    },
+    {
+      "uri": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/overview/description",
+      "version": "observed-20261024:2067048627640f8e4f11e602ba10352daab86d4307bc8d6360faa7920c2cdb3a",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/api/official_pages.json",
+        "sha256": "63da999138a77070e7cff9fb8cb3b42736f4084c64331fafc4beeb8a81672f33"
+      },
+      "publication": "Local original only; original summaries published in OFFICIAL_SUMMARY.md"
+    },
+    {
+      "uri": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/rules",
+      "version": "observed-20261024:dbee1a59363cbb65c23787d9a3d4d517a56fc83eabe6af602a0f1870494c62fb",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/api/official_pages.json",
+        "sha256": "63da999138a77070e7cff9fb8cb3b42736f4084c64331fafc4beeb8a81672f33"
+      },
+      "publication": "Local original only; original summaries published in OFFICIAL_SUMMARY.md"
+    },
+    {
+      "uri": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/overview/abstract",
+      "version": "observed-20261024:11c05e927da6b26b740531408548682b63c8abfa16acfba3dda184675c5731b8",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/api/official_pages.json",
+        "sha256": "63da999138a77070e7cff9fb8cb3b42736f4084c64331fafc4beeb8a81672f33"
+      },
+      "publication": "Local original only; original summaries published in OFFICIAL_SUMMARY.md"
+    },
+    {
+      "uri": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/rules",
+      "version": "observed-20261024:3106b398b76d8ec4d92708b5fc55afd96524774e6f28718437f025ab22e0a6f4",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/api/official_pages.json",
+        "sha256": "63da999138a77070e7cff9fb8cb3b42736f4084c64331fafc4beeb8a81672f33"
+      },
+      "publication": "Local original only; original summaries published in OFFICIAL_SUMMARY.md"
+    },
+    {
+      "uri": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/overview/background",
+      "version": "observed-20261024:2b90a544d296f4bfbd4e3b365b9b5195533f6d1e8c5896c6ccfda7dea7aa90a6",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/api/official_pages.json",
+        "sha256": "63da999138a77070e7cff9fb8cb3b42736f4084c64331fafc4beeb8a81672f33"
+      },
+      "publication": "Local original only; original summaries published in OFFICIAL_SUMMARY.md"
+    },
+    {
+      "uri": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/overview/evaluation",
+      "version": "observed-20261024:bd177ef401124123c893cc408a704b2c9a0d700f7dc827755c55592490f729c2",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/api/official_pages.json",
+        "sha256": "63da999138a77070e7cff9fb8cb3b42736f4084c64331fafc4beeb8a81672f33"
+      },
+      "publication": "Local original only; original summaries published in OFFICIAL_SUMMARY.md"
+    },
+    {
+      "uri": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/overview/timeline",
+      "version": "observed-20261024:c3bf8a9e5da676970e2b7f44e3468e27d702db3e66f6b42fff95417e63930d06",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/api/official_pages.json",
+        "sha256": "63da999138a77070e7cff9fb8cb3b42736f4084c64331fafc4beeb8a81672f33"
+      },
+      "publication": "Local original only; original summaries published in OFFICIAL_SUMMARY.md"
+    },
+    {
+      "uri": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/overview/prizes",
+      "version": "observed-20261024:25ce89d8722de59624fee0d4b07341b9850efbcc8f99b097dcb5c91a2808ca41",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/api/official_pages.json",
+        "sha256": "63da999138a77070e7cff9fb8cb3b42736f4084c64331fafc4beeb8a81672f33"
+      },
+      "publication": "Local original only; original summaries published in OFFICIAL_SUMMARY.md"
+    },
+    {
+      "uri": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/overview/code-requirements",
+      "version": "observed-20261024:7717ab86668081aa7813ca9aa3067f8ed20b539515fa23129f65cd40b848cc8e",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/api/official_pages.json",
+        "sha256": "63da999138a77070e7cff9fb8cb3b42736f4084c64331fafc4beeb8a81672f33"
+      },
+      "publication": "Local original only; original summaries published in OFFICIAL_SUMMARY.md"
+    },
+    {
+      "uri": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/overview/acknowledgements",
+      "version": "observed-20261024:ee32727b41eb70d7d6b8f4e3bdcc921132162c5a112132f743eeb46aceaa7521",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/api/official_pages.json",
+        "sha256": "63da999138a77070e7cff9fb8cb3b42736f4084c64331fafc4beeb8a81672f33"
+      },
+      "publication": "Local original only; original summaries published in OFFICIAL_SUMMARY.md"
+    },
+    {
+      "uri": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/data",
+      "version": "file-list-20261024",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/fresh/files.json",
+        "sha256": "4aa92b2ca6bfb7e6d95167e7b4c918c5cee093443cfcbdf4692fe8c472901442"
+      },
+      "publication": "Raw excluded; see original summary and hash index"
+    },
+    {
+      "uri": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra",
+      "version": "quota-observation-20261024",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/fresh/limits.json",
+        "sha256": "ccd1aa2faef15a9aeda10bb72dbf9287c78e25e607d0b0102e6480e0a759361e"
+      },
+      "publication": "Raw excluded; see original summary and hash index"
+    },
+    {
+      "uri": "https://www.kaggle.com/code/metric/casmi-mean-reciprocal-rank/14",
+      "version": "public-version14-deployment-pin-unconfirmed",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/api/metric_response.json",
+        "sha256": "21c1d908f8cff2517910d3fead9c20c6fe44895194cc1c10e0ad7cc2be9536e1"
+      },
+      "publication": "Raw excluded; see original summary and hash index"
+    },
+    {
+      "uri": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/750330",
+      "version": "observed-20261024:d7c39528280e6c2c9ffbe717c48a7e80c0dc4f3137fbc839bcc251340684af89",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/api/discussions/750330.json",
+        "sha256": "d7c39528280e6c2c9ffbe717c48a7e80c0dc4f3137fbc839bcc251340684af89"
+      }
+    },
+    {
+      "uri": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/741359",
+      "version": "observed-20261024:197ae2b51dc209aadaad682f380ee3a2d59839e275d998ce170226686c56ff4c",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/api/discussions/741359.json",
+        "sha256": "197ae2b51dc209aadaad682f380ee3a2d59839e275d998ce170226686c56ff4c"
+      }
+    },
+    {
+      "uri": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/750612",
+      "version": "observed-20261024:ea1e4e422fde967da2286d8f5385f532349fa15980988c39bf0fbeab5522df47",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/api/discussions/750612.json",
+        "sha256": "ea1e4e422fde967da2286d8f5385f532349fa15980988c39bf0fbeab5522df47"
+      }
+    },
+    {
+      "uri": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/discussion/751474",
+      "version": "observed-20261024:db478a2d7a9006a546a3c5b1f4290270b41aa7d26ab77a37e9db1374fd2b28c9",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/api/discussions/751474.json",
+        "sha256": "db478a2d7a9006a546a3c5b1f4290270b41aa7d26ab77a37e9db1374fd2b28c9"
+      }
+    }
+  ]
+}

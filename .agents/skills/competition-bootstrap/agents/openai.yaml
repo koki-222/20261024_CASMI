@@ -1,0 +1,4 @@
+interface:
+  display_name: "Competition bootstrap"
+  short_description: "移植先の絶対パスを確認し、固定汎用repoから移植・収集・Pro引き渡し"
+  default_prompt: "$competition-bootstrapで初回導入を進めて。コンペURLと移植先の絶対パスが未指定なら質問し、固定の汎用repoから移植・収集・push・Pro向け引き渡しまで実施して。"

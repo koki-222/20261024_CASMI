@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "record_id": "replace-with-experiment-id",
+  "artifact_sha256": "replace-with-lowercase-sha256",
+  "family": "replace-with-hypothesis-family",
+  "lineage_signature": "replace-with-lowercase-sha256",
+  "complexity_rank": 1,
+  "profile_results": {
+    "fast_cv": {
+      "metric_value": 0.0,
+      "distribution_signature": "replace-with-lowercase-sha256",
+      "group_key": "replace-with-group-or-time-key",
+      "n_observations": 1
+    },
+    "deployment_proxy": {
+      "metric_value": 0.0,
+      "distribution_signature": "replace-with-lowercase-sha256",
+      "group_key": "replace-with-group-or-time-key",
+      "n_observations": 1,
+      "scored_cohort_sha256": "replace-with-same-cohort-sha256-as-selection-plan"
+    },
+    "worst_group": {
+      "metric_value": 0.0,
+      "distribution_signature": "replace-with-lowercase-sha256",
+      "group_key": "replace-with-group-or-time-key",
+      "n_observations": 1,
+      "scored_cohort_sha256": "replace-with-same-cohort-sha256-as-selection-plan"
+    }
+  },
+  "interval_vs_champion": {
+    "lower": 0.0,
+    "upper": 0.0,
+    "confidence": 0.95,
+    "group_key": "replace-with-group-or-time-key",
+    "champion_record_id": "replace-with-champion-before-record-id"
+  },
+  "correlation_with_champion": 1.0,
+  "correlation_champion_record_id": "replace-with-champion-after-record-id"
+}

@@ -1,0 +1,14 @@
+{
+  "mode": "request_only",
+  "demo": {
+    "enabled": false,
+    "data": null,
+    "target": null,
+    "features": null,
+    "optimizer": null,
+    "steps": null,
+    "learning_rate": null,
+    "checkpoint_interval": null,
+    "output_dir": "results"
+  }
+}

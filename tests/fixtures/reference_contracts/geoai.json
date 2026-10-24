@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "competition": {
+    "name": "Zindi - GeoAI Aquaculture Pond Identification",
+    "slug": "geoai-aquaculture-pond-identification-challenge"
+  },
+  "platform": {"kind": "zindi"},
+  "data": {
+    "train": "datasets/Train.csv",
+    "test": "datasets/Test.csv",
+    "sample_submission": "datasets/SampleSubmission.csv",
+    "target_columns": ["target", "Target"]
+  },
+  "submission": {
+    "format": "csv",
+    "upload_mode": "manual",
+    "columns": [
+      {"name": "ID", "role": "id", "type": "string"},
+      {"name": "TargetF1", "role": "prediction", "type": "integer", "minimum": 0, "maximum": 1},
+      {"name": "TargetRAUC", "role": "prediction", "type": "probability", "minimum": 0, "maximum": 1, "finite": true}
+    ],
+    "sample_order": true
+  },
+  "evaluation": {
+    "metric": "lb_composite",
+    "direction": "max",
+    "metric_domain": {"minimum": 0, "maximum": 1},
+    "official_formula": "0.6 * F1 + 0.4 * AUC",
+    "proxy_metrics": ["train_only_nested_cv", "domain_stratified_cv", "signature_worst_case"]
+  },
+  "split": {
+    "strategy": "train_only_nested_stratified_domain",
+    "primary_holdout": "outer_fold",
+    "selection_must_be_nested": true
+  },
+  "research": {
+    "required_sections": ["rules", "data", "metric", "submission", "timeline_quota", "leakage", "history"],
+    "minimum_sources": 7
+  },
+  "policy": {
+    "required_checks": ["contract", "leakage", "reproducibility", "submission"],
+    "research_preflight_required": true,
+    "completion_proof_required": true,
+    "seed_only_adoption_forbidden": true,
+    "external_data_requires_provenance": true,
+    "test_labels_forbidden": true,
+    "forbidden_inference_columns": ["target", "Target", "TargetF1", "TargetRAUC"],
+    "train_only_columns": ["target", "Target"],
+    "train_only_must_be_absent_from_test": true,
+    "threshold_semantics": {"TargetF1": "raw_probability >= 0.5", "TargetRAUC": "unrounded_probability"}
+  }
+}

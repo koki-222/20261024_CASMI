@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "scope": "CASMI2022 organizer results and author methods (MSNovelist, MIST-CF). Results charts, participant Drive assets and all winner recipes not fully archived; no CASMI26-vs2022 metric equivalence asserted.",
+  "observed_at": "2026-10-24T02:42:18.292298+00:00",
+  "pagination_complete": false,
+  "items": [
+    {
+      "uri": "https://www.fiehnlab.ucdavis.edu/casmi/casmi-2022-results",
+      "version": "observed-20261024",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/external/casmi2022.html",
+        "sha256": "98e96c2cfa1fc79493bc216bd9a4b8b812434fb7ee1a7124738d5a9ed16d6d83"
+      }
+    },
+    {
+      "uri": "https://drive.google.com/drive/u/3/folders/12cCAdUjV_mXZ7tavdz9A_r18B6rDk437",
+      "version": "linked-on-official-results",
+      "status": "unavailable",
+      "reason": "Participant assets linked by organizer; full access/license and per-file capture unverified. No winner recipe completeness claimed."
+    }
+  ]
+}

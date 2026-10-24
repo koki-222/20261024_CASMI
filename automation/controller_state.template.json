@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "state_inputs": [
+    {
+      "path": "automation/contracts/current.json",
+      "sha256": "replace-with-lowercase-sha256"
+    },
+    {
+      "path": "research/manifest.json",
+      "sha256": "replace-with-lowercase-sha256"
+    },
+    {
+      "path": "automation/ledger.jsonl",
+      "sha256": "replace-with-lowercase-sha256"
+    },
+    {
+      "path": "evidence/official-state.json",
+      "sha256": "replace-with-lowercase-sha256"
+    }
+  ],
+  "previous_audit_state_fingerprint": null,
+  "blocked_state": {
+    "active": false
+  },
+  "policy": {
+    "provider_failure_threshold": 1,
+    "family_failure_threshold": 3
+  },
+  "hypothesis_source": {
+    "mode": "user_github_issue",
+    "repository": "replace-with-owner/repository",
+    "allowed_authors": ["replace-with-user-login"]
+  },
+  "evaluation_policy": {
+    "profile_manifest": {
+      "path": "automation/evaluation_profiles.json",
+      "sha256": "replace-with-lowercase-sha256"
+    },
+    "selection_profile": "deployment_proxy",
+    "diagnostic_profiles": ["fast_cv"],
+    "required_stress_profiles": ["worst_group"],
+    "max_official_feedback_rounds_per_family": 1
+  },
+  "providers": [],
+  "families": [
+    {
+      "name": "replace-with-family",
+      "status": "open",
+      "attempts": 0,
+      "budget": 6,
+      "consecutive_robust_failures": 0,
+      "mechanism_signatures": [],
+      "input_signatures": [],
+      "batch_required": false
+    }
+  ],
+  "experiment_history": [],
+  "action": {
+    "type": "experiment",
+    "provider": "replace-with-provider",
+    "family": "replace-with-family",
+    "hypothesis_signature": "replace-with-lowercase-sha256",
+    "mechanism_signature": "replace-with-lowercase-sha256",
+    "input_signature": "replace-with-lowercase-sha256",
+    "change_scope": "hypothesis",
+    "seed_averaging": false,
+    "external_input": false,
+    "evaluation_plan": {
+      "selection_profile": "deployment_proxy",
+      "stress_profiles": ["worst_group"],
+      "official_feedback_round": 0
+    },
+    "run_snapshot": {
+      "data": {
+        "path": "evidence/run-start-data.json",
+        "sha256": "replace-with-lowercase-sha256"
+      },
+      "code": {
+        "path": "evidence/run-start-code.json",
+        "sha256": "replace-with-lowercase-sha256"
+      },
+      "config": {
+        "path": "evidence/run-start-config.json",
+        "sha256": "replace-with-lowercase-sha256"
+      },
+      "split": {
+        "path": "evidence/run-start-split.json",
+        "sha256": "replace-with-lowercase-sha256"
+      }
+    }
+  }
+}

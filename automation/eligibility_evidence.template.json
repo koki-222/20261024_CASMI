@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "record_id": "replace-with-experiment-id",
+  "artifact_sha256": "replace-with-lowercase-sha256",
+  "status": "verified",
+  "rules_snapshot_sha256": "replace-with-lowercase-sha256",
+  "checks": [
+    "data availability timing verified",
+    "external data and license verified",
+    "submission contract verified"
+  ]
+}

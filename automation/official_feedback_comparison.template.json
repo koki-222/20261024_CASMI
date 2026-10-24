@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "direction": "max",
+  "requirements": {
+    "minimum_observations": null,
+    "max_abs_recent_drift": null,
+    "max_cohort_distance": null
+  },
+  "before": {
+    "observation_id": "replace-with-result-id",
+    "evaluation_id": "replace-with-evaluation-version",
+    "score": 0.0,
+    "observed_at": "2026-01-01T00:00:00Z",
+    "n_observations": null,
+    "cohort_counts": null,
+    "recent_drift_per_observation": null,
+    "artifact": null,
+    "source": {"path": "evidence/official-before.json", "sha256": "replace-with-source-sha256"}
+  },
+  "after": {
+    "observation_id": "replace-with-result-id",
+    "evaluation_id": "replace-with-evaluation-version",
+    "score": 0.0,
+    "observed_at": "2026-01-01T00:00:00Z",
+    "n_observations": null,
+    "cohort_counts": null,
+    "recent_drift_per_observation": null,
+    "artifact": null,
+    "source": {"path": "evidence/official-after.json", "sha256": "replace-with-source-sha256"}
+  }
+}

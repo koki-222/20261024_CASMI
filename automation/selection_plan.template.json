@@ -1,0 +1,134 @@
+{
+  "schema_version": 2,
+  "frozen_at": "2026-01-01T00:00:00Z",
+  "metric": {
+    "name": "replace-with-objective-metric",
+    "direction": "min"
+  },
+  "profiles": [
+    {
+      "name": "fast_cv",
+      "role": "diagnostic",
+      "distribution_signature": "replace-with-lowercase-sha256",
+      "group_key": "replace-with-group-or-time-key",
+      "manifest": {
+        "path": "evidence/profiles/fast_cv.json",
+        "sha256": "replace-with-same-lowercase-sha256"
+      }
+    },
+    {
+      "name": "deployment_proxy",
+      "role": "selection",
+      "distribution_signature": "replace-with-lowercase-sha256",
+      "group_key": "replace-with-group-or-time-key",
+      "manifest": {
+        "path": "evidence/profiles/deployment_proxy.json",
+        "sha256": "replace-with-same-lowercase-sha256"
+      },
+      "scored_cohort": {
+        "path": "evidence/cohorts/deployment_proxy.jsonl",
+        "sha256": "replace-with-lowercase-sha256"
+      }
+    },
+    {
+      "name": "worst_group",
+      "role": "stress",
+      "distribution_signature": "replace-with-lowercase-sha256",
+      "group_key": "replace-with-group-or-time-key",
+      "manifest": {
+        "path": "evidence/profiles/worst_group.json",
+        "sha256": "replace-with-same-lowercase-sha256"
+      },
+      "scored_cohort": {
+        "path": "evidence/cohorts/worst_group.jsonl",
+        "sha256": "replace-with-lowercase-sha256"
+      }
+    }
+  ],
+  "policy": {
+    "selection_profile": "deployment_proxy",
+    "required_stress_profiles": ["worst_group"],
+    "equivalence_margin": 0.001,
+    "replacement_requires_interval": true,
+    "require_matched_scored_cohort": true,
+    "max_hedge_regret": 0.003,
+    "max_hedge_correlation": 0.9,
+    "max_stress_regret": {"worst_group": 0.003},
+    "minimum_distinct_families": 2,
+    "minimum_distinct_lineages": 2,
+    "max_official_feedback_rounds_per_family": 1,
+    "max_official_feedback_rounds_per_lineage": 1
+  },
+  "champion_before": "baseline",
+  "champion_after": "baseline",
+  "preexisting_submissions": [],
+  "selected": ["baseline", "orthogonal-hedge"],
+  "candidates": [
+    {
+      "record_id": "baseline",
+      "family": "simple-baseline",
+      "lineage_signature": "replace-with-lowercase-sha256",
+      "artifact_sha256": "replace-with-lowercase-sha256",
+      "complexity_rank": 1,
+      "metric_values": {
+        "fast_cv": 0.5,
+        "deployment_proxy": 0.6,
+        "worst_group": 0.65
+      },
+      "interval_vs_champion": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "confidence": 0.95,
+        "group_key": "replace-with-group-or-time-key",
+        "champion_record_id": "baseline"
+      },
+      "correlation_with_champion": 1.0,
+      "correlation_champion_record_id": "baseline",
+      "official_feedback_round": 0,
+      "eligibility": {
+        "status": "verified",
+        "evidence": {
+          "path": "evidence/eligibility/baseline.json",
+          "sha256": "replace-with-lowercase-sha256"
+        }
+      },
+      "result_evidence": {
+        "path": "evidence/results/baseline.json",
+        "sha256": "replace-with-lowercase-sha256"
+      }
+    },
+    {
+      "record_id": "orthogonal-hedge",
+      "family": "orthogonal-family",
+      "lineage_signature": "replace-with-lowercase-sha256",
+      "artifact_sha256": "replace-with-lowercase-sha256",
+      "complexity_rank": 2,
+      "metric_values": {
+        "fast_cv": 0.51,
+        "deployment_proxy": 0.601,
+        "worst_group": 0.64
+      },
+      "interval_vs_champion": {
+        "lower": -0.001,
+        "upper": 0.002,
+        "confidence": 0.95,
+        "group_key": "replace-with-group-or-time-key",
+        "champion_record_id": "baseline"
+      },
+      "correlation_with_champion": 0.8,
+      "correlation_champion_record_id": "baseline",
+      "official_feedback_round": 0,
+      "eligibility": {
+        "status": "verified",
+        "evidence": {
+          "path": "evidence/eligibility/orthogonal-hedge.json",
+          "sha256": "replace-with-lowercase-sha256"
+        }
+      },
+      "result_evidence": {
+        "path": "evidence/results/orthogonal-hedge.json",
+        "sha256": "replace-with-lowercase-sha256"
+      }
+    }
+  ]
+}

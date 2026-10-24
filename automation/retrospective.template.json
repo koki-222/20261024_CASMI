@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "competition_ended_at": "2026-01-31T23:59:00Z",
+  "metric": {
+    "name": "replace-with-objective-metric",
+    "direction": "min",
+    "target": 0.0
+  },
+  "official_snapshot": {
+    "path": "evidence/final-leaderboard.json",
+    "sha256": "replace-with-lowercase-sha256"
+  },
+  "selection_plan": {
+    "path": "automation/selection_plan.json",
+    "sha256": "replace-with-lowercase-sha256"
+  },
+  "submissions": [
+    {
+      "record_id": "baseline",
+      "submission_id": "replace-with-platform-submission-id",
+      "submitted_at": "2026-01-30T00:00:00Z",
+      "artifact_sha256": "replace-with-lowercase-sha256",
+      "family": "simple-baseline",
+      "complexity_rank": 1,
+      "public_score": 0.0,
+      "private_score": 0.0
+    },
+    {
+      "record_id": "orthogonal-hedge",
+      "submission_id": "replace-with-platform-submission-id-2",
+      "submitted_at": null,
+      "artifact_sha256": "replace-with-lowercase-sha256",
+      "family": "orthogonal-family",
+      "complexity_rank": 2,
+      "public_score": 0.0,
+      "private_score": 0.0
+    }
+  ]
+}

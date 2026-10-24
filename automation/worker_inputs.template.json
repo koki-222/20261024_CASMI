@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "stages": [
+    {
+      "name": "replace-with-stage-name",
+      "inputs": [
+        {"pattern": "replace-with-relative-input-glob", "kind": "file", "minimum_count": 1}
+      ]
+    }
+  ]
+}

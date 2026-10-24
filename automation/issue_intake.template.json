@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "issues": [
+    {
+      "source_issue": {
+        "number": 1,
+        "snapshot": {"path": "research/issues/1.json", "sha256": "replace-with-lowercase-sha256"}
+      },
+      "scope_ids": ["issue-1-mechanism", "issue-1-unmeasured-cohort"]
+    }
+  ]
+}

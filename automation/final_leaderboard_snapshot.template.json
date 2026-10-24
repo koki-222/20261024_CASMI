@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "scope": "all_user_submissions",
+  "evidence_kind": "official",
+  "source": {
+    "path": "evidence/final-leaderboard-raw.html",
+    "sha256": "replace-with-lowercase-sha256"
+  },
+  "submissions": [
+    {
+      "submission_id": "replace-with-platform-submission-id",
+      "public_score": 0.0,
+      "private_score": 0.0
+    },
+    {
+      "submission_id": "replace-with-platform-submission-id-2",
+      "public_score": 0.0,
+      "private_score": 0.0
+    }
+  ]
+}

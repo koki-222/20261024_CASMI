@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "status": "blocked",
+  "daily_quota_required": false,
+  "objective": {
+    "achieved": false
+  },
+  "reason": "replace-with-concrete-blocker",
+  "resume_condition": "replace-with-observable-condition"
+}

@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "contract": {
+    "path": "automation/contracts/current.json",
+    "sha256": "c32623db5ea3c4a6654de76a2128b87730c2fb39eba22303947306c89944ce4c"
+  },
+  "research": {
+    "path": "research/manifest.json",
+    "sha256": "b39d0cf1a0013d948ee63a039ed7f0db8a6cccb468be19e3ee9802d017d4611c"
+  },
+  "adaptation": {
+    "path": "research/ADAPTATION.md",
+    "sha256": "07307df86cf834fff57a424730a4a669333457192a04bfa44f847038cd88cf38"
+  },
+  "evaluation": {
+    "path": "automation/evaluation_design.json",
+    "sha256": "a55d07f25f938a18e92779c525902fe1c9dd78bac0431d3f1de51a0c0507790d"
+  },
+  "coverage": [
+    {
+      "category": "official",
+      "status": "complete",
+      "reason": "11 required textual pages, metric14 source, files/quota and4 primary clarification topics archived locally; deployment pin unknown and media excluded.",
+      "inventory": {
+        "path": "research/inventory/official.json",
+        "sha256": "68128049cdd63ae8e78956521f2c90b968f7ae89e9abde9029bc4225a6e643e9"
+      }
+    },
+    {
+      "category": "notebooks",
+      "status": "partial",
+      "reason": "783 catalog refs across3sorts;716 saved containers (715 valid bodies/1 empty;705 timestamp matches/11 older),67 missing; latest-version and full semantic review incomplete after429.",
+      "inventory": {
+        "path": "research/inventory/notebooks.json",
+        "sha256": "667b1197413bdf97ee0ee5bc2cb3592f5599b13e6fff0f1df9c6f303d40b6c99"
+      }
+    },
+    {
+      "category": "discussions",
+      "status": "partial",
+      "reason": "120 catalog topics;38 fresh bodies and82 old snapshots; replies present in captured trees but later changes/empty messages and25 attachment/image references remain gaps.",
+      "inventory": {
+        "path": "research/inventory/discussions.json",
+        "sha256": "ffa2d32706ebcb27487bfd5eb1f7f33513706122aab985dfa73515b52456c278"
+      }
+    },
+    {
+      "category": "models_data",
+      "status": "partial",
+      "reason": "3 MIT upstream source-doc sets and4 further repos reviewed; 126 static dependencies indexed; individual weight/data/teacher recipes/licenses incomplete.",
+      "inventory": {
+        "path": "research/inventory/models_data.json",
+        "sha256": "43f75108728b2ee209ebde052f73238a42c840be906510ff754bca0f3edbd808"
+      }
+    },
+    {
+      "category": "papers",
+      "status": "partial",
+      "reason": "4 primary full-text HTML snapshots; DreaMS publisher redirect blocked, first-party code/metadata available; scoped search only.",
+      "inventory": {
+        "path": "research/inventory/papers.json",
+        "sha256": "703a3f2176e97899a8e2451cd8dc7ab2d724ab8a44f69d3b4d456b4b9a01cfe3"
+      }
+    },
+    {
+      "category": "prior_solutions",
+      "status": "partial",
+      "reason": "CASMI2022 organizer result HTML and author methods collected; result images/participant Drive/winner recipes incomplete.",
+      "inventory": {
+        "path": "research/inventory/prior_solutions.json",
+        "sha256": "2aa87fd5ea8b22857d3fec9e95f9a86dbe098cab4ab4cbd28010b49e5f75aa3a"
+      }
+    }
+  ],
+  "publication": [
+    {
+      "artifact": {
+        "path": "research/ADAPTATION.md",
+        "sha256": "07307df86cf834fff57a424730a4a669333457192a04bfa44f847038cd88cf38"
+      },
+      "redistribution": "allowed",
+      "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
+    },
+    {
+      "artifact": {
+        "path": "research/COLLECTION_RECEIPT.json",
+        "sha256": "bf715c989ca3dfd5bf9043a17a03a55f2714385a8a155f81792b765f84f34170"
+      },
+      "redistribution": "allowed",
+      "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
+    },
+    {
+      "artifact": {
+        "path": "research/COVERAGE.md",
+        "sha256": "cd76b3b778912e82df2316dfffc727b94a7ac72d0fd230ac4fbfd5ffba142669"
+      },
+      "redistribution": "allowed",
+      "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
+    },
+    {
+      "artifact": {
+        "path": "research/DATA_CONTRACT_SMOKE.json",
+        "sha256": "c67a1b4c618595c588ab54f6f35f1f8eab212649479fb7c9c69c89948b9df5ea"
+      },
+      "redistribution": "allowed",
+      "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
+    },
+    {
+      "artifact": {
+        "path": "research/OFFICIAL_SUMMARY.md",
+        "sha256": "505a5a2ca46ffd518ec9105c1a87f6a3ae4678a3c4321d42239cb9713ec53fce"
+      },
+      "redistribution": "allowed",
+      "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
+    },
+    {
+      "artifact": {
+        "path": "research/SOURCE_MAP.md",
+        "sha256": "669a6b5b99aaf5d85fef9758cbb2d2f18f34292b0ea7fd38fe8052babebb9797"
+      },
+      "redistribution": "allowed",
+      "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
+    },
+    {
+      "artifact": {
+        "path": "research/TEMPLATE_PROVENANCE.json",
+        "sha256": "6d84c814dd4751db62b9ca9af244463bed55d8508442503475116c11c1e1ba2f"
+      },
+      "redistribution": "allowed",
+      "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
+    },
+    {
+      "artifact": {
+        "path": "research/UPSTREAM_PUBLICATION.json",
+        "sha256": "b5bba6b9ad5edd4dad5fbca0b91ba1d3c6691bd0028cde114e1c2a3e5d5e6551"
+      },
+      "redistribution": "allowed",
+      "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
+    },
+    {
+      "artifact": {
+        "path": "research/VALIDATION.json",
+        "sha256": "8cbeec7c3a7dc327a09ee32df19aeaea3472c9e46d8991dcea9b90010dc79cc5"
+      },
+      "redistribution": "allowed",
+      "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
+    },
+    {
+      "artifact": {
+        "path": "research/attachment_index.json",
+        "sha256": "444f886219c02c0e385c9f80ffeed10d0eb7c38052b85151df1c063b64ffad8c"
+      },
+      "redistribution": "allowed",
+      "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
+    },
+    {
+      "artifact": {
+        "path": "research/discussion_index.json",
+        "sha256": "2627bac074bf70f32df01c2be502bea85b65c842aaf5b1f3c8724242b9ef1c80"
+      },
+      "redistribution": "allowed",
+      "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
+    },
+    {
+      "artifact": {
+        "path": "research/external_source_index.json",
+        "sha256": "efd5723a6d6192b10d0ecd3bd72e66f549bffa064cdb88e3b55f524c1033d1df"
+      },
+      "redistribution": "allowed",
+      "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
+    },
+    {
+      "artifact": {
+        "path": "research/inventory/discussions.json",
+        "sha256": "ffa2d32706ebcb27487bfd5eb1f7f33513706122aab985dfa73515b52456c278"
+      },
+      "redistribution": "allowed",
+      "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
+    },
+    {
+      "artifact": {
+        "path": "research/inventory/models_data.json",
+        "sha256": "43f75108728b2ee209ebde052f73238a42c840be906510ff754bca0f3edbd808"
+      },
+      "redistribution": "allowed",
+      "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
+    },
+    {
+      "artifact": {
+        "path": "research/inventory/notebooks.json",
+        "sha256": "667b1197413bdf97ee0ee5bc2cb3592f5599b13e6fff0f1df9c6f303d40b6c99"
+      },
+      "redistribution": "allowed",
+      "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
+    },
+    {
+      "artifact": {
+        "path": "research/inventory/official.json",
+        "sha256": "68128049cdd63ae8e78956521f2c90b968f7ae89e9abde9029bc4225a6e643e9"
+      },
+      "redistribution": "allowed",
+      "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
+    },
+    {
+      "artifact": {
+        "path": "research/inventory/papers.json",
+        "sha256": "703a3f2176e97899a8e2451cd8dc7ab2d724ab8a44f69d3b4d456b4b9a01cfe3"
+      },
+      "redistribution": "allowed",
+      "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
+    },
+    {
+      "artifact": {
+        "path": "research/inventory/prior_solutions.json",
+        "sha256": "2aa87fd5ea8b22857d3fec9e95f9a86dbe098cab4ab4cbd28010b49e5f75aa3a"
+      },
+      "redistribution": "allowed",
+      "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
+    },
+    {
+      "artifact": {
+        "path": "research/manifest.json",
+        "sha256": "b39d0cf1a0013d948ee63a039ed7f0db8a6cccb468be19e3ee9802d017d4611c"
+      },
+      "redistribution": "allowed",
+      "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
+    },
+    {
+      "artifact": {
+        "path": "research/models_data_index.json",
+        "sha256": "5f1639f889bf73c1d75646d4f24377808512739725f21a5abea77376bad9cb60"
+      },
+      "redistribution": "allowed",
+      "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
+    },
+    {
+      "artifact": {
+        "path": "research/notebook_index.json",
+        "sha256": "4b2b328342b0384036cf8319d179b99462c172485235b877fdb8235c295d49cb"
+      },
+      "redistribution": "allowed",
+      "basis": "Original authored summary, derived aggregate metadata or source/version/hash index; no raw competition records or third-party prose copied."
+    },
+    {
+      "artifact": {
+        "path": "research/public/coleygroup_ms-pred/LICENSE",
+        "sha256": "611892e1b74471385c70d627fbc8466ba143ff6e92a17e32e9d937da67c62d0c"
+      },
+      "redistribution": "allowed",
+      "basis": "Upstream MIT source documentation with corresponding LICENSE; README blob verified against exact upstream commit, see UPSTREAM_PUBLICATION.json."
+    },
+    {
+      "artifact": {
+        "path": "research/public/coleygroup_ms-pred/README.md",
+        "sha256": "1a4ee70d498e58dc182dc05f38908d13fb69e907a039b591fb20cde6ab10d0fe"
+      },
+      "redistribution": "allowed",
+      "basis": "Upstream MIT source documentation with corresponding LICENSE; README blob verified against exact upstream commit, see UPSTREAM_PUBLICATION.json."
+    },
+    {
+      "artifact": {
+        "path": "research/public/pluskal-lab_DreaMS/LICENSE",
+        "sha256": "747bb9267b9d0e006a0486165ac2c9d5bd6481dfa7aefe808832703224af005d"
+      },
+      "redistribution": "allowed",
+      "basis": "Upstream MIT source documentation with corresponding LICENSE; README blob verified against exact upstream commit, see UPSTREAM_PUBLICATION.json."
+    },
+    {
+      "artifact": {
+        "path": "research/public/pluskal-lab_DreaMS/README.md",
+        "sha256": "a6afe934f9894cc71fb9b561c7a122d043b377c27b3fc6f18505fe65b6226256"
+      },
+      "redistribution": "allowed",
+      "basis": "Upstream MIT source documentation with corresponding LICENSE; README blob verified against exact upstream commit, see UPSTREAM_PUBLICATION.json."
+    },
+    {
+      "artifact": {
+        "path": "research/public/pluskal-lab_MassSpecGym/LICENSE",
+        "sha256": "151fa2fc17a1ebb0231627a438c6f0c615969d5eb16cb4a8d971e76135188c68"
+      },
+      "redistribution": "allowed",
+      "basis": "Upstream MIT source documentation with corresponding LICENSE; README blob verified against exact upstream commit, see UPSTREAM_PUBLICATION.json."
+    },
+    {
+      "artifact": {
+        "path": "research/public/pluskal-lab_MassSpecGym/README.md",
+        "sha256": "08bf3607e6e2e5462b81eac85d0e71d9d23ce1c9bf1a370c9d1079ecd60ee2d8"
+      },
+      "redistribution": "allowed",
+      "basis": "Upstream MIT source documentation with corresponding LICENSE; README blob verified against exact upstream commit, see UPSTREAM_PUBLICATION.json."
+    }
+  ]
+}

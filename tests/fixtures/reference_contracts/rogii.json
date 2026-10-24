@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "competition": {
+    "name": "Kaggle - ROGII Wellbore Geology Prediction",
+    "slug": "rogii-wellbore-geology-prediction"
+  },
+  "platform": {"kind": "kaggle_code_competition"},
+  "data": {
+    "root": "rogii-wellbore-geology-prediction",
+    "prediction_start_column": "TVT_input",
+    "target_column": "TVT"
+  },
+  "submission": {
+    "format": "code_competition",
+    "upload_mode": "manual",
+    "required_files": ["kernel-metadata.json"],
+    "kernel_metadata": "kernel-metadata.json",
+    "required_metadata_keys": ["code_file", "competition_sources"],
+    "code_file_field": "code_file",
+    "code_file_extensions": [".py", ".ipynb"],
+    "code_file_must_exist": true
+  },
+  "evaluation": {
+    "metric": "prediction_start_rmse",
+    "direction": "min",
+    "metric_domain": {"minimum": 0},
+    "formula": "RMSE(truth - prediction) after Prediction Start",
+    "proxy_metrics": ["well_grouped_cv", "suffix_holdout", "median_well_rmse", "p90_well_rmse"]
+  },
+  "split": {
+    "strategy": "well_grouped_suffix_holdout",
+    "group_key": "well_id",
+    "nearby_well_spatial_holdout_required": true
+  },
+  "research": {
+    "required_sections": ["rules", "data", "metric", "submission", "timeline_quota", "leakage", "history"],
+    "minimum_sources": 7
+  },
+  "policy": {
+    "required_checks": ["contract", "leakage", "reproducibility", "submission", "hidden_safety"],
+    "research_preflight_required": true,
+    "completion_proof_required": true,
+    "seed_only_adoption_forbidden": true,
+    "external_upload_requires_user_confirmation": true,
+    "hidden_test_safe_required": true,
+    "forbidden_inference_columns": ["TVT", "formation_boundary"],
+    "train_only_columns": ["TVT", "formation_boundary"],
+    "train_only_must_be_absent_from_test": true,
+    "same_id_lookup_forbidden": true
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "files": [
+    {
+      "name": "sample_submission.csv",
+      "bytes": 43619,
+      "sha256": "34c45718efeb03b9d130c7f1ed5a1a72f92c8818479a49d5feef08b5a9f18e04",
+      "observed_at": "2026-10-24T02:33:57.493124+00:00",
+      "provisioned": true
+    },
+    {
+      "name": "test.parquet",
+      "bytes": 4848729,
+      "sha256": "2fa29c4aa06e93b48e0cd6619fd2de3f4e956f0019d242141678b7287f2b43e0",
+      "observed_at": "2026-10-24T02:33:57.501378+00:00",
+      "provisioned": true,
+      "rows": 1213,
+      "row_groups": 1,
+      "columns": [
+        "molecule_id",
+        "spectrum_id",
+        "ms2_mzs",
+        "ms2_normalized_intensities",
+        "base_peak_intensity",
+        "adduct",
+        "ionization_mode",
+        "instrument_type",
+        "precursor_mz",
+        "collision_energy_orig",
+        "collision_energy_ev",
+        "collision_energy_orig_units"
+      ],
+      "schema": "molecule_id: large_string\nspectrum_id: large_string\nms2_mzs: list<element: double>\n  child 0, element: double\nms2_normalized_intensities: list<element: double>\n  child 0, element: double\nbase_peak_intensity: double\nadduct: large_string\nionization_mode: large_string\ninstrument_type: large_string\nprecursor_mz: double\ncollision_energy_orig: large_string\ncollision_energy_ev: list<element: double>\n  child 0, element: double\ncollision_energy_orig_units: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1663"
+    },
+    {
+      "name": "train.parquet",
+      "bytes": 3033286496,
+      "sha256": "9423f90ec08b941a9646b535bf0606183e86ff0c5a297978f5a70693d41bcd98",
+      "observed_at": "2026-10-24T02:34:06.064359+00:00",
+      "provisioned": false,
+      "rows": 2539608,
+      "row_groups": 21,
+      "columns": [
+        "ingest_lib",
+        "normalized_smiles",
+        "inchikey",
+        "inchikey14",
+        "molecular_formula",
+        "ionization_mode",
+        "instrument_type",
+        "adduct",
+        "adduct_orig",
+        "precursor_mz",
+        "precursor_error_ppm",
+        "ms2_mzs",
+        "ms2_normalized_intensities",
+        "num_peaks",
+        "base_peak_intensity",
+        "collision_energy_ev",
+        "collision_energy_orig",
+        "collision_energy_orig_units"
+      ],
+      "schema": "ingest_lib: string\nnormalized_smiles: string\ninchikey: string\ninchikey14: string\nmolecular_formula: string\nionization_mode: string\ninstrument_type: string\nadduct: string\nadduct_orig: string\nprecursor_mz: double\nprecursor_error_ppm: double\nms2_mzs: list<element: double>\n  child 0, element: double\nms2_normalized_intensities: list<element: double>\n  child 0, element: double\nnum_peaks: int64\nbase_peak_intensity: double\ncollision_energy_ev: list<element: double>\n  child 0, element: double\ncollision_energy_orig: string\ncollision_energy_orig_units: string"
+    }
+  ],
+  "note": "Read-only old archive reuse; fresh official sizes matched, remote content hash not exposed. Train not duplicated or linked into new repo.",
+  "smoke": {
+    "test": {
+      "rows": 1213,
+      "molecules": 400,
+      "schema": "molecule_id: large_string\nspectrum_id: large_string\nms2_mzs: list<element: double>\n  child 0, element: double\nms2_normalized_intensities: list<element: double>\n  child 0, element: double\nbase_peak_intensity: double\nadduct: large_string\nionization_mode: large_string\ninstrument_type: large_string\nprecursor_mz: double\ncollision_energy_orig: large_string\ncollision_energy_ev: list<element: double>\n  child 0, element: double\ncollision_energy_orig_units: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1663",
+      "adduct_counts": {
+        "[M+H]+": 959,
+        "[M-H]-": 193,
+        "[M+CH2O2-H]-": 31,
+        "[M+Na]+": 22,
+        "[M+NH4]+": 4,
+        "[M+K]+": 2,
+        "[M+Cl]-": 2
+      },
+      "sha256": "2fa29c4aa06e93b48e0cd6619fd2de3f4e956f0019d242141678b7287f2b43e0",
+      "performance_evidence": false
+    },
+    "submission_rows": 400,
+    "performance_evidence": false
+  }
+}

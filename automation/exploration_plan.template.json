@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "source_issue": {
+    "number": 123,
+    "snapshot": {"path": "automation/issues/issue-123.json", "sha256": "replace-with-lowercase-sha256"}
+  },
+  "capabilities": ["ml"],
+  "objective": {
+    "metric": "official_metric",
+    "direction": "max",
+    "mechanism": ["mechanism-axis"]
+  },
+  "authorized_axes": [
+    {
+      "id": "mechanism-axis",
+      "kind": "mechanism",
+      "budget": 3,
+      "families": ["family-a"],
+      "status": "untested",
+      "objective_link": "mechanism changes candidate coverage before ranking"
+    }
+  ],
+  "families": [
+    {"id": "family-a", "axis": "mechanism-axis", "budget": 1, "observed_attempts": 0}
+  ],
+  "restrictions": [],
+  "rl": null,
+  "bottleneck": {
+    "candidate_recall": 0.0,
+    "conditional_rank_quality": 0.0
+  }
+}

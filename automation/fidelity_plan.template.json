@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "capability": "dl",
+  "cohort_id": "issue-123-cohort-a",
+  "unit": "steps",
+  "total_budget": 20000,
+  "stages": [
+    {"name": "smoke", "budget": 1000, "status": "planned", "cohort_id": "issue-123-cohort-a"},
+    {"name": "selection", "budget": 5000, "status": "planned", "cohort_id": "issue-123-cohort-a"},
+    {"name": "full", "budget": 20000, "status": "planned", "cohort_id": "issue-123-cohort-a"}
+  ],
+  "observed": {"speed": null, "speed_unit": "steps_per_second", "completed": 0, "available_seconds": null},
+  "objective": {"metric": "selection_metric", "direction": "max", "min_delta": 0.0},
+  "computation_payload": {
+    "code": {"path": "replace-with-code-snapshot"},
+    "data": {"path": "replace-with-data-snapshot"},
+    "split": {"path": "replace-with-split-snapshot"},
+    "config": {"path": "replace-with-config-snapshot"}
+  },
+  "lineage": {
+    "code_sha256": "replace-with-lowercase-sha256",
+    "data_sha256": "replace-with-lowercase-sha256",
+    "split_sha256": "replace-with-lowercase-sha256",
+    "config_sha256": "replace-with-lowercase-sha256",
+    "objective": {"metric": "selection_metric", "direction": "max", "min_delta": 0.0}
+  },
+  "checkpoint": {
+    "resume_mode": "exact_resume",
+    "manifest_path": "workspace/checkpoints/manifest.json",
+    "manifest_sha256": "replace-with-lowercase-sha256",
+    "required_components": ["model", "optimizer", "scheduler", "rng", "sampler", "step"]
+  },
+  "approved_issue_axes": ["mechanism-axis"],
+  "partial_artifacts": []
+}

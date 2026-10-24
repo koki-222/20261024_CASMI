@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "competition_slug": "replace-with-slug",
+  "generated_at_utc": "replace-with-utc-time",
+  "sections": {
+    "rules": {"sources": []},
+    "data": {"sources": []},
+    "metric": {"sources": []},
+    "submission": {"sources": []},
+    "timeline_quota": {"sources": []},
+    "leakage": {"sources": []},
+    "history": {"sources": []}
+  }
+}

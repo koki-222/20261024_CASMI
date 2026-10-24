@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "platform": "replace-with-platform",
+  "competition_slug": "replace-with-slug",
+  "period": "daily",
+  "timezone": "Asia/Tokyo",
+  "reset_at_local": "00:00",
+  "scope": "per_team_or_user",
+  "max_submissions_per_period": "replace-with-official-limit",
+  "target_ready_artifacts_per_period": "replace-with-official-target",
+  "count_failed_attempts": true,
+  "source": {
+    "kind": "official_rules_snapshot",
+    "uri": "replace-with-official-rules-url",
+    "observed_at": "replace-with-utc-time",
+    "artifact_path": "research/rules_snapshot.html",
+    "sha256": "replace-with-lowercase-sha256"
+  }
+}

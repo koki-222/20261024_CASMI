@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "contract": {"path": "automation/contracts/current.json", "sha256": "replace-with-sha256"},
+  "research": {"path": "research/manifest.json", "sha256": "replace-with-sha256"},
+  "adaptation": {"path": "research/ADAPTATION.md", "sha256": "replace-with-sha256"},
+  "evaluation": {"path": "automation/evaluation_design.json", "sha256": "replace-with-sha256"},
+  "coverage": [
+    {"category": "official", "status": "complete", "reason": "replace-with-verified-coverage", "inventory": {"path": "research/inventory/official.json", "sha256": "replace-with-sha256"}},
+    {"category": "notebooks", "status": "partial", "reason": "replace-with-pagination-and-gaps", "inventory": {"path": "research/inventory/notebooks.json", "sha256": "replace-with-sha256"}},
+    {"category": "discussions", "status": "partial", "reason": "replace-with-comments-and-attachments-coverage", "inventory": {"path": "research/inventory/discussions.json", "sha256": "replace-with-sha256"}},
+    {"category": "models_data", "status": "partial", "reason": "replace-with-input-model-label-lineage", "inventory": {"path": "research/inventory/models_data.json", "sha256": "replace-with-sha256"}},
+    {"category": "papers", "status": "partial", "reason": "replace-with-search-scope-and-gaps", "inventory": {"path": "research/inventory/papers.json", "sha256": "replace-with-sha256"}},
+    {"category": "prior_solutions", "status": "partial", "reason": "replace-with-relevant-past-solutions", "inventory": {"path": "research/inventory/prior_solutions.json", "sha256": "replace-with-sha256"}}
+  ],
+  "publication": [
+    {"artifact": {"path": "research/SOURCE_MAP.md", "sha256": "replace-with-sha256"}, "redistribution": "allowed", "basis": "replace-with-license-or-original-summary-basis"}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "resources": {
+    "cpu": 1,
+    "gpu": 0
+  },
+  "preparation_seconds": 0,
+  "downstream_seconds": 0,
+  "allow_overdue": false,
+  "deadline": null,
+  "jobs": [],
+  "daily_plan": null
+}

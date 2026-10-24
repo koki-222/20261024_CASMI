@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "competition": {
+    "name": "Zindi - A Step Ahead of Drought",
+    "slug": "one-step-ahead-of-drought-forecasting-global-water-storage-challenge"
+  },
+  "platform": {"kind": "zindi"},
+  "data": {
+    "train": "org_data/Train.csv",
+    "test": "org_data/Test.csv",
+    "sample_submission": "org_data/SampleSubmission.csv",
+    "target_column": "target"
+  },
+  "submission": {
+    "format": "csv",
+    "upload_mode": "manual",
+    "columns": [
+      {"name": "ID", "role": "id", "type": "string"},
+      {"name": "Target", "role": "prediction", "type": "float", "finite": true}
+    ],
+    "sample_order": true
+  },
+  "evaluation": {
+    "metric": "rmse",
+    "direction": "min",
+    "metric_domain": {"minimum": 0},
+    "scope": "all test rows; report observed and masked TWS subsets separately",
+    "proxy_metrics": ["time_block_rmse", "masked_rmse", "p90_rmse"]
+  },
+  "split": {
+    "strategy": "time_block",
+    "time_column": "time",
+    "primary_holdout": "late_contiguous_months",
+    "mask_scenarios": ["observed", "test_like_mask"]
+  },
+  "research": {
+    "required_sections": ["rules", "data", "metric", "submission", "timeline_quota", "leakage", "history"],
+    "minimum_sources": 7
+  },
+  "policy": {
+    "required_checks": ["contract", "leakage", "reproducibility", "submission"],
+    "research_preflight_required": true,
+    "completion_proof_required": true,
+    "seed_only_adoption_forbidden": true,
+    "external_data_requires_provenance": true,
+    "test_labels_forbidden": true,
+    "forbidden_inference_columns": ["target"],
+    "train_only_columns": ["target"],
+    "train_only_must_be_absent_from_test": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "experiment_roots": ["workspace", "experiments"],
+  "experiment_prefixes": ["exp"],
+  "submission_roots": ["submit"],
+  "required_experiment_files": {
+    "session_notes": "SESSION_NOTES.md",
+    "run_script": "run.sh",
+    "results_dir": "results"
+  },
+  "payload_extensions": [".csv", ".zip", ".ipynb"],
+  "payload_names": ["agent.py"],
+  "ignored_parts": [".git", ".venv", "__pycache__", ".pytest_cache", ".ruff_cache"],
+  "ignored_extensions": [".pyc", ".pyo"],
+  "ignored_names": [".DS_Store"],
+  "history_paths": ["daily_reports", "submit/SUBMISSIONS.md", "claudeSummary.md", "automation/compute_jobs.jsonl"]
+}

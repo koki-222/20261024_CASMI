@@ -1,0 +1,9 @@
+{
+  "metric": "replace-with-official-metric",
+  "direction": "max",
+  "scope": "public",
+  "target": null,
+  "max_attempts": null,
+  "max_wall_seconds": null,
+  "deadline": "replace-with-timezone-aware-deadline"
+}

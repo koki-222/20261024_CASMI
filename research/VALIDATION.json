@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "results": {
+    "casmi_synthetic_tests": {
+      "count": 3,
+      "status": "PASS"
+    },
+    "workflow_tests": {
+      "count": 24,
+      "status": "PASS",
+      "output_sha256": "45acad0a85d5d52488d633950839a2f925b662ce0a635409c0f7bfe2cd37cfa1"
+    },
+    "generic_core_tests": {
+      "count": 41,
+      "status": "PASS",
+      "output_sha256": "c8807bd03d01f6d2f5756b64fcbb974cfe99804f1b8a034111a7e3843e3164d8"
+    },
+    "data_contract_smoke": {
+      "status": "PASS",
+      "report": "research/DATA_CONTRACT_SMOKE.json",
+      "rows": 1213,
+      "molecules": 400,
+      "accuracy_evidence": false
+    },
+    "ruff_new_casmi_files": {
+      "status": "PASS",
+      "files": [
+        "tools/casmi_contract.py",
+        "tests/test_casmi_contract.py"
+      ]
+    },
+    "compileall_tools_tests": {
+      "status": "PASS"
+    },
+    "active_contract_load": {
+      "status": "PASS"
+    },
+    "git_diff_check": {
+      "status": "PASS_WITH_UPSTREAM_WHITESPACE_PRESERVED",
+      "scope": "Own changes checked; exact upstream originals use research/public/** -whitespace"
+    },
+    "staged_secret_hook": {
+      "status": "PASS",
+      "scope": "All187 initially staged paths; hook repeats during commit"
+    }
+  },
+  "not_run": [
+    "training",
+    "public notebook execution",
+    "LB submission",
+    "full official metric execution/parity",
+    "all generic test modules"
+  ],
+  "notes": [
+    "Generic fixture paths adapted; original missing-support failures repaired, no tests removed.",
+    "Public scorer metadata does not establish deployed version."
+  ]
+}

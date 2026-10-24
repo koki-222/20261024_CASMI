@@ -1,0 +1,2 @@
+# Preserve upstream Markdown byte-for-byte, including intentional hard breaks.
+research/public/** -whitespace

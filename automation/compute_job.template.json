@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "job_id": "expA00-fold0-attempt1",
+  "recorded_at": "2026-01-01T00:00:00Z",
+  "experiment_signature": "replace-with-lowercase-sha256",
+  "work_unit": "fold0-train",
+  "backend": "local",
+  "status": "planned",
+  "command": [
+    "python3",
+    "workspace/expA00/train.py"
+  ],
+  "profile": {
+    "path": "automation/compute_profiles/v001.json",
+    "sha256": "replace-with-lowercase-sha256"
+  },
+  "request": {
+    "schema_version": 1,
+    "role": "train",
+    "resources": {
+      "gpu_count": 0,
+      "vram_gb": 0,
+      "ram_gb": 4,
+      "storage_gb": 2,
+      "estimated_runtime_minutes": 60,
+      "max_cost": 0
+    },
+    "data_access": {
+      "raw_competition_data": true,
+      "input_manifest": {
+        "path": "state/compute/input_inventory.json",
+        "sha256": "replace-with-lowercase-sha256"
+      }
+    },
+    "final_submission_inference": false,
+    "network": {
+      "internet_enabled": false
+    },
+    "expected_output": "model.bin",
+    "microbenchmark": {
+      "sample_count": 2,
+      "evidence": {
+        "path": "state/compute/runtime_probe.json",
+        "sha256": "replace-with-lowercase-sha256"
+      }
+    }
+  },
+  "snapshots": {
+    "data": {
+      "path": "state/compute/input_inventory.json",
+      "sha256": "replace-with-lowercase-sha256"
+    },
+    "code": {
+      "path": "state/code_snapshot.json",
+      "sha256": "replace-with-lowercase-sha256"
+    },
+    "config": {
+      "path": "workspace/expA00/config.json",
+      "sha256": "replace-with-lowercase-sha256"
+    },
+    "split": {
+      "path": "workspace/fold/v1/manifest.json",
+      "sha256": "replace-with-lowercase-sha256"
+    },
+    "controller": {
+      "path": "state/compute/expA00-fold0-attempt1-controller.json",
+      "sha256": "replace-with-lowercase-sha256"
+    }
+  },
+  "checkpoint": {
+    "enabled": true,
+    "interval_minutes": 30,
+    "path": "workspace/expA00/checkpoints/fold0",
+    "resume_from": null
+  },
+  "retry_of": null,
+  "retry_reason": null,
+  "runtime": {
+    "backend_job_id": null,
+    "started_at": null,
+    "finished_at": null,
+    "actual_runtime_minutes": null,
+    "actual_cost": null
+  },
+  "artifacts": [],
+  "checks": {}
+}

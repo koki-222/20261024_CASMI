@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "competition": {
+    "name": "replace-with-competition-name",
+    "slug": "replace-with-stable-slug"
+  },
+  "platform": {"kind": "custom"},
+  "data": {
+    "train": "path/to/train",
+    "test": "path/to/test"
+  },
+  "submission": {
+    "format": "csv",
+    "upload_mode": "manual",
+    "columns": [
+      {"name": "ID", "role": "id", "type": "string"},
+      {"name": "prediction", "role": "prediction", "type": "float", "finite": true}
+    ],
+    "sample_order": false
+  },
+  "evaluation": {
+    "metric": "replace-with-metric",
+    "direction": "min",
+    "metric_domain": null,
+    "proxy_metrics": []
+  },
+  "split": {
+    "strategy": "replace-with-leakage-safe-strategy",
+    "primary_holdout": "replace-with-primary-holdout"
+  },
+  "research": {
+    "required_sections": ["rules", "data", "metric", "submission", "timeline_quota", "leakage", "history"],
+    "minimum_sources": 7
+  },
+  "policy": {
+    "required_checks": ["contract", "leakage", "reproducibility", "submission"],
+    "seed_only_adoption_forbidden": true,
+    "research_preflight_required": true,
+    "completion_proof_required": true,
+    "selection_proof_required_for_adoption": true,
+    "issue_evidence_required": true
+  }
+}

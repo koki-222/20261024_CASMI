@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "uri": "https://github.com/pluskal-lab/DreaMS/tree/dbec3a0b514a99e5056cfccde4559fda8cfe8129",
+      "version": "dbec3a0b514a99e5056cfccde4559fda8cfe8129",
+      "artifact_path": "research/public/pluskal-lab_DreaMS/README.md",
+      "sha256": "a6afe934f9894cc71fb9b561c7a122d043b377c27b3fc6f18505fe65b6226256",
+      "redistribution": "allowed",
+      "basis": "MIT license archived alongside upstream README; source README Git blob matched exact upstream commit."
+    },
+    {
+      "uri": "https://github.com/pluskal-lab/DreaMS/tree/dbec3a0b514a99e5056cfccde4559fda8cfe8129",
+      "version": "dbec3a0b514a99e5056cfccde4559fda8cfe8129",
+      "artifact_path": "research/public/pluskal-lab_DreaMS/LICENSE",
+      "sha256": "747bb9267b9d0e006a0486165ac2c9d5bd6481dfa7aefe808832703224af005d",
+      "redistribution": "allowed",
+      "basis": "MIT license archived alongside upstream README; source README Git blob matched exact upstream commit."
+    },
+    {
+      "uri": "https://github.com/pluskal-lab/MassSpecGym/tree/f259fe3780d5bd227fc6ece36ce6f397c2eef716",
+      "version": "f259fe3780d5bd227fc6ece36ce6f397c2eef716",
+      "artifact_path": "research/public/pluskal-lab_MassSpecGym/README.md",
+      "sha256": "08bf3607e6e2e5462b81eac85d0e71d9d23ce1c9bf1a370c9d1079ecd60ee2d8",
+      "redistribution": "allowed",
+      "basis": "MIT license archived alongside upstream README; source README Git blob matched exact upstream commit."
+    },
+    {
+      "uri": "https://github.com/pluskal-lab/MassSpecGym/tree/f259fe3780d5bd227fc6ece36ce6f397c2eef716",
+      "version": "f259fe3780d5bd227fc6ece36ce6f397c2eef716",
+      "artifact_path": "research/public/pluskal-lab_MassSpecGym/LICENSE",
+      "sha256": "151fa2fc17a1ebb0231627a438c6f0c615969d5eb16cb4a8d971e76135188c68",
+      "redistribution": "allowed",
+      "basis": "MIT license archived alongside upstream README; source README Git blob matched exact upstream commit."
+    },
+    {
+      "uri": "https://github.com/coleygroup/ms-pred/tree/708148c2a8eb0c32120644436fefd2fe90cd2214",
+      "version": "708148c2a8eb0c32120644436fefd2fe90cd2214",
+      "artifact_path": "research/public/coleygroup_ms-pred/README.md",
+      "sha256": "1a4ee70d498e58dc182dc05f38908d13fb69e907a039b591fb20cde6ab10d0fe",
+      "redistribution": "allowed",
+      "basis": "MIT license archived alongside upstream README; source README Git blob matched exact upstream commit."
+    },
+    {
+      "uri": "https://github.com/coleygroup/ms-pred/tree/708148c2a8eb0c32120644436fefd2fe90cd2214",
+      "version": "708148c2a8eb0c32120644436fefd2fe90cd2214",
+      "artifact_path": "research/public/coleygroup_ms-pred/LICENSE",
+      "sha256": "611892e1b74471385c70d627fbc8466ba143ff6e92a17e32e9d937da67c62d0c",
+      "redistribution": "allowed",
+      "basis": "MIT license archived alongside upstream README; source README Git blob matched exact upstream commit."
+    }
+  ]
+}

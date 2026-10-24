@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "intake": {"path": "automation/issue_intake.json", "sha256": "replace-with-lowercase-sha256"},
+  "queue": {"path": "automation/work_queue.json", "sha256": "replace-with-lowercase-sha256"},
+  "scopes": [
+    {"id": "issue-1-mechanism", "job_ids": ["local-diagnostic"], "resolution": null},
+    {"id": "issue-1-unmeasured-cohort", "job_ids": [], "resolution": null}
+  ],
+  "work_items": [
+    {
+      "job_id": "local-diagnostic",
+      "scope_id": "issue-1-mechanism",
+      "request": {"path": "automation/requests/local-diagnostic.json", "sha256": "replace-with-lowercase-sha256"},
+      "blockers": []
+    }
+  ]
+}

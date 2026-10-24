@@ -1,0 +1,8 @@
+{
+  "mode": "hybrid",
+  "population": "replace-with-independent-unit-and-deployment-distribution",
+  "leakage_boundary": "replace-with-time-group-entity-source-boundaries",
+  "exposure": "replace-with-label-checkpoint-and-adaptive-selection-exposure",
+  "selection_rule": "replace-with-paired-comparison-and-final-selection-rule",
+  "limitations": "replace-with-small-sample-domain-shift-and-official-feedback-limits"
+}

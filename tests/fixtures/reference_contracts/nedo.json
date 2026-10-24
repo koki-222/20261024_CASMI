@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "competition": {
+    "name": "SIGNATE - NEDO packing agent",
+    "slug": "nedo-packing-agent"
+  },
+  "platform": {"kind": "signate"},
+  "submission": {
+    "format": "zip",
+    "upload_mode": "manual",
+    "required_paths": ["base/agent.py"],
+    "python_entrypoint": "base/agent.py",
+    "required_class": "Agent",
+    "required_methods": ["__init__", "get_init_states", "optimize", "policy"],
+    "max_entries": 16,
+    "max_uncompressed_bytes": 52428800
+  },
+  "evaluation": {
+    "metric": "official_score",
+    "direction": "max",
+    "metric_domain": {"minimum": 0},
+    "scope": "official hidden gate and weighted score",
+    "proxy_metrics": ["exact_replay", "placed_count", "fill_score", "cog", "stability"]
+  },
+  "split": {
+    "strategy": "exact_scenario_replay",
+    "primary_holdout": "official_like_scenario_manifest",
+    "fresh_replay_seeds_required": true
+  },
+  "research": {
+    "required_sections": ["rules", "data", "metric", "submission", "timeline_quota", "leakage", "history"],
+    "minimum_sources": 7
+  },
+  "policy": {
+    "required_checks": ["contract", "leakage", "reproducibility", "submission", "compile_import", "exact_replay", "official_gate"],
+    "research_preflight_required": true,
+    "completion_proof_required": true,
+    "seed_only_adoption_forbidden": true,
+    "official_gate_required": true,
+    "proxy_cannot_claim_lb": true,
+    "compile_import_smoke_required": true,
+    "unsafe_fallback_forbidden": true
+  }
+}

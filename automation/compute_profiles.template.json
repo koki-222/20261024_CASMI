@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "competition": {
+    "slug": "replace-with-competition-slug"
+  },
+  "rules": {
+    "source": {
+      "kind": "official_rules",
+      "uri": "https://replace-with-official-rules-url",
+      "observed_at": "2026-01-01T00:00:00Z",
+      "artifact_path": "survey/competition/rules_snapshot.html",
+      "sha256": "replace-with-lowercase-sha256"
+    },
+    "external_compute_allowed": false,
+    "raw_competition_data_external_allowed": false,
+    "final_inference": null
+  },
+  "budgets": {
+    "max_external_cost_total": 0,
+    "max_external_cost_per_job": 0
+  },
+  "backends": [
+    {
+      "name": "local",
+      "kind": "local",
+      "priority": 20,
+      "allowed_roles": ["smoke", "eda", "preprocess", "train", "evaluate", "inference", "package"],
+      "gpu_count": 0,
+      "vram_gb": 0,
+      "ram_gb": 16,
+      "storage_gb": 100,
+      "max_runtime_minutes": 720,
+      "max_cost_per_job": 0,
+      "availability": {
+        "available": true,
+        "remaining_runtime_minutes": 720,
+        "observed_at": "2026-01-01T00:00:00Z",
+        "artifact_path": "state/compute/availability/local_20260101T000000Z.json",
+        "sha256": "replace-with-lowercase-sha256"
+      }
+    }
+  ],
+  "dispatch_policy": {
+    "microbenchmark_required_roles": ["preprocess", "train", "evaluate", "inference"],
+    "utilization_limit": 0.8,
+    "duplicate_job_forbidden": true,
+    "checkpoint_required_after_minutes": 30,
+    "artifact_hash_required": true
+  }
+}

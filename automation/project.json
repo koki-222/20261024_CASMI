@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "competition_url": "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra",
+  "contract_path": "automation/contracts/current.json"
+}

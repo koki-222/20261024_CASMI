@@ -1,0 +1,4 @@
+interface:
+  display_name: "Competition PDCA"
+  short_description: "Issue整理後、公式LB数値目標と予算を確認して研究PDCAを開始する"
+  default_prompt: "$competition-pdcaを使用してPDCA開始。対象Issueと公式LB数値目標・評価区分・予算を確認して進めて。"

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "role": "train",
+  "resources": {
+    "gpu_count": 0,
+    "vram_gb": 0,
+    "ram_gb": 4,
+    "storage_gb": 2,
+    "estimated_runtime_minutes": 60,
+    "max_cost": 0
+  },
+  "data_access": {
+    "raw_competition_data": true,
+    "input_manifest": {
+      "path": "state/compute/input_inventory.json",
+      "sha256": "replace-with-lowercase-sha256"
+    }
+  },
+  "final_submission_inference": false,
+  "network": {
+    "internet_enabled": false
+  },
+  "expected_output": "model.bin",
+  "microbenchmark": {
+    "sample_count": 2,
+    "evidence": {
+      "path": "state/compute/runtime_probe.json",
+      "sha256": "replace-with-lowercase-sha256"
+    }
+  }
+}

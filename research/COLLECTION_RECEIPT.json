@@ -1,0 +1,33 @@
+{
+  "observed_at": "2026-10-24T02:42:18.292298+00:00",
+  "provider_stop": {
+    "status": "STOPPED_429_NO_RETRY_NO_BYPASS",
+    "endpoint": "https://api.kaggle.com/v1/discussions.DiscussionApiService/GetTopic",
+    "topic_id": 748068,
+    "action": "No subsequent Kaggle requests; offline reuse only.",
+    "fresh_discussion_bodies": 38,
+    "catalog_topics": 120,
+    "catalog_notebooks": 783
+  },
+  "notebook_counts": {
+    "saved_older_version": 11,
+    "missing": 67,
+    "saved_roster_timestamp_matches": 705
+  },
+  "discussion_counts": {
+    "fresh_sdk": 38,
+    "saved_older_snapshot": 82
+  },
+  "attachments_unarchived": 25,
+  "scope": {
+    "official": "11 required textual pages, metric14 source, files/quota and4 primary clarification topics archived locally; deployment pin unknown and media excluded.",
+    "notebooks": "783 catalog refs across3sorts;716 saved containers (715 valid bodies/1 empty;705 timestamp matches/11 older),67 missing; latest-version and full semantic review incomplete after429.",
+    "discussions": "120 catalog topics;38 fresh bodies and82 old snapshots; replies present in captured trees but later changes/empty messages and25 attachment/image references remain gaps.",
+    "models_data": "3 MIT upstream source-doc sets and4 further repos reviewed; 126 static dependencies indexed; individual weight/data/teacher recipes/licenses incomplete.",
+    "papers": "4 primary full-text HTML snapshots; DreaMS publisher redirect blocked, first-party code/metadata available; scoped search only.",
+    "prior_solutions": "CASMI2022 organizer result HTML and author methods collected; result images/participant Drive/winner recipes incomplete."
+  },
+  "scientific_experiments_run": false,
+  "public_notebooks_executed": false,
+  "submissions_made": false
+}

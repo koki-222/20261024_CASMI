@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "purpose": "Dependency-bound validation plan. Commands are executed by the runner, never by plan_validation.",
+    "receipt_schema": "A PASS receipt requires hashed JSON report.status=PASS, hashed process evidence with command/pid/returncode, and current dependency snapshots.",
+    "branch_schema": "report.branch_coverage is parsed from the hashed JSON report; missing changed branches produce NEEDS_TARGETED_INPUT."
+  },
+  "checks": [
+    {
+      "id": "sample_smoke",
+      "kind": "smoke",
+      "command": ["python3", "tools/run_validation.py", "--sample"],
+      "dependencies": [
+        {
+          "path": "automation/contracts/template.json",
+          "sha256": "replace-with-lowercase-sha256",
+          "kind": "contract",
+          "role": "input"
+        }
+      ],
+      "scope": {
+        "dataset": "sample",
+        "split": "fixed-sample-v1"
+      },
+      "config": {
+        "sample_count": 32
+      },
+      "changed_branches": ["new_runtime_path"],
+      "depends_on": [],
+      "required": true,
+      "fanout": false,
+      "run_mode": "sample"
+    },
+    {
+      "id": "full_validation",
+      "kind": "full",
+      "command": ["python3", "tools/run_validation.py", "--full"],
+      "dependencies": [
+        {
+          "path": "automation/contracts/template.json",
+          "sha256": "replace-with-lowercase-sha256",
+          "kind": "contract",
+          "role": "input"
+        }
+      ],
+      "scope": {
+        "dataset": "full",
+        "split": "fixed-sample-v1"
+      },
+      "config": {
+        "sample_count": 0
+      },
+      "changed_branches": ["new_runtime_path"],
+      "depends_on": ["sample_smoke"],
+      "required": true,
+      "fanout": true,
+      "run_mode": "full"
+    }
+  ],
+  "receipts": [],
+  "canary": {
+    "required": false,
+    "runtime_class": "local-default-v1",
+    "environment": {
+      "platform": "replace-with-runtime-environment"
+    },
+    "attempts": 0,
+    "official_receipt": null
+  },
+  "full_run_policy": {
+    "new_runtime_or_input_requires_full": true,
+    "known_coefficient_change_reuses_compatible_checks": true,
+    "same_prediction_does_not_prove_executable_identity": true
+  }
+}

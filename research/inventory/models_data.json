@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "scope": "3 MIT upstream READMEs+licenses exact-commit verified; 4 additional repo READMEs/licenses and DreaMS Zenodo metadata. 126 static input dependencies indexed. Weights/data/teachers not fully traced or downloaded.",
+  "observed_at": "2026-10-24T02:42:18.292298+00:00",
+  "pagination_complete": false,
+  "items": [
+    {
+      "uri": "https://github.com/pluskal-lab/DreaMS/tree/dbec3a0b514a99e5056cfccde4559fda8cfe8129",
+      "version": "dbec3a0b514a99e5056cfccde4559fda8cfe8129",
+      "status": "archived",
+      "artifact": {
+        "path": "research/public/pluskal-lab_DreaMS/README.md",
+        "sha256": "a6afe934f9894cc71fb9b561c7a122d043b377c27b3fc6f18505fe65b6226256"
+      }
+    },
+    {
+      "uri": "https://github.com/pluskal-lab/MassSpecGym/tree/f259fe3780d5bd227fc6ece36ce6f397c2eef716",
+      "version": "f259fe3780d5bd227fc6ece36ce6f397c2eef716",
+      "status": "archived",
+      "artifact": {
+        "path": "research/public/pluskal-lab_MassSpecGym/README.md",
+        "sha256": "08bf3607e6e2e5462b81eac85d0e71d9d23ce1c9bf1a370c9d1079ecd60ee2d8"
+      }
+    },
+    {
+      "uri": "https://github.com/coleygroup/ms-pred/tree/708148c2a8eb0c32120644436fefd2fe90cd2214",
+      "version": "708148c2a8eb0c32120644436fefd2fe90cd2214",
+      "status": "archived",
+      "artifact": {
+        "path": "research/public/coleygroup_ms-pred/README.md",
+        "sha256": "1a4ee70d498e58dc182dc05f38908d13fb69e907a039b591fb20cde6ab10d0fe"
+      }
+    },
+    {
+      "uri": "https://zenodo.org/records/10997887",
+      "version": "10997887",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/external/dreams_zenodo.html",
+        "sha256": "a7f69afbe5b0953e82bace4147db3ea2cbcbdc539d5a4501b223923b7f0091bc"
+      },
+      "note": "CC-BY-4.0 model metadata; two >1GB files not downloaded; code and head provenance remain separate."
+    },
+    {
+      "uri": "https://github.com/sirius-ms/sirius",
+      "version": "4a749a8b010205bd6240bd2e9619d95600dfd855",
+      "status": "restricted",
+      "reason": "README/license inspected locally; code license is not weight eligibility. No raw re-publication in package."
+    },
+    {
+      "uri": "https://github.com/Roestlab/massformer",
+      "version": "8eeb29b6defbc445f0e00816d122291ba471444d",
+      "status": "restricted",
+      "reason": "README/license inspected locally; code license is not weight eligibility. No raw re-publication in package."
+    },
+    {
+      "uri": "https://github.com/corentinlaudicina/enveda-casmi-2026",
+      "version": "5b39f5a916fc186a952fd406858daa54e0e65f77",
+      "status": "restricted",
+      "reason": "README/license inspected locally; code license is not weight eligibility. No raw re-publication in package."
+    },
+    {
+      "uri": "https://github.com/M0-AR/casmi-2026",
+      "version": "6a20ad4b54e2268fe7ed1b705ff44ca19d323381",
+      "status": "restricted",
+      "reason": "README/license inspected locally; code license is not weight eligibility. No raw re-publication in package."
+    }
+  ]
+}

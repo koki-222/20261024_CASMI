@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "name": "replace-with-profile-name",
+  "role": "selection",
+  "group_key": "replace-with-group-or-time-key",
+  "split_strategy": "replace-with-deterministic-split-strategy",
+  "data_snapshot_sha256": "replace-with-lowercase-sha256",
+  "row_selector": "replace-with-executable-or-machine-readable-selector",
+  "prediction_recipe_sha256": "replace-with-lowercase-sha256"
+}

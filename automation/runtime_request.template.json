@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "computation_spec": {
+    "schema_version": 1,
+    "task_type": "diagnostic",
+    "code": {
+      "main": {"path": "workspace/experiment/run.py", "sha256": "replace-with-lowercase-sha256"}
+    },
+    "data": {
+      "train": {"path": "data/train.csv", "sha256": "replace-with-lowercase-sha256"}
+    },
+    "split": {
+      "fold": {"path": "evidence/split.json", "sha256": "replace-with-lowercase-sha256"}
+    },
+    "config": {"mechanism": "replace-with-approved-Issue-mechanism"},
+    "seed": 42,
+    "budget": {"unit": "iterations", "units": 1},
+    "evaluation": {"metric": "replace-with-metric", "direction": "max"},
+    "environment": {"python": "replace-with-observed-version", "dependencies": "replace-with-lockfile-digest"},
+    "command": ["python3", "{code.main}", "--config", "{config_path}", "--output-dir", "{output_dir}"]
+  },
+  "controller": {"path": "automation/controller_state.json", "sha256": "replace-with-lowercase-sha256"},
+  "preflight": {
+    "contract": {"path": "automation/contracts/current.json", "sha256": "replace-with-lowercase-sha256"},
+    "research": {"path": "research/manifest.json", "sha256": "replace-with-lowercase-sha256"}
+  },
+  "exploration": {"path": "automation/exploration_plan.json", "sha256": "replace-with-lowercase-sha256"},
+  "queue": {"path": "automation/work_queue.json", "sha256": "replace-with-lowercase-sha256"},
+  "queue_job_id": "local-diagnostic",
+  "fidelity": null,
+  "validation": null,
+  "output_dir": "results/experiment/attempt-001",
+  "outputs": ["metrics.json"],
+  "timeout_seconds": 60
+}

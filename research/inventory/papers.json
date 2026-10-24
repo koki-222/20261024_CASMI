@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "scope": "Primary-source search on CASMI26/MS-MS/MassSpecGym/GLACIER/DreaMS and related prior methods;4 original full-text HTML snapshots, DreaMS publisher access gap. No claim of exhaustive literature review.",
+  "observed_at": "2026-10-24T02:42:18.292298+00:00",
+  "pagination_complete": false,
+  "items": [
+    {
+      "uri": "https://arxiv.org/html/2606.29161v2",
+      "version": "2606.29161v2",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/external/glacier.html",
+        "sha256": "8ffab141e067ae70cbbaa34cacbb0960280410a3e9d4a07626135076e312de76"
+      },
+      "publication": "Original summaries/index only; paper full text not republished."
+    },
+    {
+      "uri": "https://arxiv.org/html/2410.23326v3",
+      "version": "2410.23326v3",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/external/massspecgym.html",
+        "sha256": "e42df0d6b3225b97eecba22c76e5b940a102eaf5dfba564e493a0c454219d0aa"
+      },
+      "publication": "Original summaries/index only; paper full text not republished."
+    },
+    {
+      "uri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9262714/",
+      "version": "msnovelist",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/external/msnovelist.html",
+        "sha256": "e34c4aa2b5a4a35f2ca365aec8825f0ccaea5d2adf726073c4c737881d310275"
+      },
+      "publication": "Original summaries/index only; paper full text not republished."
+    },
+    {
+      "uri": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12570388/",
+      "version": "mistcf",
+      "status": "archived",
+      "artifact": {
+        "path": ".local/restricted/external/mistcf.html",
+        "sha256": "dbb09f93860cf6d93909f3753b54ef30a849cb93e631ec8dafb8706ccfc0841c"
+      },
+      "publication": "Original summaries/index only; paper full text not republished."
+    },
+    {
+      "uri": "https://doi.org/10.1038/s41587-025-02663-3",
+      "version": "journal-DOI",
+      "status": "unavailable",
+      "reason": "Nature redirect inaccessible to web tool; first-party implementation and Zenodo metadata archived instead. No access-control bypass."
+    }
+  ]
+}
